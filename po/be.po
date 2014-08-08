@@ -1,0 +1,492 @@
+# translation of gnomeradio.HEAD.be.po to belarusian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Vital Khilko <dojlid@mova.org>, 2002,2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomeradio.HEAD.be\n"
+"POT-Creation-Date: 2003-04-27 20:08+0200\n"
+"PO-Revision-Date: 2003-02-21 22:46GMT+2\n"
+"Last-Translator: Vital Khilko <dojlid@mova.org>\n"
+"Language-Team: belarusian <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: gnomeradio.schemas.in.h:1
+msgid "Audio device"
+msgstr "Гукавая прылада"
+
+#: gnomeradio.schemas.in.h:2 src/record.c:353
+msgid "Choose the bitrate in which the mp3 will be encoded"
+msgstr "Выбярыце бітавую хуткасьць з якой вы жадаеце запісаць mp3 "
+
+#: gnomeradio.schemas.in.h:3 src/prefs.c:699
+msgid ""
+"Choose the mixer source (line, line1, etc.) that is able to control the "
+"volume of your radio"
+msgstr "Абярыце крыніцу гука (лінія, лінія1 г.д.) куды далучана вашае радыё"
+
+#: gnomeradio.schemas.in.h:4 src/record.c:352
+msgid "Choose the mp3 encoder that should be used"
+msgstr "Выбярыце кодэр для mp3 "
+
+#: gnomeradio.schemas.in.h:5 src/prefs.c:700
+msgid "If unchecked, gnomeradio won't mute after exiting"
+msgstr "Калі пазначана, Gnomeradio па заканчэньні выключа гук"
+
+#: gnomeradio.schemas.in.h:6
+msgid "Last frequency"
+msgstr "Апошняя часьціня"
+
+#: gnomeradio.schemas.in.h:7
+msgid "Last presets"
+msgstr "Апошняя станцыя"
+
+#: gnomeradio.schemas.in.h:8
+msgid "MP3 bitrate"
+msgstr "MP3 бітрайт"
+
+#: gnomeradio.schemas.in.h:9
+msgid "MP3 encoder"
+msgstr "MP3-кодэр"
+
+#: gnomeradio.schemas.in.h:10
+msgid "Mixer Device"
+msgstr "Прылада мікшара"
+
+#: gnomeradio.schemas.in.h:11
+msgid "Mixer source"
+msgstr "Крыніца мікшара"
+
+#: gnomeradio.schemas.in.h:12
+msgid "Mute on exit"
+msgstr "Выключэньне гука падчас выхаду"
+
+#: gnomeradio.schemas.in.h:13
+msgid "Number of presets"
+msgstr "Нумар станцыі"
+
+#: gnomeradio.schemas.in.h:14
+msgid "Radio device"
+msgstr "Прылада радыё"
+
+#: gnomeradio.schemas.in.h:15
+msgid "Record as mp3- or wave-file"
+msgstr "Запісаць як mp3 ці wave файл "
+
+#: gnomeradio.schemas.in.h:16
+msgid "Record in stereo or mono"
+msgstr "Запіс у стэрэа ці мона"
+
+#: gnomeradio.schemas.in.h:17
+msgid "Sample format"
+msgstr "Фармат запісу"
+
+#: gnomeradio.schemas.in.h:18
+msgid "Sample rate"
+msgstr "Часьціня дыскрэтызацыі"
+
+#: gnomeradio.schemas.in.h:19 src/prefs.c:697
+msgid "Specify the radio-device (in most cases /dev/radio)"
+msgstr "Вызначце прыладу радыё (/dev/radio)"
+
+#: gnomeradio.schemas.in.h:20 src/record.c:354
+msgid "The audio device to use (usually /dev/audio)"
+msgstr "Прылада радыё (/dev/radio)"
+
+#: gnomeradio.schemas.in.h:21 src/record.c:350
+msgid "The audio sample-rate of the wave-file"
+msgstr "Часьціня дыскрытызацыі запісу wave-файла"
+
+#: gnomeradio.schemas.in.h:22 src/record.c:351
+msgid "The format (8 or 16 bit) of the wave-file"
+msgstr "Фармат  (8 ці 16 bit) файла "
+
+#: gnomeradio.schemas.in.h:23
+msgid "The last frequency (in MHz) in use"
+msgstr "Апошняя часьціня  (у MHz)"
+
+#: gnomeradio.schemas.in.h:24
+msgid ""
+"The mixer device that gnomeradio should use. Only changeable via this key "
+"(no GUI option)"
+msgstr ""
+"Мікшар ужо выкарыстоўваецца. Магчыма зьмяняць толькі гэты ключ(ня ГІК опцыя)"
+
+#: gnomeradio.schemas.in.h:25
+msgid "The number of presets"
+msgstr "Нумар станцыі"
+
+#: gnomeradio.schemas.in.h:26
+msgid ""
+"The preset that was enabled when gnomeradio was terminated. Range is 0 ... "
+"(# presets - 1). None is -1"
+msgstr ""
+"Станцыя якая уключаецца падчас выключэньня. Зьмяняецца ад 0 ... (# станцыя - "
+"1). Але ня -1"
+
+#: gnomeradio.schemas.in.h:27
+msgid "The stored value of the volume (0-100)"
+msgstr "Папярэднезахаваны ўзровень гучнасьці (0-100) "
+
+#: gnomeradio.schemas.in.h:28
+msgid "Volume"
+msgstr "Гучнасьць"
+
+#: gnomeradio.schemas.in.h:29 src/record.c:355 src/record.c:356
+msgid "Whether the output should be a mp3- or a wave-file"
+msgstr "Вывад будзе запісаны як mp3 ці wave-файл"
+
+#: gnomeradio.schemas.in.h:30 src/record.c:357 src/record.c:358
+msgid "Whether the output should be in stereo or mono"
+msgstr "Вывад будзе запісаны як стэрэа ці мона"
+
+#: gnomeradio.desktop.in.h:1
+msgid "A Gnome FM-Tuner"
+msgstr "Радыёпрыймач для Gnome"
+
+#: gnomeradio.desktop.in.h:2 src/gui.c:820
+msgid "Gnomeradio"
+msgstr "Gnomeradio"
+
+#: src/prefs.c:519
+msgid "Gnomeradio Settings"
+msgstr "Усталяваньні Gnomeradio"
+
+#: src/prefs.c:526
+msgid "Misc Settings"
+msgstr "Іншыя ўсталяваньні"
+
+#: src/prefs.c:527
+msgid "Presets"
+msgstr "Станцыі"
+
+#: src/prefs.c:539
+msgid "Radio Device:"
+msgstr "Прылада радыё:"
+
+#: src/prefs.c:547
+msgid "Mixer Source:"
+msgstr "Крыніца мікшара:"
+
+#: src/prefs.c:561
+msgid "Mute on exit?"
+msgstr "Выключыць гук падчас выхаду?"
+
+#: src/prefs.c:609
+msgid "Name:"
+msgstr "Назва:"
+
+#: src/prefs.c:643
+msgid "Frequency:"
+msgstr "Часьціня:"
+
+#: src/prefs.c:701
+msgid "Add a new preset"
+msgstr "Усталяваць новую станцыю"
+
+#: src/prefs.c:702
+msgid "Remove preset from List"
+msgstr "Выдаліць станцыю са сьпіса"
+
+#: src/prefs.c:703
+msgid "Update the preset in the List"
+msgstr "Абнавіць станцыю ў сьпісе"
+
+#: src/gui.c:71
+#, c-format
+msgid ""
+"Could not open device \"%s\" !\n"
+"\n"
+"Check your Settings and make sure that no other\n"
+"program is using %s.\n"
+"Make also sure that you have read-access to it."
+msgstr ""
+"Немагчыма адчыніць прыладу \"%s\" !\n"
+"\n"
+"Праверце вашыя наладкі й упэўніцеся што іншая праграма не выкарыстоўвае %s.\n"
+"Праверце таксама ці маеце вы доступ на запіс."
+
+#: src/gui.c:93
+#, c-format
+msgid "Mixer source \"%s\" is not a valid source!"
+msgstr "Мікшар \"%s\" ня існуе!"
+
+#: src/gui.c:95
+#, c-format
+msgid "Could not open \"%s\"!"
+msgstr "Немагчыма адчыніць \"%s\"!"
+
+#: src/gui.c:283 src/gui.c:291 src/gui.c:800
+#, c-format
+msgid "Gnomeradio - %.2f MHz"
+msgstr "Gnomeradio - %.2f MHz"
+
+#: src/gui.c:287 src/gui.c:1015
+#, c-format
+msgid "Frequency: %.2f MHz"
+msgstr "Часьціня: %.2f MHz"
+
+#: src/gui.c:311 src/gui.c:1018
+#, c-format
+msgid "Volume: %d%%"
+msgstr "Гучнасьць: %d%%"
+
+#: src/gui.c:476
+msgid "manual"
+msgstr "ручная"
+
+#: src/gui.c:588
+msgid ""
+"Sox could not be detected. Please ensure that it is installed in your PATH."
+msgstr "Sox ня адшуканы. Калі ласка, праверце што ён усталяваны ў ШЛЯХУ."
+
+#: src/gui.c:624
+#, c-format
+msgid ""
+"File '%s' exists.\n"
+"Overwrite it?"
+msgstr ""
+"Файл '%s' існуе.\n"
+"Перазапісаць яго?"
+
+#: src/gui.c:635
+#, c-format
+msgid ""
+"Error opening file '%s':\n"
+"%s"
+msgstr ""
+"Памылка падчас адкрыцьця файла '%s':\n"
+"%s"
+
+#: src/gui.c:664 src/gui.c:1013
+msgid "Mute"
+msgstr "Выкл."
+
+#: src/gui.c:670
+msgid "Unmute"
+msgstr "Уключ."
+
+#. Feel free to put your names here translators :-)
+#: src/gui.c:682
+msgid "TRANSLATORS"
+msgstr ""
+"Belarusian Language Linux Team\n"
+"WWW: http://www.mova.linux.by\n"
+"E-mail:  <i18n@mova.org>"
+
+#: src/gui.c:693
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+msgstr ""
+"Gnomeradio гэта дастасаваньне FM-цюнера для стальца GNOME, якое працуе з "
+"усімі цюнерамі здольнымі працаваць з драйвэрам video4linux.\n"
+"\n"
+"Гэтая вэрсыя скампілявана з падтрымкай LIRC."
+
+#: src/gui.c:697
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled without LIRC support."
+msgstr ""
+"Gnomeradio гэта дастасаваньне FM-цюнера для стальца GNOME, якое працуе з "
+"усімі цюнерамі здольнымі працаваць з драйвэрам video4linux.\n"
+"\n"
+"Гэтая вэрсыя скампілявана бяз падтрымкі LIRC."
+
+#: src/gui.c:895
+msgid "Presets:"
+msgstr "Станцыі:"
+
+#: src/gui.c:1006
+msgid "Scan Backwards"
+msgstr "Сканаваць назад"
+
+#: src/gui.c:1007
+msgid "Scan Forwards"
+msgstr "Сканаваць наперад"
+
+#: src/gui.c:1008
+msgid "0.05 MHz Backwards"
+msgstr "0.05 MHz назад"
+
+#: src/gui.c:1009
+msgid "0.05 MHz Forwards"
+msgstr "0.05 MHz наперад"
+
+#: src/gui.c:1010
+msgid "About Gnomeradio"
+msgstr "Пра Gnomeradio"
+
+#: src/gui.c:1011
+msgid "Record radio as Wave or MP3"
+msgstr "Запісаць гук у файл (WAV ці MP3)"
+
+#: src/gui.c:1012
+msgid "Edit your Preferences"
+msgstr "Рэдагаваць перавагі"
+
+#: src/gui.c:1014
+msgid "Quit"
+msgstr "Выхад"
+
+#: src/gui.c:1134
+#, c-format
+msgid ""
+"Failed to init GConf: %s\n"
+"Changes to the settings won't be saved\n"
+msgstr ""
+"Памылка ініцыялізацыі GConf: %s\n"
+"Зьмены павінны быць захаваныя\n"
+
+#: src/gui.c:1163
+msgid "Could not start lirc"
+msgstr "Ня стартаваў lirc"
+
+#: src/record.c:152
+msgid "Start"
+msgstr "Старт"
+
+#: src/record.c:160
+msgid "Gnomeradio Record"
+msgstr "Запіс Gnomeradio"
+
+#: src/record.c:168
+msgid "General"
+msgstr "Асноўнае"
+
+#: src/record.c:169
+msgid "Wave Settings"
+msgstr "Наладкі WAV"
+
+#: src/record.c:170
+msgid "Mp3/Ogg Settings"
+msgstr "Наладкі Mp3/Ogg"
+
+#: src/record.c:182
+msgid "Audio device:"
+msgstr "Гукавая прылада:"
+
+#: src/record.c:185
+msgid "Filename:"
+msgstr "Назва файла:"
+
+#. path_entry = gtk_entry_new();
+#: src/record.c:187
+msgid "Choose a filename"
+msgstr "Выбярыце назву файла"
+
+#. choose_button = gtk_button_new_with_label(_("Choose..."));
+#: src/record.c:193
+msgid "Record as:"
+msgstr "Запісаць як:"
+
+#: src/record.c:194
+msgid "Wave (.wav)"
+msgstr "WAV (.wav)"
+
+#: src/record.c:195
+msgid "MP3/Ogg (.mp3/.ogg)"
+msgstr "MP3/Ogg (.mp3/.ogg)"
+
+#: src/record.c:219
+msgid "Sample rate:"
+msgstr "Часьціня дыскрэтызацыі:"
+
+#: src/record.c:220
+msgid "Sample format:"
+msgstr "Разраднасьць запісу:"
+
+#: src/record.c:221
+msgid "Record in:"
+msgstr "Захаваць у:"
+
+#: src/record.c:254
+msgid "Mono"
+msgstr "Мона"
+
+#: src/record.c:255
+msgid "Stereo"
+msgstr "Стэрэа"
+
+#: src/record.c:273
+msgid "Encoder:"
+msgstr "Кодэр:"
+
+#: src/record.c:274
+msgid "Bitrate:"
+msgstr "Час.дыскр.:"
+
+#: src/record.c:301 src/record.c:308
+msgid "no supported encoder installed"
+msgstr "кодэр ня ўсталяваны"
+
+#: src/record.c:425
+#, c-format
+msgid ""
+"%s has stopped:\n"
+"%s\n"
+msgstr ""
+"%s спынены:\n"
+"%s\n"
+
+#: src/record.c:426
+msgid "MP3/Ogg encoder"
+msgstr "Кодэр Mp3/Ogg"
+
+#: src/record.c:427
+msgid "unknown reason"
+msgstr "невядомая прычына"
+
+#: src/record.c:479
+#, c-format
+msgid "%i byte"
+msgstr "%i byte"
+
+#: src/record.c:482
+#, c-format
+msgid "%i kB"
+msgstr "%i kB"
+
+#: src/record.c:484
+#, c-format
+msgid "%.2f MB"
+msgstr "%.2f MB"
+
+#: src/record.c:489
+msgid "Error"
+msgstr "Памылка"
+
+#: src/record.c:491
+msgid "0 byte"
+msgstr "0 byte"
+
+#: src/record.c:530
+msgid "Gnomeradio recording status"
+msgstr "Стан запісу gnomeradio"
+
+#: src/record.c:544
+msgid "Recording:"
+msgstr "Запіс:"
+
+#: src/record.c:545
+msgid "Filesize:"
+msgstr "Памер файла:"
+
+#: src/record.c:555
+msgid "Stop Recording"
+msgstr "Спыніць запіс"
+
+#~ msgid "with"
+#~ msgstr "з"
+
+#~ msgid "withtout"
+#~ msgstr "бяз"

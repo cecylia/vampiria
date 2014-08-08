@@ -1,0 +1,494 @@
+# Duit PPRT siapa yang kebas????      
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 200R31.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ms-longgok\n"
+"POT-Creation-Date: 2003-08-04 07:07+0800\n"
+"PO-Revision-Date: 2003-08-05 10:10+0800\n"
+"Last-Translator: Hasbullah Bin Pit <sebol@ikhlas.com>\n"
+"Language-Team: Projek Gabai <gabai-penyumbang@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gnomeradio.schemas.in.h:1
+msgid "Audio device"
+msgstr "Peranti audio"
+
+#: gnomeradio.schemas.in.h:2
+#: src/record.c:353
+msgid "Choose the bitrate in which the mp3 will be encoded"
+msgstr "Pilih kadar bit pada mp3 yang akan dienkod"
+
+#: gnomeradio.schemas.in.h:3
+#: src/prefs.c:699
+msgid "Choose the mixer source (line, line1, etc.) that is able to control the volume of your radio"
+msgstr "Pilih sumber pengadun (talian, talian1, dll.) yang boleh mengawal volum radio anda"
+
+#: gnomeradio.schemas.in.h:4
+#: src/record.c:352
+msgid "Choose the mp3 encoder that should be used"
+msgstr "Pilih pengenkod mp3 yang patut digunakan"
+
+#: gnomeradio.schemas.in.h:5
+#: src/prefs.c:700
+msgid "If unchecked, gnomeradio won't mute after exiting"
+msgstr "Jika nyahsemak, gnomeradio tak akan mute selepas keluar"
+
+#: gnomeradio.schemas.in.h:6
+msgid "Last frequency"
+msgstr "Frekuensi terakhir"
+
+#: gnomeradio.schemas.in.h:7
+msgid "Last presets"
+msgstr "Preset terakhir"
+
+#: gnomeradio.schemas.in.h:8
+msgid "MP3 bitrate"
+msgstr "Kadar bit MP3"
+
+#: gnomeradio.schemas.in.h:9
+msgid "MP3 encoder"
+msgstr "Pengenkod MP3"
+
+#: gnomeradio.schemas.in.h:10
+msgid "Mixer Device"
+msgstr "Peranti pengadun"
+
+#: gnomeradio.schemas.in.h:11
+msgid "Mixer source"
+msgstr "Sumber pengadun"
+
+#: gnomeradio.schemas.in.h:12
+msgid "Mute on exit"
+msgstr "Mute bila keluar"
+
+#: gnomeradio.schemas.in.h:13
+msgid "Number of presets"
+msgstr "Bilangan preset"
+
+#: gnomeradio.schemas.in.h:14
+msgid "Radio device"
+msgstr "Peranti radio"
+
+#: gnomeradio.schemas.in.h:15
+msgid "Record as mp3- or wave-file"
+msgstr "Rekod  sebagai fail wave atau MP3"
+
+#: gnomeradio.schemas.in.h:16
+msgid "Record in stereo or mono"
+msgstr "Rekod dalam streo atau mono"
+
+#: gnomeradio.schemas.in.h:17
+msgid "Sample format"
+msgstr "Format sampel"
+
+#: gnomeradio.schemas.in.h:18
+msgid "Sample rate"
+msgstr "kadar sampel"
+
+#: gnomeradio.schemas.in.h:19
+#: src/prefs.c:697
+msgid "Specify the radio-device (in most cases /dev/radio)"
+msgstr "Nyatakan peranti-radio(kebiasaannya /dev/radio)"
+
+#: gnomeradio.schemas.in.h:20
+#: src/record.c:354
+msgid "The audio device to use (usually /dev/audio)"
+msgstr "Peranti audiot untuk digunakan (biasanya /dev/audio)"
+
+#: gnomeradio.schemas.in.h:21
+#: src/record.c:350
+msgid "The audio sample-rate of the wave-file"
+msgstr "kadar-sampel audio bagi fail-wave"
+
+#: gnomeradio.schemas.in.h:22
+#: src/record.c:351
+msgid "The format (8 or 16 bit) of the wave-file"
+msgstr "Format (8 or 16 bit) bagi fail-wave"
+
+#: gnomeradio.schemas.in.h:23
+msgid "The last frequency (in MHz) in use"
+msgstr "Frekuensi terakhir (dalam MHz) digunakan"
+
+#: gnomeradio.schemas.in.h:24
+msgid "The mixer device that gnomeradio should use. Only changeable via this key (no GUI option)"
+msgstr "peranti pengadun yang gnomeradio patut gunakan. Hanya boleh diubah melalui kekunci ini (Tiada opsyen GUI)"
+
+#: gnomeradio.schemas.in.h:25
+msgid "The number of presets"
+msgstr "Bilangan preset"
+
+#: gnomeradio.schemas.in.h:26
+msgid "The preset that was enabled when gnomeradio was terminated. Range is 0 ... (# presets - 1). None is -1"
+msgstr "Preset yang telah dihidupkan bila gnomeradio dimatikan. Julat adalah 0 ... (# preset - 1). Tiada adalah -1"
+
+#: gnomeradio.schemas.in.h:27
+msgid "The stored value of the volume (0-100)"
+msgstr "Nilai disimpan bagi volum (0-100)"
+
+#: gnomeradio.schemas.in.h:28
+msgid "Volume"
+msgstr "Volum"
+
+#: gnomeradio.schemas.in.h:29
+#: src/record.c:355
+#: src/record.c:356
+msgid "Whether the output should be a mp3- or a wave-file"
+msgstr "Samada output patut menjadi fail mp3 atau wave"
+
+#: gnomeradio.schemas.in.h:30
+#: src/record.c:357
+#: src/record.c:358
+msgid "Whether the output should be in stereo or mono"
+msgstr "Samada output patut menjadi stereo atau mono"
+
+#: gnomeradio.desktop.in.h:1
+msgid "A Gnome FM-Tuner"
+msgstr "Radi FM GnomeGnome Mines"
+
+#: gnomeradio.desktop.in.h:2
+#: src/gui.c:820
+msgid "Gnomeradio"
+msgstr "Gnomeradio"
+
+#: src/prefs.c:519
+msgid "Gnomeradio Settings"
+msgstr "Tetapan Gnomeradio"
+
+#: src/prefs.c:526
+msgid "Misc Settings"
+msgstr "Tetapan Lain-lain"
+
+#: src/prefs.c:527
+msgid "Presets"
+msgstr "Preset"
+
+#: src/prefs.c:539
+msgid "Radio Device:"
+msgstr "Peranti Radio:"
+
+#: src/prefs.c:547
+msgid "Mixer Source:"
+msgstr "Sumber Pengadun:"
+
+#: src/prefs.c:561
+msgid "Mute on exit?"
+msgstr "Mute bila keluar?"
+
+#: src/prefs.c:609
+msgid "Name:"
+msgstr "Nama:"
+
+#: src/prefs.c:643
+msgid "Frequency:"
+msgstr "Frekuensi:"
+
+#: src/prefs.c:701
+msgid "Add a new preset"
+msgstr "Tambah preset baru"
+
+#: src/prefs.c:702
+msgid "Remove preset from List"
+msgstr "Buang preset dari senarai"
+
+#: src/prefs.c:703
+msgid "Update the preset in the List"
+msgstr "Kemaskini preset pada Senarai"
+
+#: src/gui.c:71
+#, c-format
+msgid ""
+"Could not open device \"%s\" !\n"
+"\n"
+"Check your Settings and make sure that no other\n"
+"program is using %s.\n"
+"Make also sure that you have read-access to it."
+msgstr ""
+"Tak dapat membuka peranti \"%s\" !\n"
+"\n"
+"Periksa tetapan anda dan pastikan tiada program\n"
+" lain menggunakan %s.\n"
+" Pastikan anda mempunyai akses.baca kepadanya."
+
+#: src/gui.c:93
+#, c-format
+msgid "Mixer source \"%s\" is not a valid source!"
+msgstr "Sumber pengadun \"%s\" adalah sumber yang tidak sah!"
+
+#: src/gui.c:95
+#, c-format
+msgid "Could not open \"%s\"!"
+msgstr "Tidak boleh buka \"%s\"!"
+
+#: src/gui.c:283
+#: src/gui.c:291
+#: src/gui.c:800
+#, c-format
+msgid "Gnomeradio - %.2f MHz"
+msgstr "Gnomeradio - %.2f MHz"
+
+#: src/gui.c:287
+#: src/gui.c:1015
+#, c-format
+msgid "Frequency: %.2f MHz"
+msgstr "Frekuensi: %.2f MHz"
+
+#: src/gui.c:311
+#: src/gui.c:1018
+#, c-format
+msgid "Volume: %d%%"
+msgstr "Volum: %d%%"
+
+#: src/gui.c:476
+msgid "manual"
+msgstr "manual"
+
+#: src/gui.c:588
+msgid "Sox could not be detected. Please ensure that it is installed in your PATH."
+msgstr "Sox tak dapat dikesan. Sila pastikan ia dipasang pada PTH anda."
+
+#: src/gui.c:624
+#, c-format
+msgid ""
+"File '%s' exists.\n"
+"Overwrite it?"
+msgstr ""
+"Fail '%s' tersedia ada.\n"
+" Tindihtulis?"
+
+#: src/gui.c:635
+#, c-format
+msgid ""
+"Error opening file '%s':\n"
+"%s"
+msgstr ""
+"Ralat membuka fail '%s': \n"
+"%s"
+
+#: src/gui.c:664
+#: src/gui.c:1013
+msgid "Mute"
+msgstr "Mute"
+
+#: src/gui.c:670
+msgid "Unmute"
+msgstr "Nyahmute"
+
+#. Feel free to put your names here translators :-)
+#: src/gui.c:682
+msgid "TRANSLATORS"
+msgstr "Hasbullah Bin Pit <sebol@ikhlas.com>"
+
+#: src/gui.c:693
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+msgstr ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+
+#: src/gui.c:697
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled without LIRC support."
+msgstr ""
+"Gnomeradio adalah aplikasi radio-FM bagi desktop GNOME. Ia patut bekerja dengan semua perkakasan radio yang disokong oleh jurupacu video4linux .\n"
+"\n"
+"Versi ini telah dikompil tanpa sokongan LIRC"
+
+#: src/gui.c:895
+msgid "Presets:"
+msgstr "Preset:"
+
+#: src/gui.c:1006
+msgid "Scan Backwards"
+msgstr "Imbas Mengundur"
+
+#: src/gui.c:1007
+msgid "Scan Forwards"
+msgstr "Imbas Maju"
+
+#: src/gui.c:1008
+msgid "0.05 MHz Backwards"
+msgstr "0.05 MHz Mengundur"
+
+#: src/gui.c:1009
+msgid "0.05 MHz Forwards"
+msgstr "Maju 0.05 MHz"
+
+#: src/gui.c:1010
+msgid "About Gnomeradio"
+msgstr "Perihal Gnomeradio"
+
+#: src/gui.c:1011
+msgid "Record radio as Wave or MP3"
+msgstr "Rekod radio sebagai wave atau MP3"
+
+#: src/gui.c:1012
+msgid "Edit your Preferences"
+msgstr "Edit Keutamaan anda"
+
+#: src/gui.c:1014
+msgid "Quit"
+msgstr "Keluar"
+
+#: src/gui.c:1134
+#, c-format
+msgid ""
+"Failed to init GConf: %s\n"
+"Changes to the settings won't be saved\n"
+""
+msgstr ""
+"Gagal menginitialisasi GConf: %s\n"
+"Perubahan pada tetapan tak akan disimpan\n"
+""
+
+#: src/gui.c:1163
+msgid "Could not start lirc"
+msgstr "Tak dapat memulakan lirc"
+
+#: src/record.c:152
+msgid "Start"
+msgstr "Mula"
+
+#: src/record.c:160
+msgid "Gnomeradio Record"
+msgstr "Rekod Gnomeradio"
+
+#: src/record.c:168
+msgid "General"
+msgstr "Umum"
+
+#: src/record.c:169
+msgid "Wave Settings"
+msgstr "Tetapan Wave"
+
+#: src/record.c:170
+msgid "Mp3/Ogg Settings"
+msgstr "Tetapan Mp3/Ogg"
+
+#: src/record.c:182
+msgid "Audio device:"
+msgstr "Peranti audio:"
+
+#: src/record.c:185
+msgid "Filename:"
+msgstr "Namafail:"
+
+#. path_entry = gtk_entry_new();
+#: src/record.c:187
+msgid "Choose a filename"
+msgstr "Pilih satu namafail"
+
+#. choose_button = gtk_button_new_with_label(_("Choose..."));
+#: src/record.c:193
+msgid "Record as:"
+msgstr "Rekod sebagai:"
+
+#: src/record.c:194
+msgid "Wave (.wav)"
+msgstr "Wave (.wav)"
+
+#: src/record.c:195
+msgid "MP3/Ogg (.mp3/.ogg)"
+msgstr "MP3/Ogg (.mp3/.ogg)"
+
+#: src/record.c:219
+msgid "Sample rate:"
+msgstr "Kadar sampel:"
+
+#: src/record.c:220
+msgid "Sample format:"
+msgstr "Format sampel:"
+
+#: src/record.c:221
+msgid "Record in:"
+msgstr "Rekod pada"
+
+#: src/record.c:254
+msgid "Mono"
+msgstr "Mono"
+
+#: src/record.c:255
+msgid "Stereo"
+msgstr "Stereo"
+
+#: src/record.c:273
+msgid "Encoder:"
+msgstr "Pengenkod:"
+
+#: src/record.c:274
+msgid "Bitrate:"
+msgstr "Kadar bit:"
+
+#: src/record.c:301
+#: src/record.c:308
+msgid "no supported encoder installed"
+msgstr "Tiada pengenkod disokong dipasang"
+
+#: src/record.c:425
+#, c-format
+msgid ""
+"%s has stopped:\n"
+"%s\n"
+""
+msgstr ""
+"%s terhenti:\n"
+"%s\n"
+""
+
+#: src/record.c:426
+msgid "MP3/Ogg encoder"
+msgstr "Pengenkod MP3/Ogg"
+
+#: src/record.c:427
+msgid "unknown reason"
+msgstr "alasan tidak diketahui"
+
+#: src/record.c:479
+#, c-format
+msgid "%i byte"
+msgstr "%i byte"
+
+#: src/record.c:482
+#, c-format
+msgid "%i kB"
+msgstr "%i kB"
+
+#: src/record.c:484
+#, c-format
+msgid "%.2f MB"
+msgstr "%.2f MB"
+
+# #-#-#-#-#  longgok.edited (longokan)  #-#-#-#-#
+# libgnomeui/gnome-messagebox.c:129 libgnomeui/gnome-messagebox.c:262
+#: src/record.c:489
+msgid "Error"
+msgstr "Ralat"
+
+#: src/record.c:491
+msgid "0 byte"
+msgstr "0 byte"
+
+#: src/record.c:530
+msgid "Gnomeradio recording status"
+msgstr "Status perekkodan Gnomeradio"
+
+#: src/record.c:544
+msgid "Recording:"
+msgstr "Merekod:"
+
+#: src/record.c:545
+msgid "Filesize:"
+msgstr "Saizfail:"
+
+#: src/record.c:555
+msgid "Stop Recording"
+msgstr "Henti Merekod"
+

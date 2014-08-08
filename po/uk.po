@@ -1,0 +1,525 @@
+# Ukrainian translation of Gnomeradio module.
+# Yuriy Syrota <yuri@renome.rovno.ua>, 2003
+# Maxim Dziumanenko <mvd@mylinux.ua>, 2005 
+#                               
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomeradio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-12 09:27+0300\n"
+"PO-Revision-Date: 2005-08-12 05:55+0300\n"
+"Last-Translator: Maxim Dziumanenko <mvd@mylinux.ua>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gnomeradio.schemas.in.h:1
+msgid "Audio device"
+msgstr "Пристрій звуку"
+
+#: ../gnomeradio.schemas.in.h:2 ../src/record.c:355
+msgid "Choose the bitrate in which the mp3 will be encoded"
+msgstr "Виберіть щільність потоку, з якою буде кодовано MP3"
+
+#: ../gnomeradio.schemas.in.h:3 ../src/prefs.c:562
+msgid ""
+"Choose the mixer source (line, line1, etc.) that is able to control the "
+"volume of your radio"
+msgstr ""
+"Виберіть мікшер (лінійний вхід, лінійний вхід 1 тощо) для регулювання "
+"гучності звучання радіо"
+
+#: ../gnomeradio.schemas.in.h:4 ../src/record.c:354
+msgid "Choose the mp3 encoder that should be used"
+msgstr "Виберіть кодувач MP3, що має використовуватися"
+
+#: ../gnomeradio.schemas.in.h:5 ../src/prefs.c:563
+msgid "If unchecked, gnomeradio won't mute after exiting"
+msgstr ""
+"Якщо не вибрано, то Gnomeradio не буде вимикати звук під час завершення "
+"роботи"
+
+#: ../gnomeradio.schemas.in.h:6
+msgid "Last frequency"
+msgstr "Остання частота"
+
+#: ../gnomeradio.schemas.in.h:7
+msgid "Last presets"
+msgstr "Останні станції"
+
+#: ../gnomeradio.schemas.in.h:8
+msgid "MP3 bitrate"
+msgstr "Щільність потоку MP3"
+
+#: ../gnomeradio.schemas.in.h:9
+msgid "MP3 encoder"
+msgstr "Кодувач MP3"
+
+#: ../gnomeradio.schemas.in.h:10
+msgid "Mixer Device"
+msgstr "Пристрій мікшера"
+
+#: ../gnomeradio.schemas.in.h:11
+msgid "Mixer source"
+msgstr "Мікшер"
+
+#: ../gnomeradio.schemas.in.h:12
+msgid "Mute on exit"
+msgstr "Вимкнути звук під час виходу"
+
+#: ../gnomeradio.schemas.in.h:13
+msgid "Number of presets"
+msgstr "Кількість станцій"
+
+#: ../gnomeradio.schemas.in.h:14
+msgid "Radio device"
+msgstr "Пристрій радіо"
+
+#: ../gnomeradio.schemas.in.h:15
+msgid "Record as mp3- or wave-file"
+msgstr "Записати як файл MP3 чи WAV"
+
+#: ../gnomeradio.schemas.in.h:16
+msgid "Record in stereo or mono"
+msgstr "Записати в стерео чи моно"
+
+#: ../gnomeradio.schemas.in.h:17
+msgid "Sample format"
+msgstr "Розрядність"
+
+#: ../gnomeradio.schemas.in.h:18
+msgid "Sample rate"
+msgstr "Частота дискретизації"
+
+#: ../gnomeradio.schemas.in.h:19 ../src/prefs.c:560
+msgid "Specify the radio-device (in most cases /dev/radio)"
+msgstr "Виберіть пристрій радіо (зазвичай це /dev/radio)"
+
+#: ../gnomeradio.schemas.in.h:20 ../src/record.c:356
+msgid "The audio device to use (usually /dev/audio)"
+msgstr "Виберіть пристрій звуку (зазвичай це /dev/radio)"
+
+#: ../gnomeradio.schemas.in.h:21 ../src/record.c:352
+msgid "The audio sample-rate of the wave-file"
+msgstr "Частота дискретизації звуку для файла WAV"
+
+#: ../gnomeradio.schemas.in.h:22 ../src/record.c:353
+msgid "The format (8 or 16 bit) of the wave-file"
+msgstr "Формат файла WAV (8 чи 16 бітів)"
+
+#: ../gnomeradio.schemas.in.h:23
+msgid "The last frequency (in MHz) in use"
+msgstr "Остання використана частота (в МГц)"
+
+#: ../gnomeradio.schemas.in.h:24
+msgid ""
+"The mixer device that gnomeradio should use. Only changeable via this key "
+"(no GUI option)"
+msgstr ""
+"Пристрій мікшера, що має використовуватися Gnomeradio. Змінюється лише цим "
+"ключем (ГУІ не має відповідного параметра )"
+
+#: ../gnomeradio.schemas.in.h:25
+msgid "The number of presets"
+msgstr "Кількість станцій"
+
+#: ../gnomeradio.schemas.in.h:26
+msgid ""
+"The preset that was enabled when gnomeradio was terminated. Range is 0 ... "
+"(# presets - 1). None is -1"
+msgstr ""
+"Станція, що була увімкнена коли Gnomeradio припинив роботу. Діапазон: від 0 "
+"до кількості станцій - 1. Якщо немає, вкажіть  -1"
+
+#: ../gnomeradio.schemas.in.h:27
+msgid "The stored value of the volume (0-100)"
+msgstr "Збережене значення гучності (0-100)"
+
+#: ../gnomeradio.schemas.in.h:28
+msgid "Volume"
+msgstr "Гучність"
+
+#: ../gnomeradio.schemas.in.h:29 ../src/record.c:357 ../src/record.c:358
+msgid "Whether the output should be a mp3- or a wave-file"
+msgstr "Має бути вивід у файл MP3 чи VAW"
+
+#: ../gnomeradio.schemas.in.h:30 ../src/record.c:359 ../src/record.c:360
+msgid "Whether the output should be in stereo or mono"
+msgstr "Вивід має бути в стерео чи моно"
+
+#: ../gnomeradio.desktop.in.h:1
+msgid "FM-Radio Tuner"
+msgstr "Приймач FM-радіо"
+
+#: ../gnomeradio.desktop.in.h:2
+msgid "Listen to FM-radio"
+msgstr "Прослуховування FM-радіо"
+
+#: ../src/prefs.c:248 ../src/prefs.c:676
+msgid "Wave file"
+msgstr "Файл Wav"
+
+#: ../src/prefs.c:268
+msgid "unamed"
+msgstr "без назви"
+
+#: ../src/prefs.c:333
+msgid "Choose a destination folder"
+msgstr "Створити цільову теку"
+
+#: ../src/prefs.c:472
+msgid "Gnomeradio Settings"
+msgstr "Параметри Gnomeradio"
+
+#: ../src/prefs.c:488
+msgid "General Settings"
+msgstr "Загальні параметри"
+
+#: ../src/prefs.c:498
+msgid "Presets"
+msgstr "Станції"
+
+#: ../src/prefs.c:508
+msgid "Record Settings"
+msgstr "Параметри запису"
+
+#: ../src/prefs.c:526
+msgid "Radio Device:"
+msgstr "Пристрій радію:"
+
+#: ../src/prefs.c:533
+msgid "Mixer Source:"
+msgstr "Мікшер:"
+
+#: ../src/prefs.c:550
+msgid "Mute on exit?"
+msgstr "Вимкнути звук під час завершення роботи?"
+
+#: ../src/prefs.c:632
+msgid "Add a new preset"
+msgstr "Додати нову станцію"
+
+#: ../src/prefs.c:633
+msgid "Remove preset from List"
+msgstr "Вилучити станцію з списку"
+
+#: ../src/prefs.c:661 ../src/record.c:275
+msgid "Encoder:"
+msgstr "Кодер:"
+
+#: ../src/prefs.c:662 ../src/record.c:276
+msgid "Bitrate:"
+msgstr "Щільність потоку:"
+
+#: ../src/prefs.c:663
+msgid "Destination directory:"
+msgstr "Цільовий каталог:"
+
+#: ../src/prefs.c:692
+#, c-format
+msgid "%s kb/s"
+msgstr "%s кб/с"
+
+#: ../src/prefs.c:714
+msgid ""
+"Choose the mp3-/ogg-encoder that should be used, or to record as a "
+"uncompressed wave file"
+msgstr ""
+"Виберіть кодек mp3/ogg, або запис у вигляді нестиснутого звукового файлу"
+
+#: ../src/prefs.c:715
+msgid "Choose the bitrate in which the mp3/ogg will be encoded"
+msgstr "Виберіть щільність потоку кодування MP3/ogg"
+
+#: ../src/gui.c:68
+#, c-format
+msgid ""
+"Could not open device \"%s\" !\n"
+"\n"
+"Check your Settings and make sure that no other\n"
+"program is using %s.\n"
+"Make also sure that you have read-access to it."
+msgstr ""
+"Неможливо відкрити пристрій \"%s\" !\n"
+"\n"
+"Перевірте свої настройки, переконайтесь, що жодна\n"
+"інша програма не використовує %s.\n"
+"Переконайтесь також, що у вас є доступ на зчитування з нього."
+
+#: ../src/gui.c:90
+#, c-format
+msgid "Mixer source \"%s\" is not a valid source!"
+msgstr "Мікшер \"%s\" неправильний!"
+
+#: ../src/gui.c:92
+#, c-format
+msgid "Could not open \"%s\"!"
+msgstr "Не вдається відкрити \"%s\"!"
+
+#: ../src/gui.c:247 ../src/gui.c:255 ../src/gui.c:732
+#, c-format
+msgid "Gnomeradio - %.2f MHz"
+msgstr "Gnomeradio — %.2f МГц"
+
+#: ../src/gui.c:251 ../src/gui.c:918
+#, c-format
+msgid "Frequency: %.2f MHz"
+msgstr "Частота: %.2f МГц"
+
+#: ../src/gui.c:275 ../src/gui.c:921
+#, c-format
+msgid "Volume: %d%%"
+msgstr "Гучність: %d%%"
+
+#: ../src/gui.c:556
+msgid ""
+"Sox could not be detected. Please ensure that it is installed in your PATH."
+msgstr ""
+"Не вдається знайти Sox. Переконайтесь, що його встановлено в "
+"одному з місць вказаних в змінній середовища PATH."
+
+#. consult man strftime to translate this. This is a filename, so don't use "/" or ":", please
+#: ../src/gui.c:570
+msgid "%B-%d-%Y_%H-%M-%S"
+msgstr "%d-%B-%Y_%H-%M-%S"
+
+#. Only change the "MHz" part here (if applicable)
+#: ../src/gui.c:573
+msgid "%s/%.2fMHz_%s%s"
+msgstr "%s/%.2fМГц_%s%s"
+
+#: ../src/gui.c:582
+#, c-format
+msgid ""
+"Error opening file '%s':\n"
+"%s"
+msgstr ""
+"Помилка відкриття файлу \"%s\":\n"
+"%s"
+
+#: ../src/gui.c:597 ../src/gui.c:916
+msgid "Mute"
+msgstr "Вимкнути звук"
+
+#: ../src/gui.c:603
+msgid "Unmute"
+msgstr "Увімкнути звук"
+
+#. Feel free to put your names here translators :-)
+#: ../src/gui.c:615
+msgid "TRANSLATORS"
+msgstr "Юрій Сирота <yuriy@beer.com>\nМаксим Дзюманенко <mvd@mylinux.ua>"
+
+#: ../src/gui.c:626
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+msgstr ""
+"Gnomeradio — це програма для роботи з FM-приймачем в середовищі GNOME. Він "
+"має працювати зі всіма приймачами, що підтримуються драйверами Video4Linux.\n"
+"\n"
+"Цю версію скомпільовано з підтримкою LIRC."
+
+#: ../src/gui.c:630
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled without LIRC support."
+msgstr ""
+"Gnomeradio — це додаток для роботи з FM-приймачем в середовищі GNOME. Він "
+"має працювати зі всіма приймачами, що підтримуються драйверами Video4Linux.\n"
+"\n"
+"Цю версію скомпільовано без підтримки LIRC."
+
+#: ../src/gui.c:752
+msgid "Gnomeradio"
+msgstr "Gnomeradio"
+
+#: ../src/gui.c:806
+msgid "Presets:"
+msgstr "Станції:"
+
+#: ../src/gui.c:909
+msgid "Scan Backwards"
+msgstr "Сканувати назад"
+
+#: ../src/gui.c:910
+msgid "Scan Forwards"
+msgstr "Сканувати вперед"
+
+#: ../src/gui.c:911
+msgid "0.05 MHz Backwards"
+msgstr "0,05 МГц назад"
+
+#: ../src/gui.c:912
+msgid "0.05 MHz Forwards"
+msgstr "0,05 МГц вперед"
+
+#: ../src/gui.c:913
+msgid "About Gnomeradio"
+msgstr "Про програму Gnomeradio"
+
+#: ../src/gui.c:914
+msgid "Record radio as Wave, OGG or MP3"
+msgstr "Записати звук у файл (WAV, OGG чи MP3)"
+
+#: ../src/gui.c:915
+msgid "Edit your Preferences"
+msgstr "Змінити параметри"
+
+#: ../src/gui.c:917
+msgid "Quit"
+msgstr "Вийти"
+
+#: ../src/gui.c:1036
+#, c-format
+msgid ""
+"Failed to init GConf: %s\n"
+"Changes to the settings won't be saved\n"
+msgstr ""
+"Не вдається ініціалізувати підсистему GConf: %s\n"
+"Зроблені в параметрах зміни не буде збережено\n"
+
+#: ../src/gui.c:1050
+msgid "manual"
+msgstr "вручну"
+
+#. GtkWidget *dialog;
+#. dialog = gtk_message_dialog_new(NULL, DIALOG_FLAGS, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,
+#. _("Could not start lirc"));
+#. gtk_dialog_run (GTK_DIALOG (dialog));
+#. gtk_widget_destroy (dialog);
+#.
+#: ../src/gui.c:1073
+msgid "Could not start lirc!\n"
+msgstr "Не вдається запустити lirc!\n"
+
+#: ../src/record.c:154
+msgid "Start"
+msgstr "Запуск"
+
+#: ../src/record.c:162
+msgid "Gnomeradio Record"
+msgstr "Запис"
+
+#: ../src/record.c:170
+msgid "General"
+msgstr "Загальне"
+
+#: ../src/record.c:171
+msgid "Wave Settings"
+msgstr "Параметри WAV"
+
+#: ../src/record.c:172
+msgid "Mp3/Ogg Settings"
+msgstr "Параметри MP3/Ogg"
+
+#: ../src/record.c:184
+msgid "Audio device:"
+msgstr "Звуковий пристрій:"
+
+#: ../src/record.c:187
+msgid "Filename:"
+msgstr "Назва файла:"
+
+#. path_entry = gtk_entry_new();
+#: ../src/record.c:189
+msgid "Choose a filename"
+msgstr "Виберіть назву фала"
+
+#. choose_button = gtk_button_new_with_label(_("Choose..."));
+#: ../src/record.c:195
+msgid "Record as:"
+msgstr "Записати як:"
+
+#: ../src/record.c:196
+msgid "Wave (.wav)"
+msgstr "WAVE (.wav)"
+
+#: ../src/record.c:197
+msgid "MP3/Ogg (.mp3/.ogg)"
+msgstr "MP3/Ogg (.mp3/.ogg)"
+
+#: ../src/record.c:221
+msgid "Sample rate:"
+msgstr "Частота дискретизації:"
+
+#: ../src/record.c:222
+msgid "Sample format:"
+msgstr "Розрядність:"
+
+#: ../src/record.c:223
+msgid "Record in:"
+msgstr "Записати в:"
+
+#: ../src/record.c:256
+msgid "Mono"
+msgstr "Моно"
+
+#: ../src/record.c:257
+msgid "Stereo"
+msgstr "Стерео"
+
+#: ../src/record.c:303 ../src/record.c:310
+msgid "no supported encoder installed"
+msgstr "потрібної програми кодування не встановлено"
+
+#: ../src/record.c:431
+#, c-format
+msgid ""
+"%s has stopped:\n"
+"%s\n"
+msgstr ""
+"%s зупинено:\n"
+"%s\n"
+
+#: ../src/record.c:432
+msgid "MP3/Ogg encoder"
+msgstr "Кодек MP3/Ogg"
+
+#: ../src/record.c:433
+msgid "unknown reason"
+msgstr "невідома причина"
+
+#: ../src/record.c:482
+#, c-format
+msgid "%i byte"
+msgstr "%i байт"
+
+#: ../src/record.c:484
+#, c-format
+msgid "%i kB"
+msgstr "%i кб"
+
+#: ../src/record.c:485
+#, c-format
+msgid "%.2f MB"
+msgstr "%.2f Мб"
+
+#: ../src/record.c:487
+msgid "Error"
+msgstr "Помилка"
+
+#: ../src/record.c:488
+msgid "0 byte"
+msgstr "0 байт"
+
+#: ../src/record.c:528
+msgid "Gnomeradio recording status"
+msgstr "Стан запису Gnomeradio"
+
+#: ../src/record.c:541
+msgid "Recording:"
+msgstr "Запис:"
+
+#: ../src/record.c:542
+msgid "Filesize:"
+msgstr "Розмір файла:"
+
+#: ../src/record.c:559
+msgid "Stop Recording"
+msgstr "Зупинити запис"

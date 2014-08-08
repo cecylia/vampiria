@@ -1,0 +1,556 @@
+# English (British) translation.
+# Copyright (C) 2004 THE gnomeradio's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnomeradio package.
+# Gareth Owen <gowen72@yahoo.com>, 2004,
+# Christopher Orr <chris@orr.me.uk>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomeradio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-23 20:39+0000\n"
+"PO-Revision-Date: 2007-01-23 20:39-0000\n"
+"Last-Translator: David Lodge <dave@cirt.net>\n"
+"Language-Team: English/GB <en_gb@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/gnomeradio.schemas.in.h:1
+msgid "Choose the GnomeMedia Profile that should be used for recording"
+msgstr "Choose the GnomeMedia Profile that should be used for recording"
+
+#: ../data/gnomeradio.schemas.in.h:2
+#: ../src/prefs.c:608
+msgid "Choose the mixer source (line, line1, etc.) that is able to control the volume of your radio"
+msgstr "Choose the mixer source (line, line1, etc.) that is able to control the volume of your radio"
+
+#: ../data/gnomeradio.schemas.in.h:3
+msgid "GnomeMedia Profile"
+msgstr "GnomeMedia Profile"
+
+#: ../data/gnomeradio.schemas.in.h:4
+#: ../src/prefs.c:609
+msgid "If unchecked, gnomeradio won't mute after exiting"
+msgstr "If unchecked, Gnomeradio won't mute after exiting"
+
+#: ../data/gnomeradio.schemas.in.h:5
+msgid "Last frequency"
+msgstr "Last frequency"
+
+#: ../data/gnomeradio.schemas.in.h:6
+msgid "Last presets"
+msgstr "Last presets"
+
+#: ../data/gnomeradio.schemas.in.h:7
+msgid "Mixer Device"
+msgstr "Mixer Device"
+
+#: ../data/gnomeradio.schemas.in.h:8
+msgid "Mixer source"
+msgstr "Mixer source"
+
+#: ../data/gnomeradio.schemas.in.h:9
+msgid "Mute on exit"
+msgstr "Mute on exit"
+
+#: ../data/gnomeradio.schemas.in.h:10
+msgid "Number of presets"
+msgstr "Number of presets"
+
+#: ../data/gnomeradio.schemas.in.h:11
+msgid "Radio device"
+msgstr "Radio device"
+
+#: ../data/gnomeradio.schemas.in.h:12
+#: ../src/prefs.c:606
+msgid "Specify the radio-device (in most cases /dev/radio)"
+msgstr "Specify the radio device (in most cases /dev/radio)"
+
+#: ../data/gnomeradio.schemas.in.h:13
+msgid "The last frequency (in MHz) in use"
+msgstr "The last frequency (in MHz) in use"
+
+#: ../data/gnomeradio.schemas.in.h:14
+msgid "The mixer device that gnomeradio should use. Only changeable via this key (no GUI option)"
+msgstr "The mixer device that gnomeradio should use. Only changeable via this key (no GUI option)"
+
+#: ../data/gnomeradio.schemas.in.h:15
+msgid "The number of presets"
+msgstr "The number of presets"
+
+#: ../data/gnomeradio.schemas.in.h:16
+msgid "The preset that was enabled when gnomeradio was terminated. Range is 0 ... (# presets - 1). None is -1"
+msgstr "The preset that was enabled when gnomeradio was terminated. Range is 0 ... (# presets - 1). None is -1"
+
+#: ../data/gnomeradio.desktop.in.h:1
+msgid "FM-Radio Tuner"
+msgstr "FM Radio Tuner"
+
+#: ../data/gnomeradio.desktop.in.h:2
+msgid "Listen to FM-radio"
+msgstr "Listen to FM radio"
+
+#: ../src/prefs.c:157
+#: ../src/prefs.c:288
+#: ../src/gui.c:176
+msgid "unnamed"
+msgstr "unnamed"
+
+#: ../src/prefs.c:367
+msgid "Choose a destination folder"
+msgstr "Choose a destination folder"
+
+#: ../src/prefs.c:518
+msgid "Gnomeradio Settings"
+msgstr "Gnomeradio Settings"
+
+#: ../src/prefs.c:534
+msgid "General Settings"
+msgstr "General Settings"
+
+#: ../src/prefs.c:544
+msgid "Presets"
+msgstr "Presets"
+
+#: ../src/prefs.c:554
+msgid "Record Settings"
+msgstr "Record Settings"
+
+#: ../src/prefs.c:572
+msgid "Radio Device:"
+msgstr "Radio device:"
+
+#: ../src/prefs.c:579
+msgid "Mixer Source:"
+msgstr "Mixer source:"
+
+#: ../src/prefs.c:596
+msgid "Mute on exit?"
+msgstr "Mute on exit?"
+
+#: ../src/prefs.c:677
+msgid "Add a new preset"
+msgstr "Add a new preset"
+
+#: ../src/prefs.c:678
+msgid "Remove preset from List"
+msgstr "Remove preset from list"
+
+#: ../src/prefs.c:691
+msgid "Destination directory:"
+msgstr "Destination directory:"
+
+#: ../src/prefs.c:709
+msgid "Choose the Media Profile that should be used to record."
+msgstr "Choose the Media Profile that should be used to record."
+
+#: ../src/gui.c:96
+#, c-format
+msgid "%d stations found"
+msgstr "%d stations found"
+
+#: ../src/gui.c:123
+msgid "Scanning"
+msgstr "Scanning"
+
+#: ../src/gui.c:128
+msgid "Scanning for available stations:"
+msgstr "Scanning for available stations:"
+
+#: ../src/gui.c:138
+msgid "No stations found"
+msgstr "No stations found"
+
+#: ../src/gui.c:163
+#, c-format
+msgid ""
+"%d stations found. \n"
+"Do you want to add them as presets?\n"
+msgstr ""
+"%d stations found. \n"
+"Do you want to add them as presets?\n"
+
+#: ../src/gui.c:224
+#, c-format
+msgid "Could not open device \"%s\"!"
+msgstr "Could not open device \"%s\"!"
+
+#: ../src/gui.c:225
+#, c-format
+msgid ""
+"Check your settings and make sure that no other\n"
+"program is using %s.\n"
+"Also make sure that you have read-access to it."
+msgstr ""
+"Check your settings and make sure that no other\n"
+"program is using %s.\n"
+"Also make sure that you have read-access to it."
+
+#: ../src/gui.c:249
+#, c-format
+msgid "Mixer source \"%s\" is not a valid source!"
+msgstr "Mixer source \"%s\" is not a valid source!"
+
+#: ../src/gui.c:251
+#, c-format
+msgid "Could not open \"%s\"!"
+msgstr "Could not open \"%s\"!"
+
+#: ../src/gui.c:394
+#, c-format
+msgid "Gnomeradio - %s"
+msgstr "Gnomeradio - %s"
+
+#: ../src/gui.c:396
+#: ../src/trayicon.c:158
+#, c-format
+msgid "Gnomeradio - %.2f MHz"
+msgstr "Gnomeradio - %.2f MHz"
+
+#: ../src/gui.c:401
+#: ../src/gui.c:978
+#, c-format
+msgid "Frequency: %.2f MHz"
+msgstr "Frequency: %.2f MHz"
+
+#. You can translate the filename for a recording:
+#. * args for this format are: path, station title, time
+#.
+#: ../src/gui.c:637
+#, c-format
+msgid "%s/%s_%s"
+msgstr "%s/%s_%s"
+
+#. consult man strftime to translate this. This is a filename, so don't use "/" or ":", please
+#: ../src/gui.c:665
+msgid "%B-%d-%Y_%H-%M-%S"
+msgstr "%d-%B-%Y_%H-%M-%S"
+
+#: ../src/gui.c:668
+#, c-format
+msgid "%.2f MHz"
+msgstr "%.2f MHz"
+
+#: ../src/gui.c:708
+msgid "Unmute"
+msgstr "Unmute"
+
+#: ../src/gui.c:712
+msgid "Mute"
+msgstr "Mute"
+
+#. Feel free to put your names here translators :-)
+#: ../src/gui.c:726
+msgid "TRANSLATORS"
+msgstr ""
+"Gareth Owen <gowen72@yahoo.com>\n"
+"Christopher Orr <chris@orr.me.uk>"
+
+#: ../src/gui.c:737
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+msgstr ""
+"Gnomeradio is an FM tuner application for the GNOME desktop. It should work with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+
+#: ../src/gui.c:741
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled without LIRC support."
+msgstr ""
+"Gnomeradio is an FM tuner application for the GNOME desktop. It should work with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled without LIRC support."
+
+#: ../src/gui.c:810
+#: ../src/gui.c:1078
+msgid "Gnomeradio"
+msgstr "Gnomeradio"
+
+#: ../src/gui.c:866
+msgid "Presets:"
+msgstr "Presets:"
+
+#: ../src/gui.c:969
+msgid "Scan Backwards"
+msgstr "Scan backwards"
+
+#: ../src/gui.c:970
+msgid "Scan Forwards"
+msgstr "Scan forwards"
+
+#: ../src/gui.c:971
+msgid "0.05 MHz Backwards"
+msgstr "0.05 MHz backwards"
+
+#: ../src/gui.c:972
+msgid "0.05 MHz Forwards"
+msgstr "0.05 MHz forwards"
+
+#: ../src/gui.c:973
+msgid "About Gnomeradio"
+msgstr "About Gnomeradio"
+
+#: ../src/gui.c:974
+msgid "Record radio as Wave, OGG or MP3"
+msgstr "Record radio as Wave, Ogg or MP3"
+
+#: ../src/gui.c:975
+msgid "Edit your Preferences"
+msgstr "Edit your preferences"
+
+#: ../src/gui.c:976
+msgid "Adjust the Volume"
+msgstr "Adjust the Volume"
+
+#: ../src/gui.c:977
+msgid "Quit"
+msgstr "Quit"
+
+#: ../src/gui.c:1070
+msgid "Scan for stations"
+msgstr "Scan for stations"
+
+#: ../src/gui.c:1104
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Changes to the settings won't be saved."
+msgstr ""
+"%s\n"
+"\n"
+"Changes to the settings won't be saved."
+
+#: ../src/gui.c:1105
+msgid "Failed to init GConf!"
+msgstr "Failed to init GConf!"
+
+#: ../src/gui.c:1118
+msgid "manual"
+msgstr "manual"
+
+#: ../src/gui.c:1129
+msgid "Could not scan. Radio is not initialized."
+msgstr "Could not scan. Radio is not initialised."
+
+#. GtkWidget *dialog;
+#. dialog = gtk_message_dialog_new(NULL, DIALOG_FLAGS, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,
+#. _("Could not start lirc"));
+#. gtk_dialog_run (GTK_DIALOG (dialog));
+#. gtk_widget_destroy (dialog);
+#.
+#: ../src/gui.c:1152
+msgid "Could not start lirc!"
+msgstr "Could not start lirc!"
+
+#: ../src/trayicon.c:78
+msgid "Muted"
+msgstr "Muted"
+
+#: ../src/trayicon.c:92
+msgid "Show Window"
+msgstr "Show Window"
+
+#: ../src/record.c:65
+#, c-format
+msgid "%i byte"
+msgstr "%i byte"
+
+#: ../src/record.c:67
+#, c-format
+msgid "%i kB"
+msgstr "%i kB"
+
+#: ../src/record.c:68
+#, c-format
+msgid "%.2f MB"
+msgstr "%.2f MB"
+
+#: ../src/record.c:70
+msgid "Error"
+msgstr "Error"
+
+#: ../src/record.c:71
+msgid "0 byte"
+msgstr "0 bytes"
+
+#: ../src/record.c:108
+msgid "Gnomeradio recording status"
+msgstr "Gnomeradio recording status"
+
+#: ../src/record.c:120
+#, c-format
+msgid "Recording from station %s"
+msgstr "Recording from station %s"
+
+#: ../src/record.c:127
+msgid "Destination:"
+msgstr "Destination:"
+
+#: ../src/record.c:132
+msgid "Filesize:"
+msgstr "File size:"
+
+#: ../src/record.c:156
+msgid "Stop Recording"
+msgstr "Stop Recording"
+
+#: ../src/rec_tech.c:42
+msgid "GStreamer runtime error."
+msgstr "GStreamer runtime error."
+
+#: ../src/rec_tech.c:58
+msgid "Could not create GStreamer pipeline."
+msgstr "Could not create GStreamer pipeline."
+
+#: ../src/rec_tech.c:59
+#: ../src/rec_tech.c:89
+msgid "Check your Gstreamer installation!"
+msgstr "Check your Gstreamer installation!"
+
+#: ../src/rec_tech.c:65
+msgid "Could not open Gstreamer OSS Source."
+msgstr "Could not open Gstreamer OSS Source."
+
+#: ../src/rec_tech.c:66
+msgid "Verify your Gstreamer OSS subsystem installation!"
+msgstr "Verify your Gstreamer OSS subsystem installation!"
+
+#: ../src/rec_tech.c:78
+#, c-format
+msgid "Could not create encoder \"%s\"."
+msgstr "Could not create encoder \"%s\"."
+
+#: ../src/rec_tech.c:80
+msgid "Verify your Gstreamer plugins installation!"
+msgstr "Verify your Gstreamer plugins installation!"
+
+#: ../src/rec_tech.c:88
+msgid "Could not create Gstreamer filesink."
+msgstr "Could not create Gstreamer filesink."
+
+#. +
+#: ../src/bacon-volume.c:187
+msgid "+"
+msgstr "+"
+
+#. -
+#: ../src/bacon-volume.c:203
+msgid "-"
+msgstr "-"
+
+#~ msgid "%s/%.2fMHz_%s"
+#~ msgstr "%s/%.2fMHz_%s"
+#~ msgid "Recording:"
+#~ msgstr "Recording:"
+#~ msgid "Audio device"
+#~ msgstr "Audio device"
+#~ msgid "Choose the bitrate in which the mp3 will be encoded"
+#~ msgstr "Choose the bitrate at which the MP3 will be encoded"
+#~ msgid "MP3 bitrate"
+#~ msgstr "MP3 bitrate"
+#~ msgid "MP3 encoder"
+#~ msgstr "MP3 encoder"
+#~ msgid "Record as mp3- or wave-file"
+#~ msgstr "Record as MP3 or wave file"
+#~ msgid "Record in stereo or mono"
+#~ msgstr "Record in stereo or mono"
+#~ msgid "Sample format"
+#~ msgstr "Sample format"
+#~ msgid "Sample rate"
+#~ msgstr "Sample rate"
+#~ msgid "The audio device to use (usually /dev/audio)"
+#~ msgstr "The audio device to use (usually /dev/audio)"
+#~ msgid "The audio sample-rate of the wave-file"
+#~ msgstr "The audio sample rate of the wave file"
+#~ msgid "The format (8 or 16 bit) of the wave-file"
+#~ msgstr "The format (8 or 16 bit) of the wave file"
+#~ msgid "The stored value of the volume (0-100)"
+#~ msgstr "The stored value of the volume (0-100)"
+#~ msgid "Volume"
+#~ msgstr "Volume"
+#~ msgid "Whether the output should be a mp3- or a wave-file"
+#~ msgstr "Whether the output should be an MP3 or a wave file"
+#~ msgid "Whether the output should be in stereo or mono"
+#~ msgstr "Whether the output should be in stereo or mono"
+#~ msgid "Wave file"
+#~ msgstr "Wave file"
+#~ msgid "Encoder:"
+#~ msgstr "Encoder:"
+#~ msgid "Bitrate:"
+#~ msgstr "Bitrate:"
+#~ msgid "%s kb/s"
+#~ msgstr "%s kb/s"
+#~ msgid ""
+#~ "Choose the mp3-/ogg-encoder that should be used, or to record as a "
+#~ "uncompressed wave file"
+#~ msgstr ""
+#~ "Choose the MP3/Ogg encoder that should be used, or to record as a "
+#~ "uncompressed wave file"
+#~ msgid "Choose the bitrate in which the mp3/ogg will be encoded"
+#~ msgstr "Choose the bitrate at which the MP3/Ogg will be encoded"
+#~ msgid "Volume: %d%%"
+#~ msgstr "Volume: %d%%"
+#~ msgid ""
+#~ "Sox could not be detected. Please ensure that it is installed in your "
+#~ "PATH."
+#~ msgstr ""
+#~ "Sox could not be detected. Please ensure that it is installed in your "
+#~ "PATH."
+#~ msgid ""
+#~ "Error opening file '%s':\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Error opening file '%s':\n"
+#~ "%s"
+#~ msgid "Start"
+#~ msgstr "Start"
+#~ msgid "Gnomeradio Record"
+#~ msgstr "Gnomeradio Record"
+#~ msgid "General"
+#~ msgstr "General"
+#~ msgid "Wave Settings"
+#~ msgstr "Wave Settings"
+#~ msgid "Mp3/Ogg Settings"
+#~ msgstr "MP3/Ogg Settings"
+#~ msgid "Audio device:"
+#~ msgstr "Audio device:"
+#~ msgid "Filename:"
+#~ msgstr "Filename:"
+#~ msgid "Choose a filename"
+#~ msgstr "Choose a filename"
+#~ msgid "Record as:"
+#~ msgstr "Record as:"
+#~ msgid "Wave (.wav)"
+#~ msgstr "Wave (.wav)"
+#~ msgid "MP3/Ogg (.mp3/.ogg)"
+#~ msgstr "MP3/Ogg (.mp3/.ogg)"
+#~ msgid "Sample rate:"
+#~ msgstr "Sample rate:"
+#~ msgid "Sample format:"
+#~ msgstr "Sample format:"
+#~ msgid "Record in:"
+#~ msgstr "Record in:"
+#~ msgid "Mono"
+#~ msgstr "Mono"
+#~ msgid "Stereo"
+#~ msgstr "Stereo"
+#~ msgid "no supported encoder installed"
+#~ msgstr "no supported encoder installed"
+#~ msgid ""
+#~ "%s has stopped:\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "%s has stopped:\n"
+#~ "%s\n"
+#~ msgid "MP3/Ogg encoder"
+#~ msgstr "MP3/Ogg encoder"
+#~ msgid "unknown reason"
+#~ msgstr "unknown reason"
+

@@ -1,0 +1,74 @@
+<schemalist>
+  <schema id="org.gnome.gnomeradio" path="/org/gnome/gnomeradio/">
+    <key name="first-run" type="b">
+      <default>true</default>
+      <summary>The first time gnomeradio was run</summary>
+      <description>Set to false when the user ran the first time gnomeradio</description>
+    </key>
+    <key name="last-freq" type="d">
+      <default>100.00</default>
+      <summary>Last frequency</summary>
+      <description>The last frequency (in MHz) in use</description>
+    </key>
+    <key name="device" type="s">
+      <default>'/dev/radio0'</default>
+      <summary>Radio device</summary>
+      <description>The default radio device to use (e.g. /dev/radio0)</description>
+    </key>
+    <key name="driver" type="s">
+      <default>'any'</default>
+      <summary>Device driver</summary>
+      <description>The default device driver to use (any, v4l1 or v4l2)</description>
+    </key>
+    <key name="mixer-device" type="s">
+      <default>'hw:0'</default>
+      <summary>Mixer device</summary>
+      <description>The default mixer device to use (e.g. hw:0)</description>
+    </key>
+    <key name="mixer-channel" type="s">
+      <default>'Line'</default>
+      <summary>Mixer channel</summary>
+      <description>The default mixer channel to use (e.g. Line)</description>
+    </key>
+    <key name="muted" type="b">
+      <default>false</default>
+      <summary>Muted</summary>
+      <description>The muted state in last exited</description>
+    </key>
+    <key name="unmute-volume" type="d">
+      <default>-1</default>
+      <summary>Unmute volume</summary>
+      <description>The volume before muting gnomeradio session</description>
+    </key>
+    <key name="mute-on-exit" type="b">
+      <default>true</default>
+      <summary>Mute on exit</summary>
+      <description>Mute radio device on exit</description>
+    </key>
+    <key name="audio-loopback" type="b">
+      <default>true</default>
+      <summary>The audio loopback mode</summary>
+      <description>When set to true will start an audio streaming between the radio device and the audio output device</description>
+    </key>
+    <key name="presets" type="i">
+      <default>0</default>
+      <summary>Number of presets</summary>
+      <description>The number of presets</description>
+    </key>
+    <key name="last" type="i">
+      <default>-1</default>
+      <summary>Last presets</summary>
+      <description>The preset that was enabled when gnomeradio was terminated. Range is 0 ... (presets - 1). None is -1</description>
+    </key>
+    <key name="destination" type="s">
+      <default>''</default>
+      <summary>The default location to use for the recorded files</summary>
+      <description>The path to the location where gnomeradio should store recorded files. If that value is empty, the HOME folder will be used</description>
+    </key>
+    <key name="profile" type="s">
+      <default>'audio/x-vorbis'</default>
+      <summary>The media type for encoding audio when recording</summary>
+      <description>The media type for encoding audio when recording (e.g. audio/x-vorbis for Ogg Vorbis, or audio/mpeg for MP3). This is not a MIME type.</description>
+    </key>
+  </schema>
+</schemalist>

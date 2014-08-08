@@ -1,0 +1,551 @@
+# translation of gnomeradio.HEAD.po to 
+# translation of gnomeradio.HEAD.po to
+# translation of gnomeradio.HEAD.po to Macedonian
+# translation of gnomeradio.HEAD.po to
+# This file is distributed under the same license as the gnomeradio.HEAD package.
+# Copyright (C) 2005 THE gnomeradio.HEAD'S COPYRIGHT HOLDER, 2003
+# Marko Ivanoski <marko@programmer.net>, 2003
+# Arangel Angov <ufo@linux.net.mk>, 2005.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomeradio.HEAD 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-19 19:44+0000\n"
+"PO-Revision-Date: 2005-07-19 22:18+0200\n"
+"Last-Translator: Арангел Ангов <ufo@linux.net.mk>\n"
+"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: ../gnomeradio.schemas.in.h:1
+msgid "Audio device"
+msgstr "Аудио уред"
+
+#: ../gnomeradio.schemas.in.h:2 ../src/record.c:355
+msgid "Choose the bitrate in which the mp3 will be encoded"
+msgstr "Избери битрејт за кодирање на mp3"
+
+#: ../gnomeradio.schemas.in.h:3 ../src/prefs.c:562
+msgid ""
+"Choose the mixer source (line, line1, etc.) that is able to control the "
+"volume of your radio"
+msgstr ""
+"Изберете го изворот на миксерот (линија, линија1 итн) кој е способен да го "
+"контролира гласот на вашето радио"
+
+#: ../gnomeradio.schemas.in.h:4 ../src/record.c:354
+msgid "Choose the mp3 encoder that should be used"
+msgstr "Изберете кодирање на мр3 кое ќе се користи"
+
+#: ../gnomeradio.schemas.in.h:5 ../src/prefs.c:563
+msgid "If unchecked, gnomeradio won't mute after exiting"
+msgstr "Ако е отчекирано, gnomeradio нема да мутира после излезот"
+
+#: ../gnomeradio.schemas.in.h:6
+msgid "Last frequency"
+msgstr "Последна фрквенција"
+
+#: ../gnomeradio.schemas.in.h:7
+msgid "Last presets"
+msgstr "Последен присет"
+
+#: ../gnomeradio.schemas.in.h:8
+msgid "MP3 bitrate"
+msgstr "МР3 битрејт"
+
+#: ../gnomeradio.schemas.in.h:9
+msgid "MP3 encoder"
+msgstr "МР3 енкодер"
+
+#: ../gnomeradio.schemas.in.h:10
+msgid "Mixer Device"
+msgstr "Уред за миксирање"
+
+#: ../gnomeradio.schemas.in.h:11
+msgid "Mixer source"
+msgstr "Извор на миксерот"
+
+#: ../gnomeradio.schemas.in.h:12
+msgid "Mute on exit"
+msgstr "Исклучи при излез"
+
+#: ../gnomeradio.schemas.in.h:13
+msgid "Number of presets"
+msgstr "Број на присетови"
+
+#: ../gnomeradio.schemas.in.h:14
+msgid "Radio device"
+msgstr "Радио уред"
+
+#: ../gnomeradio.schemas.in.h:15
+msgid "Record as mp3- or wave-file"
+msgstr "Сними како мр3- или wav-датотека"
+
+#: ../gnomeradio.schemas.in.h:16
+msgid "Record in stereo or mono"
+msgstr "Смини стерео или моно"
+
+#: ../gnomeradio.schemas.in.h:17
+msgid "Sample format"
+msgstr "Формат за пример"
+
+#: ../gnomeradio.schemas.in.h:18
+msgid "Sample rate"
+msgstr "Брзина на примерокот"
+
+#: ../gnomeradio.schemas.in.h:19 ../src/prefs.c:560
+msgid "Specify the radio-device (in most cases /dev/radio)"
+msgstr "Наведи го радио уредот (најчесто /dev/radio)"
+
+#: ../gnomeradio.schemas.in.h:20 ../src/record.c:356
+msgid "The audio device to use (usually /dev/audio)"
+msgstr "Аудио уред да користи (најчесто /dev/audio)"
+
+#: ../gnomeradio.schemas.in.h:21 ../src/record.c:352
+msgid "The audio sample-rate of the wave-file"
+msgstr "Примерот на аудио стапка на wave-датотеката"
+
+#: ../gnomeradio.schemas.in.h:22 ../src/record.c:353
+msgid "The format (8 or 16 bit) of the wave-file"
+msgstr "Форматот (8 или 16 бита) од wave-датотеката"
+
+#: ../gnomeradio.schemas.in.h:23
+msgid "The last frequency (in MHz) in use"
+msgstr "Последната фреквенција (во MHz) користена"
+
+#: ../gnomeradio.schemas.in.h:24
+msgid ""
+"The mixer device that gnomeradio should use. Only changeable via this key "
+"(no GUI option)"
+msgstr ""
+"Миксер направата што gnomeradio треба да ја користи. Се полни само преку ова "
+"копче (без GUI опција)"
+
+#: ../gnomeradio.schemas.in.h:25
+msgid "The number of presets"
+msgstr "Број на присетови"
+
+#: ../gnomeradio.schemas.in.h:26
+msgid ""
+"The preset that was enabled when gnomeradio was terminated. Range is 0 ... "
+"(# presets - 1). None is -1"
+msgstr ""
+"Пресетот што беше овозможен кога gnomeradio беше исклучено. Опсегот е 0 ... "
+"(# пресетови - 1). Никој не е -1"
+
+#: ../gnomeradio.schemas.in.h:27
+msgid "The stored value of the volume (0-100)"
+msgstr "Складираната вредност на гласот (0-100)"
+
+#: ../gnomeradio.schemas.in.h:28
+msgid "Volume"
+msgstr "Јачина на звук"
+
+#: ../gnomeradio.schemas.in.h:29 ../src/record.c:357 ../src/record.c:358
+msgid "Whether the output should be a mp3- or a wave-file"
+msgstr "Дали излезот треба да биде мр3 или wav датотека"
+
+#: ../gnomeradio.schemas.in.h:30 ../src/record.c:359 ../src/record.c:360
+msgid "Whether the output should be in stereo or mono"
+msgstr "Дали излезот треба да биде стерео или моно"
+
+#: ../gnomeradio.desktop.in.h:1
+msgid "FM-Radio Tuner"
+msgstr "ФМ-Радио тјунер"
+
+#: ../gnomeradio.desktop.in.h:2
+msgid "Listen to FM-radio"
+msgstr "Слушај ФМ-радио"
+
+#: ../src/prefs.c:248 ../src/prefs.c:676
+msgid "Wave file"
+msgstr "Wave датотека"
+
+#: ../src/prefs.c:268
+msgid "unamed"
+msgstr "без име"
+
+#: ../src/prefs.c:333
+msgid "Choose a destination folder"
+msgstr "Одберете дестинациона папка"
+
+#: ../src/prefs.c:472
+msgid "Gnomeradio Settings"
+msgstr "Поставувања"
+
+#: ../src/prefs.c:488
+msgid "General Settings"
+msgstr "Општи поставувања"
+
+#: ../src/prefs.c:498
+msgid "Presets"
+msgstr "Пресетови"
+
+#: ../src/prefs.c:508
+msgid "Record Settings"
+msgstr "Поставувања за снимање"
+
+#: ../src/prefs.c:526
+msgid "Radio Device:"
+msgstr "Радио уред"
+
+#: ../src/prefs.c:533
+msgid "Mixer Source:"
+msgstr "Извор на миксерот"
+
+#: ../src/prefs.c:550
+msgid "Mute on exit?"
+msgstr "Мутирај на излез?"
+
+#: ../src/prefs.c:632
+msgid "Add a new preset"
+msgstr "Внеси нов пресет"
+
+#: ../src/prefs.c:633
+msgid "Remove preset from List"
+msgstr "Отстрани пресет од листата"
+
+#: ../src/prefs.c:661 ../src/record.c:275
+msgid "Encoder:"
+msgstr "Кодер:"
+
+#: ../src/prefs.c:662 ../src/record.c:276
+msgid "Bitrate:"
+msgstr "Битрејт:"
+
+#: ../src/prefs.c:663
+msgid "Destination directory:"
+msgstr "Дестинационен директориум:"
+
+#: ../src/prefs.c:692
+#, c-format
+msgid "%s kb/s"
+msgstr "%s kb/s"
+
+#: ../src/prefs.c:714
+msgid ""
+"Choose the mp3-/ogg-encoder that should be used, or to record as a "
+"uncompressed wave file"
+msgstr "Одберете mp3-/ogg енкодер кој што ќе се користи"
+
+#: ../src/prefs.c:715
+msgid "Choose the bitrate in which the mp3/ogg will be encoded"
+msgstr "Избери битрејт за енкодирање на mp3/ogg датотеките"
+
+#: ../src/gui.c:68
+#, c-format
+msgid ""
+"Could not open device \"%s\" !\n"
+"\n"
+"Check your Settings and make sure that no other\n"
+"program is using %s.\n"
+"Make also sure that you have read-access to it."
+msgstr ""
+"Не можам да го отворам уредот \"%s\" !\n"
+"\n"
+"Проверете ги поставувања и видете дали никоја друг\n"
+"програма не користи %s.\n"
+"Истотака проверете дали имате дозвола за запишување."
+
+#: ../src/gui.c:90
+#, c-format
+msgid "Mixer source \"%s\" is not a valid source!"
+msgstr "Извор на миксерот \"%s\" не е валиден извор!"
+
+#: ../src/gui.c:92
+#, c-format
+msgid "Could not open \"%s\"!"
+msgstr "Не можам да отворам \"%s\"!"
+
+#: ../src/gui.c:247 ../src/gui.c:255 ../src/gui.c:732
+#, c-format
+msgid "Gnomeradio - %.2f MHz"
+msgstr "Gnomeradio - %.2f MHz"
+
+#: ../src/gui.c:251 ../src/gui.c:918
+#, c-format
+msgid "Frequency: %.2f MHz"
+msgstr "Фреквенција: %.2f MHz"
+
+#: ../src/gui.c:275 ../src/gui.c:921
+#, c-format
+msgid "Volume: %d%%"
+msgstr "Јачина на звук: %d%%"
+
+#: ../src/gui.c:556
+msgid ""
+"Sox could not be detected. Please ensure that it is installed in your PATH."
+msgstr ""
+"Sox неможе да се детектира. Осигурајте се дека е инсталиран во вашата ПАТЕКА."
+
+#. consult man strftime to translate this. This is a filename, so don't use "/" or ":", please
+#: ../src/gui.c:570
+msgid "%B-%d-%Y_%H-%M-%S"
+msgstr "%B-%d-%Y_%H-%M-%S"
+
+#. Only change the "MHz" part here (if applicable)
+#: ../src/gui.c:573
+#, c-format
+msgid "%s/%.2fMHz_%s%s"
+msgstr "%s/%.2fMHz_%s%s"
+
+#: ../src/gui.c:582
+#, c-format
+msgid ""
+"Error opening file '%s':\n"
+"%s"
+msgstr ""
+"Грешка при отварањето на датотеката '%s':\n"
+"%s"
+
+#: ../src/gui.c:597 ../src/gui.c:916
+msgid "Mute"
+msgstr "Исклучи"
+
+#: ../src/gui.c:603
+msgid "Unmute"
+msgstr "Вклучи"
+
+#. Feel free to put your names here translators :-)
+#: ../src/gui.c:615
+msgid "TRANSLATORS"
+msgstr "Марко Ивановски\n"
+"Арангел Ангов <ufo@linux.net.mk>"
+
+#: ../src/gui.c:626
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+msgstr ""
+"Gnomeradio е апликација за ФМ-тјунер за работната околина Гном. Треба да работи "
+"со секој тјунер хардвер кој е поддржан од video4linux драјверите.\n"
+"\n"
+"Оваа верзија е компајлирана со поддршка за LIRC."
+
+#: ../src/gui.c:630
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled without LIRC support."
+msgstr ""
+"Gnomeradio е FM-Тјунер апликација за GNOME работна околина. Треба да работи "
+"со сите тјунер хардвер кој е поддржан од video4linux драјверите.\n"
+"\n"
+"Оваа верзија е компајлирана без LIRC поддршка."
+
+#: ../src/gui.c:752
+msgid "Gnomeradio"
+msgstr "Gnomeradio"
+
+#: ../src/gui.c:806
+msgid "Presets:"
+msgstr "Присетови:"
+
+#: ../src/gui.c:909
+msgid "Scan Backwards"
+msgstr "Скенирај на назад"
+
+#: ../src/gui.c:910
+msgid "Scan Forwards"
+msgstr "Скенирај на напред"
+
+#: ../src/gui.c:911
+msgid "0.05 MHz Backwards"
+msgstr "0.05 MHz на назад"
+
+#: ../src/gui.c:912
+msgid "0.05 MHz Forwards"
+msgstr "0.05 MHz на напред"
+
+#: ../src/gui.c:913
+msgid "About Gnomeradio"
+msgstr "За Gnomeradio"
+
+#: ../src/gui.c:914
+msgid "Record radio as Wave, OGG or MP3"
+msgstr "Снимај од радио како Wave, OGG или MP3"
+
+#: ../src/gui.c:915
+msgid "Edit your Preferences"
+msgstr "Уредете ги преференците"
+
+#: ../src/gui.c:917
+msgid "Quit"
+msgstr "Излез"
+
+#: ../src/gui.c:1036
+#, c-format
+msgid ""
+"Failed to init GConf: %s\n"
+"Changes to the settings won't be saved\n"
+msgstr ""
+"Не успеав да го иницијализира GConf: %s\n"
+"Измените на поставувањата нема да бидат снимени\n"
+
+#: ../src/gui.c:1050
+msgid "manual"
+msgstr "рачно"
+
+#. GtkWidget *dialog;
+#. dialog = gtk_message_dialog_new(NULL, DIALOG_FLAGS, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,
+#. _("Could not start lirc"));
+#. gtk_dialog_run (GTK_DIALOG (dialog));
+#. gtk_widget_destroy (dialog);
+#.
+#: ../src/gui.c:1073
+msgid "Could not start lirc!\n"
+msgstr "Не можам да стартувам lirc!\n"
+
+#: ../src/record.c:154
+msgid "Start"
+msgstr "Почни"
+
+#: ../src/record.c:162
+msgid "Gnomeradio Record"
+msgstr "Gnomeradio снимање"
+
+#: ../src/record.c:170
+msgid "General"
+msgstr "Општо"
+
+#: ../src/record.c:171
+msgid "Wave Settings"
+msgstr "Поставувања за Wave"
+
+#: ../src/record.c:172
+msgid "Mp3/Ogg Settings"
+msgstr "Поставувања за mp3/ogg"
+
+#: ../src/record.c:184
+msgid "Audio device:"
+msgstr "Аудио уред"
+
+#: ../src/record.c:187
+msgid "Filename:"
+msgstr "Име на датотека:"
+
+#. path_entry = gtk_entry_new();
+#: ../src/record.c:189
+msgid "Choose a filename"
+msgstr "Одберете име на датотека"
+
+#. choose_button = gtk_button_new_with_label(_("Choose..."));
+#: ../src/record.c:195
+msgid "Record as:"
+msgstr "Снимај како:"
+
+#: ../src/record.c:196
+msgid "Wave (.wav)"
+msgstr "Wave (.wav)"
+
+#: ../src/record.c:197
+msgid "MP3/Ogg (.mp3/.ogg)"
+msgstr "MP3/Ogg (.mp3/.ogg)"
+
+#: ../src/record.c:221
+msgid "Sample rate:"
+msgstr "Пример стапка"
+
+#: ../src/record.c:222
+msgid "Sample format:"
+msgstr "Пример формат:"
+
+#: ../src/record.c:223
+msgid "Record in:"
+msgstr "Снимај во:"
+
+#: ../src/record.c:256
+msgid "Mono"
+msgstr "Моно"
+
+#: ../src/record.c:257
+msgid "Stereo"
+msgstr "Стерео"
+
+#: ../src/record.c:303 ../src/record.c:310
+msgid "no supported encoder installed"
+msgstr "Нема инсталирано поддржан енкодер"
+
+#: ../src/record.c:431
+#, c-format
+msgid ""
+"%s has stopped:\n"
+"%s\n"
+msgstr ""
+"%s застана:\n"
+"%s\n"
+
+#: ../src/record.c:432
+msgid "MP3/Ogg encoder"
+msgstr "MP3/Ogg енкодер"
+
+#: ../src/record.c:433
+msgid "unknown reason"
+msgstr "непозната причина"
+
+#: ../src/record.c:482
+#, c-format
+msgid "%i byte"
+msgstr "%i бајти"
+
+#: ../src/record.c:484
+#, c-format
+msgid "%i kB"
+msgstr "%i kB"
+
+#: ../src/record.c:485
+#, c-format
+msgid "%.2f MB"
+msgstr "%.2f MB"
+
+#: ../src/record.c:487
+msgid "Error"
+msgstr "Грешка"
+
+#: ../src/record.c:488
+msgid "0 byte"
+msgstr "0 бајти"
+
+#: ../src/record.c:528
+msgid "Gnomeradio recording status"
+msgstr "Gnomeradio статус на снимање"
+
+#: ../src/record.c:541
+msgid "Recording:"
+msgstr "Снимање:"
+
+#: ../src/record.c:542
+msgid "Filesize:"
+msgstr "Големина на датотеката:"
+
+#: ../src/record.c:559
+msgid "Stop Recording"
+msgstr "Стопирај снимање"
+
+#~ msgid "A Gnome FM-Tuner"
+#~ msgstr "Gnome FM-Тјунер"
+
+#~ msgid "Misc Settings"
+#~ msgstr "Поставки за микрофонот"
+
+#~ msgid "Name:"
+#~ msgstr "Име:"
+
+#~ msgid "Frequency:"
+#~ msgstr "Фреквенција:"
+
+#~ msgid "Update the preset in the List"
+#~ msgstr "Ажурирај ги пресетовите на листата"
+
+#~ msgid ""
+#~ "File '%s' exists.\n"
+#~ "Overwrite it?"
+#~ msgstr ""
+#~ "Датотеката '%s' постои.\n"
+#~ "Пребриши го?"

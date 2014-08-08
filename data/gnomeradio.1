@@ -1,0 +1,60 @@
+.\" (C) Copyright 2013 POJAR GEORGE <geoubuntu@gmail.com>,
+.\"
+.\" This is free software; you may redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as
+.\" published by the Free Software Foundation; either version 2,
+.\" or (at your option) any later version.
+.\"
+.\" This is distributed in the hope that it will be useful, but
+.\" WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\"You should have received a copy of the GNU General Public License along
+.\"with this program; if not, write to the Free Software Foundation, Inc.,
+.\"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+.TH gnomeradio 1 "2013\-08\-25" "GNOME"
+.SH NAME
+gnomeradio \- Listen to FM radio
+.SH SYNOPSIS
+.B gnomeradio
+.RI [ OPTION... ]
+.SH DESCRIPTION
+.B gnomeradio
+is a FM radio tuner for the GNOME desktop. It should work with 
+every FM tuner card that is supported by video4linux. Remote controls are 
+supported via (optional) LIRC support. Gnomeradio can also record radio using 
+GStreamer backend.
+.SH OPTIONS
+.TP
+.B \-?, \-h, \-\-help
+Show the application's help
+.TP
+.B \-\-version
+Show the application's version
+.TP
+.B \-\-scan
+Scan for available stations
+.TP
+.B \-\-verbose
+Enable verbose output
+.P
+The following command options related to audio loopback mode.
+The audio loopback mode is required when radio card is not connected
+to the sound card via a cable. In this case, Gnomeradio needs to map
+the audio from the internal digital capture out to sound card.
+.TP
+.B \-\-alsa-loopback
+Enable audio loopback mode
+.TP
+.B -\-alsa-capture=DEVICE
+Set an capture device for audio loopback mode
+.TP
+.B \-\-alsa-playback=DEVICE
+Set an playback device for audio loopback mode
+.TP
+.B \-\-alsa-latency=TIME
+Set a latency for audio loopback mode in ms
+.SH AUTHOR
+This manual page was written by POJAR GEORGE <geoubuntu@gmail.com>,
+for the Debian system (but may be used by others).

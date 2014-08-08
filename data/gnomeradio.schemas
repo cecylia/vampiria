@@ -1,0 +1,1565 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/gnomeradio/mute-on-exit</key>
+      <applyto>/apps/gnomeradio/mute-on-exit</applyto>
+      <owner>gnomeradio</owner>
+      <type>bool</type>
+      <default>TRUE</default>
+      <locale name="C">
+	<short>Mute on exit</short>
+	<long>If unchecked, gnomeradio won't mute after exiting</long>
+      </locale>
+
+      <locale name="ar">
+	<short>أصمت عند الخروج</short>
+	
+      </locale>
+
+      <locale name="be">
+	<short>Выключэньне гука падчас выхаду</short>
+	<long>Калі пазначана, Gnomeradio па заканчэньні выключа гук</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Без звук при изход</short>
+	<long>Ако няма отметка, Gnomeradio няма да спре звук при изход</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Silenciar en sortir</short>
+	<long>Si ho desactiveu, el gnomeradio no se silenciarà després de sortir</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Ztišit při ukončení</short>
+	<long>Pokud není zatrženo, program Gnomeradio při ukončení neztiší rádio</long>
+      </locale>
+
+      <locale name="da">
+	<short>Slå lyd fra (mute) ved nedlukning</short>
+	<long>Hvis umarkeret, undlader Gnomeradio at slå lyden fra (mute) ved nedlukning</long>
+      </locale>
+
+      <locale name="de">
+	<short>Beim Beenden stummschalten</short>
+	<long>Soll das Radioprogramm nach dem Beenden von Gnomeradio weiterlaufen?</long>
+      </locale>
+
+      <locale name="dz">
+	<short>ཕྱིར་འཐོན་གུ་སྐད་མེདཔ་བཟོ་</short>
+	<long>ཞིབ་དཔྱད་འབད་འདི་མེད་པ་ཅིན་  ཇི་ནོམ་རེ་ཌེའོ་དེ་གིས་ཕྱིར་ཐོན་གྱི་ཤུལ་ལུ་  སྐད་མེདཔ་བཟོ་མི་ཚུགས་</long>
+      </locale>
+
+      <locale name="en_CA">
+	<short>Mute on exit</short>
+	<long>If unchecked, gnomeradio won&apos;t mute after exiting</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Mute on exit</short>
+	<long>If unchecked, Gnomeradio won&apos;t mute after exiting</long>
+      </locale>
+
+      <locale name="es">
+	<short>Silenciar al salir</short>
+	<long>Si no lo selecciona, gnomeradio no silenciará al salir</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Mututu irtetean</short>
+	<long>Aukeratu ezean, gnomeradio ez da mututuko irten eta gero</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Vaimenna lopetettaessa</short>
+	<long>Jos ei valittu, gnomeradio ei vaimenna ääntä lopetettaessa</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Arrêter l&apos;écoute en quittant</short>
+	<long>Si non coché, Gnomeradio ne coupe pas le son en quittant</long>
+      </locale>
+
+      <locale name="he">
+	<short>השתק ביציאה</short>
+	<long>אם לא מסומן, Gnomeradio לא ישתתק לאחר היציאה</long>
+      </locale>
+
+      <locale name="hr">
+	<short>UtiĹĄaj zvuk pri izlazku</short>
+	<long>Ako ostavite nepotvrÄeno, gnome radio neÄe se utiĹĄati nakon gaĹĄenja</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Némítás kilépéskor</short>
+	<long>Ha nincs bejelölve, a gnomeradio kilépés után nem hallgat el</long>
+      </locale>
+
+      <locale name="it">
+	<short>Rendi muto all&apos;uscita</short>
+	<long>Se non impostato, Gnomeradio non sarà muto all&apos;uscita</long>
+      </locale>
+
+      <locale name="it-new">
+	<short>Rendo muto all&apos;uscita</short>
+	<long>Se non impostato, Gnomeradio non sarà muto anche dopo l&apos;uscita dal programma</long>
+      </locale>
+
+      <locale name="ja">
+	<short>終了時にミュートする</short>
+	<long>チェックを外すと、終了後もミュートしません</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Klusināt pie iziešanas</short>
+	<long>Ja neatķeksēts, gnomeradio neapklusīs pēc iziešnas</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Исклучи при излез</short>
+	<long>Ако е отчекирано, gnomeradio нема да мутира после излезот</long>
+      </locale>
+
+      <locale name="mn">
+	<short>Гархад дуугүй</short>
+	<long>Хэрэв сонгогдоогүй бол ГномеРадионоос гараад дуугүй байна</long>
+      </locale>
+
+      <locale name="ms">
+	<short>Mute bila keluar</short>
+	<long>Jika nyahsemak, gnomeradio tak akan mute selepas keluar</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Demp ved avslutt</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Bij afsluiten op Mute zetten</short>
+	<long>Indien niet aangevinkt, zal gnomeradio blijven spelen na afsluiten</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਬੰਦ ਕਰਨ ਤੇ ਚੁੱਪ</short>
+	
+      </locale>
+
+      <locale name="pl">
+	<short>Wyciszenie przy zakończeniu programu</short>
+	<long>Określa, czy przy zakończeniu programu powinno nastąpić wyciszenie</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Silenciar ao sair</short>
+	<long>Se não seleccionado, o gnomeradio não se silenciará ao sair</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Emudecer ao sair</short>
+	<long>Se não selecionado, o gnomeradio não emudecerá ao sair</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Выключать звук при завершении работы</short>
+	<long>Если не выбрано, то gnomeradio не будет выключать звук при завершении работы</long>
+      </locale>
+
+      <locale name="sk">
+	
+	<long>Ak to nebude označené, gnomeradio nevypne zvuk po opustení aplikácie</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Угаси тон по изласку</short>
+	<long>Ако је непотврђено, гномерадио неће угаситит тон по изласку</long>
+      </locale>
+
+      <locale name="sr@Latn">
+	<short>Ugasi ton po izlasku</short>
+	<long>Ako je nepotvrđeno, gnomeradio neće ugasitit ton po izlasku</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Stäng av ljudet när programmet stängs</short>
+	<long>Om detta är omarkerat stänger inte gnomeradio av ljudet när programmet stängs</long>
+      </locale>
+
+      <locale name="tr">
+	
+	<long>Eğer tıklanmış olmazsa, gnomeradio çıkışta sesi kısmayacaktır</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Вимкнути звук під час виходу</short>
+	<long>Якщо не вибрано, то Gnomeradio не буде вимикати звук під час завершення роботи</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Câm khi thoát</short>
+	<long>Nếu không chọn, gnomeradio sẽ không câm tiếng sau khi thoát ra.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>退出时静音</short>
+	<long>如果不选中，gnomeradio 在退出时不进行静音设置</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>離開時靜音</short>
+	<long>如果沒有選取，Gnomeradio 不會在離開時靜音</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomeradio/last-freq</key>
+      <applyto>/apps/gnomeradio/last-freq</applyto>
+      <owner>gnomeradio</owner>
+      <type>float</type>
+      <default>100.00</default>
+      <locale name="C">
+	<short>Last frequency</short>
+	<long>The last frequency (in MHz) in use</long>
+      </locale>
+
+      <locale name="be">
+	<short>Апошняя часьціня</short>
+	<long>Апошняя часьціня  (у MHz)</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Последна честота</short>
+	<long>Последно използвана честота (в MHz)</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Darrera freqüència</short>
+	<long>Darrera freqüència (en MHz) utilitzada</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Poslední frekvence</short>
+	<long>Poslední použitá frekvence (v MHz)</long>
+      </locale>
+
+      <locale name="da">
+	<short>Seneste frekvens</short>
+	<long>Senest anvendte frekvens (i MHz)</long>
+      </locale>
+
+      <locale name="de">
+	<short>Letzte Frequenz</short>
+	<long>Die zuletzt verwendete Frequenz (in Mhz)</long>
+      </locale>
+
+      <locale name="dz">
+	<short>མཇུག་གི་འབྱུང་ཐེངས་</short>
+	<long>མཇུག་གི་འབྱུང་ཐེངས་ (ཨེམ་ཨེཆ་ཟེཌི་)འདི་ལག་ལེན་འཐབ་དོ་</long>
+      </locale>
+
+      <locale name="en_CA">
+	<short>Last frequency</short>
+	<long>The last frequency (in MHz) in use</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Last frequency</short>
+	<long>The last frequency (in MHz) in use</long>
+      </locale>
+
+      <locale name="es">
+	<short>Última frecuencia</short>
+	<long>La última frecuencia (en MHz) empleada</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Azken frekuentzia</short>
+	<long>Erabilitako azken frekuentzia (Mhz-tan)</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Viimeinen taajuus</short>
+	<long>Viimeinen käytetty.taajuus (MHz)</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Dernière féquence</short>
+	<long>La dernière fréquence utilisée (en MHz)</long>
+      </locale>
+
+      <locale name="he">
+	<short>תדר אחרון</short>
+	<long>התדר האחרון (ב MHz) שהיה בשימוש</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Zadnja upotrijebljena ferkvencija</short>
+	<long>Zadnje upotrijebljena ferkvencija (u MHz)</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Utolsó frekvencia</short>
+	<long>A legutóbb használt frekvencia MHz-ben</long>
+      </locale>
+
+      <locale name="it">
+	<short>Ultima frequenza</short>
+	<long>Ultima frequenza (in MHz) in uso</long>
+      </locale>
+
+      <locale name="it-new">
+	<short>Ultima frequenza</short>
+	<long>Ultima frequenza (in MHz) in uso</long>
+      </locale>
+
+      <locale name="ja">
+	<short>前回の周波数</short>
+	<long>前回利用した周波数 (MHz)</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Beidzamā frekvence</short>
+	<long>Pēdējoreiz lietotā frekvence (MHz)</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Последна фрквенција</short>
+	<long>Последната фреквенција (во MHz) користена</long>
+      </locale>
+
+      <locale name="mn">
+	<short>Ихэвчлэн сүүлд</short>
+	<long>Сүүлд ихэвчлэн хэрэглэсэн (MHz-д)</long>
+      </locale>
+
+      <locale name="ms">
+	<short>Frekuensi terakhir</short>
+	<long>Frekuensi terakhir (dalam MHz) digunakan</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Siste frekvens</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Laatste frequentie</short>
+	<long>De laatste gebruikte frequentie (in MHz)</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਆਖਰੀ ਫਰੀਕਿਊਂਨਸੀ</short>
+	
+      </locale>
+
+      <locale name="pl">
+	<short>Ostatnia częstotliwość</short>
+	<long>Ostatnia użyta częstowtliwość (w MHz)</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Última frequência</short>
+	<long>A última frequncia (em MHz) a utilizar</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Última freqüência</short>
+	<long>A última freqüência (em MHz) a usar</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Последняя частота</short>
+	<long>Последняя используемая частота (в МГц)</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Задња фрекфенција</short>
+	<long>Задња коришћена фрекфенција (у MHz)</long>
+      </locale>
+
+      <locale name="sr@Latn">
+	<short>Zadnja frekfencija</short>
+	<long>Zadnja korišćena frekfencija (u MHz)</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Senaste frekvens</short>
+	<long>Den senaste frekvensen (i MHz) som användes</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Son Frekans</short>
+	<long>Kullanımdaki son frekans (MHz cinsinden)</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Остання частота</short>
+	<long>Остання використана частота (в МГц)</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Tần số vừa dùng</short>
+	<long>Tần số vừa dùng (theo MHz)</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>上一频率</short>
+	<long>上一个使用的频率（MHz）</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>上一次的頻率</short>
+	<long>上一次使用的接收頻率(MHz)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomeradio/device</key>
+      <applyto>/apps/gnomeradio/device</applyto>
+      <owner>gnomeradio</owner>
+      <type>string</type>
+      <default>/dev/radio</default>
+      <locale name="C">
+	<short>Radio device</short>
+	<long>Specify the radio-device (in most cases /dev/radio)</long>
+      </locale>
+
+      <locale name="ar">
+	<short>جهاز راديو</short>
+	
+      </locale>
+
+      <locale name="be">
+	<short>Прылада радыё</short>
+	<long>Вызначце прыладу радыё (/dev/radio)</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Радио устройство</short>
+	<long>Изберете радио устройството (в повечето случаи е /dev/radio)</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Dispositiu de ràdio</short>
+	<long>Especifica el dispositiu de ràdio (en la majoria de casos /dev/radio)</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Zařízení rádia</short>
+	<long>Určete zařízení rádia (nejčastěji /dev/radio)</long>
+      </locale>
+
+      <locale name="da">
+	<short>Radioenhed</short>
+	<long>Angiv radioenhed (som regel /dev/radio)</long>
+      </locale>
+
+      <locale name="de">
+	<short>Radio-Gerät</short>
+	<long>Geben Sie das Radio-Gerät an (meistens /dev/radio)</long>
+      </locale>
+
+      <locale name="dz">
+	<short>རེ་ཌིའོ་ཐབས་འཕྲུལ་</short>
+	<long>རེ་ཌིའོ་ཐབས་འཕྲུལ་འདི་གསལ་བཀོད་འབད་ (གནད་དོན་མང་ཤོས་ཅིག་ནང་ /ཐབས་འཕྲུལ་/རེ་ཌིའོ་)</long>
+      </locale>
+
+      <locale name="en_CA">
+	<short>Radio device</short>
+	<long>Specify the radio-device (in most cases /dev/radio)</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Radio device</short>
+	<long>Specify the radio device (in most cases /dev/radio)</long>
+      </locale>
+
+      <locale name="es">
+	<short>Dispositivo de radio</short>
+	<long>Especifique el dispositivo de radio (en la mayoría de los casos /dev/radio)</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Irrati-gailua</short>
+	<long>Zehaztu irrati-gailua (normalean /dev/radio)</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Radiolaite</short>
+	<long>Määrittele radiolaite (useimmiten /dev/radio)</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Périphérique radio</short>
+	<long>Spécifie le périphérique radio (généralement /dev/radio)</long>
+      </locale>
+
+      <locale name="he">
+	<short>התקן רדיו</short>
+	<long>ציין את התקן הרדיו (ברב המקרים /dev/radio)</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Radio ureÄaj</short>
+	<long>Selektiraj radio ureÄaj (najÄeĹĄÄi sluÄaj /dev/radio)</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Rádióeszköz</short>
+	<long>Adja meg a rádió eszközt (legtöbbször /dev/radio)</long>
+      </locale>
+
+      <locale name="it">
+	<short>Dispositivo radio</short>
+	<long>Specifica il dispositivo radio (in molti casi /dev/radio)</long>
+      </locale>
+
+      <locale name="it-new">
+	<short>Periferica radio</short>
+	<long>Specifica la periferica radio (in molti casi /dev/radio)</long>
+      </locale>
+
+      <locale name="ja">
+	<short>ラジオデバイス</short>
+	<long>ラジオデバイスを指定してください (ほとんどの場合 /dev/radio)</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Radio Iekārta</short>
+	<long>Norādi radio iekārtu (visbiežāk /dev/radio)</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Радио уред</short>
+	<long>Наведи го радио уредот (најчесто /dev/radio)</long>
+      </locale>
+
+      <locale name="mn">
+	<short>Радио төхөөрөмж</short>
+	<long>Радионы төхөөрөмжөө онцлон заана уу (ихэнхдээ бол /dev/radio)</long>
+      </locale>
+
+      <locale name="ms">
+	<short>Peranti radio</short>
+	<long>Nyatakan peranti-radio(kebiasaannya /dev/radio)</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Radio-enhet</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Radiotoestel</short>
+	<long>Geef het radiotoestel aan (meestal /dev/radio)</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਰੇਡੀਓ ਜੰਤਰ</short>
+	
+      </locale>
+
+      <locale name="pl">
+	<short>Urządzenie radia</short>
+	<long>Wybierz urządzenie radia (w większości przypadków /dev/radio)</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Dispositivo rádio</short>
+	<long>Especifique o dispositivo de rádio (normalmente /dev/radio)</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Dispositivo de rádio</short>
+	<long>Especifique o dispositivo de rádio (normalmente /dev/radio)</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Устройство радио</short>
+	<long>Выберите устройство радио (в большинстве случаев /dev/radio)</long>
+      </locale>
+
+      <locale name="sk">
+	
+	<long>Špecifikujte rádiové zariadenie (vo väčšine prípadov /dev/radio)</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Радио уређај</short>
+	<long>Наведите радио уређај (најчешће dev/radio)</long>
+      </locale>
+
+      <locale name="sr@Latn">
+	<short>Radio uređaj</short>
+	<long>Navedite radio uređaj (najčešće dev/radio)</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Radioenhet</short>
+	<long>Ange radioenheten (oftast /dev/radio)</long>
+      </locale>
+
+      <locale name="tr">
+	
+	<long>Radyo aygıtını belirtin (genellikle /dev/radio)</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Пристрій радіо</short>
+	<long>Виберіть пристрій радіо (зазвичай це /dev/radio)</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Thiết bị Rađiô</short>
+	<long>Định rõ thiết bị rađiô (thường là &lt;/dev/radio&gt;)</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>电台设备</short>
+	<long>指定电台设备（通常为/dev/radio）</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>接收裝罝</short>
+	<long>指定接收裝罝(大部分情況下都是 /dev/radio)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomeradio/driver</key>
+      <applyto>/apps/gnomeradio/driver</applyto>
+      <owner>gnomeradio</owner>
+      <type>string</type>
+      <default>any</default>
+      <locale name="C">
+	<short>Device driver</short>
+	<long>Specify the device driver to use (any, v4l1 or v4l2)</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Ovladač zařízení</short>
+	<long>Určete ovladač zařízení pro použití (libovolný, v4l1 nebo v4l2)</long>
+      </locale>
+
+      <locale name="es">
+	<short>Controlador del dispositivo</short>
+	<long>Especifique el controlador de dispositivo que usar (cualquiera, v4l1 o v4l2)</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Gailuaren kontrolatzailea</short>
+	<long>Zehaztu erabiliko den gailuaren kontrolatzailea (edozein, v4l1 edo v4l2)</long>
+      </locale>
+
+      <locale name="it">
+	<short>Driver del dispositivo</short>
+	<long>Specifica il driver del dispositivo da usare (qualsiasi, v4l1 o v4l2)</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Enhetsdrivrutin</short>
+	<long>Ange enhetsdrivrutinen att använda (any, v4l1 eller v4l2)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomeradio/mixer</key>
+      <applyto>/apps/gnomeradio/mixer</applyto>
+      <owner>gnomeradio</owner>
+      <type>string</type>
+      <default>line</default>
+      <locale name="C">
+	<short>Mixer source</short>
+	<long>Choose the mixer source (line, line1, etc.) that is able to control the volume of your radio</long>
+      </locale>
+
+      <locale name="be">
+	<short>Крыніца мікшара</short>
+	<long>Абярыце крыніцу гука (лінія, лінія1 г.д.) куды далучана вашае радыё</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Източник от мишпулта</short>
+	<long>Изберете източник от мишпулта (line, line1 и т.н.), за да може да контролирате звука на вашето радио</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Origen del mesclador</short>
+	<long>Seleccioneu l&apos;origen del mesclador (line, line1, etc) que controlarà el volum de la vostra ràdio</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Zdroj mixéru</short>
+	<long>Vyberte zdroj pro mixér (line, line1, apod.), který ovládá hlasitost vašeho rádia</long>
+      </locale>
+
+      <locale name="da">
+	<short>Mixer-kilde</short>
+	<long>Vælg den mixer-kilde (line, line1, etc.), som kontrollerer din radio-volumen</long>
+      </locale>
+
+      <locale name="de">
+	<short>Mixer-Quelle</short>
+	<long>Geben Sie die Mixerquelle (line, line1, etc.) an, die in der Lage ist, die Lautstärke des Radios zu kontrollieren</long>
+      </locale>
+
+      <locale name="dz">
+	<short>སྦྱོར་འཕྲུལ་འབྱུང་ཁུངས་</short>
+	<long>ཁྱོད་རའི་རེ་ཌིའོ་གི་སྐད་ཚད་འཛིན་འབད་ཚུགས་མི་  སྦྱོར་འཕྲུལ་འབྱུང་ཁུངས་ (གྲལ་ཐིག་, གྲལ་ཐིག་༡ ལ་སོགས་པ་) འདི་གདམ་ཁ་བརྐྱབ་</long>
+      </locale>
+
+      <locale name="en_CA">
+	<short>Mixer source</short>
+	<long>Choose the mixer source (line, line1, etc.) that is able to control the volume of your radio</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Mixer source</short>
+	<long>Choose the mixer source (line, line1, etc.) that is able to control the volume of your radio</long>
+      </locale>
+
+      <locale name="es">
+	<short>Fuente del mezclador</short>
+	<long>Seleccione la entrada de sonido (linea, linea1, etc.) que permita controlar el volumen de su radio</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Nahasgailuaren iturria</short>
+	<long>Hautatu zure irratiaren bolumena kontrolatzen duen nahasgailuaren iturria (line, line1, e.a.)</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Mikserilähde</short>
+	<long>Valitse mikserilähde (line, line1, jne.) jolla voi kontrolloida radiosi äänenvoimakkuutta</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Source de mixage</short>
+	<long>Choisissez la source de mixage (line, line1, etc.) apte à contrôler le volume de la radio</long>
+      </locale>
+
+      <locale name="he">
+	<short>מקור מערבל</short>
+	<long>בחר את מקור המערבל (line, line1, וכו&apos;) שיכול לשלוט בעוצמה של הרדיו שלך</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Mikser ulaz</short>
+	<long>Odaberite ulaz miksera (line, line1, dr.) kojim Äete upravljati razinom glasnoÄe vaĹĄeg radija</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Keverő forrás</short>
+	<long>Válassza ki a keverő bemenet (vonal, vonal1, stb.), ami szabályozza a rádió hangerejét</long>
+      </locale>
+
+      <locale name="it">
+	<short>Ingresso del mixer</short>
+	<long>Indica l&apos;ingresso al mixer (line, line1, ecc.) per il controllo del volume della radio</long>
+      </locale>
+
+      <locale name="it-new">
+	<short>Ingresso del Mixer</short>
+	<long>Indica l&apos;ingresso al mixer (line, line1, ecc.) per il controllo del volume della radio</long>
+      </locale>
+
+      <locale name="ja">
+	<short>ミキサーソース</short>
+	<long>ラジオのボリュームをコントロールできるミキサーソース (line, line1, など) を
+選択してください</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Miksera avots</short>
+	<long>Izvēlieties miksera avotu (line, line1 utt.), kas spēj kontrolēt jūsu radio skaļumu</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Извор на миксерот</short>
+	<long>Изберете го изворот на миксерот (линија, линија1 итн) кој е способен да го контролира гласот на вашето радио</long>
+      </locale>
+
+      <locale name="mn">
+	<short>Холигчийн эх</short>
+	<long>Холигч эхээ сонго(шугам1,шугам2, гм) энэ нь таны радионы дууг удирдана</long>
+      </locale>
+
+      <locale name="ms">
+	<short>Sumber pengadun</short>
+	<long>Pilih sumber pengadun (talian, talian1, dll.) yang boleh mengawal volum radio anda</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Mikserkilde</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Mixer bron</short>
+	<long>Kies de mixer-bron (lijn, lijn1, enz.) die het volume van uw radio kan instellen</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਮਿਕਸਰ ਸਰੋਤ</short>
+	
+      </locale>
+
+      <locale name="pl">
+	<short>Źródło w mikserze</short>
+	<long>Wybierz źródło w mikserze (line, line1, itd.). Dzięki temu będzie można regulować głośność radia.</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Fonte de misturas</short>
+	<long>Seleccione a fonte de misturas (line, line1, etc.) que é capaz de controlar o volume de som do seu rádio</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Fonte de mixagem</short>
+	<long>Selecione a fonte de mixagem (linha, linha1, etc.) que é capaz de controlar o volume de som do seu rádio</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Источник записи</short>
+	<long>Выберите микшер (линейный вход, линейный вход 1 и т.д.) для регулировки громкости звучания радио</long>
+      </locale>
+
+      <locale name="sk">
+	
+	<long>Vyberte mixovací zdroj (line, line1, atď.), ktorý je schopný kontrolovať hlasitosť Vášho rádia</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Извор миксера</short>
+	<long>Изаберите извор миксера (улаз, улаз1,...) који може да контролише јачину звука радија</long>
+      </locale>
+
+      <locale name="sr@Latn">
+	<short>Izvor miksera</short>
+	<long>Izaberite izvor miksera (ulaz, ulaz1,...) koji može da kontroliše jačinu zvuka radija</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Mixerkälla</short>
+	<long>Välj den mixerkälla (kanal, kanal1, etc.) som styr radiovolymen</long>
+      </locale>
+
+      <locale name="tr">
+	
+	<long>Radyonun sesini ayarlayabilen karıştırıcı aygıtı seçin (line, line1 vb) </long>
+      </locale>
+
+      <locale name="uk">
+	<short>Мікшер</short>
+	<long>Виберіть мікшер (лінійний вхід, лінійний вхід 1 тощо) для регулювання гучності звучання радіо</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Nguồn bộ hoà tiếng</short>
+	<long>Hãy chọn nguồn của bộ hoà tiếng (line, line1, v.v.) có khả năng điều khiển âm lượng của rađiô bạn.</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>混频器源</short>
+	<long>选择控制电台音量的混频器源（line, line1, 等）</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>混音來源</short>
+	<long>選擇可以控制音量的混音來源(line, line1...)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomeradio/mixer-device</key>
+      <applyto>/apps/gnomeradio/mixer-device</applyto>
+      <owner>gnomeradio</owner>
+      <type>string</type>
+      <default>/dev/mixer</default>
+      <locale name="C">
+	<short>Mixer Device</short>
+	<long>The mixer device that gnomeradio should use. Only changeable via this key (no GUI option)</long>
+      </locale>
+
+      <locale name="be">
+	<short>Прылада мікшара</short>
+	<long>Мікшар ужо выкарыстоўваецца. Магчыма зьмяняць толькі гэты ключ(ня ГІК опцыя)</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Устройство от мишпулта</short>
+	<long>Устройството на мишпулта, което да се използва от gnomeradio. Може да се променя сам с този ключ - настройката не е включена в интерфейса.</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Dispositiu mesclador</short>
+	<long>El mesclador que el gnomeradio hauria d&apos;utilitzar. Només es pot canviar mitjançant aquesta clau (opció no disponible al GUI)</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Zařízení mixéru</short>
+	<long>Zařízení mixéru, které by měl program Gnomeradio použít. Lze změnit pouze tímto klíčem (v GUI to není možné)</long>
+      </locale>
+
+      <locale name="da">
+	<short>Mixer-enhed</short>
+	<long>Mixer-enheden som skal bruges af gnomeradio. Kan kun skiftes via denne nøgleværdi (ingen GUI-indstilling)</long>
+      </locale>
+
+      <locale name="de">
+	<short>Mixer-Gerät</short>
+	<long>Das Mixer-Gerät, das gnomeradio verwenden soll. Nur mittels dieses Schlüssels zu verändern (Keine grafische Option)</long>
+      </locale>
+
+      <locale name="dz">
+	<short>སྦྱོར་འཕྲུལ་ཐབས་འཕྲུལ་</short>
+	<long>ཇི་ནོམ་རེཌིའོ་གིས་ལག་ལེན་འཐབ་དགོ་པའི་  སྦྱོར་འཕྲུལ་ཐབས་འཕྲུལ།  ལྡེ་མིག་འདི་ལས་བརྒྱུད་དེ་བསྒྱུར་བཅོས་འབད་བཏུབ་ཨིན་ (ཇི་ཡུ་ཨའི་གདམ་ཁ་མེད་)</long>
+      </locale>
+
+      <locale name="en_CA">
+	<short>Mixer Device</short>
+	<long>The mixer device that gnomeradio should use. Only changeable via this key (no GUI option)</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Mixer Device</short>
+	<long>The mixer device that gnomeradio should use. Only changeable via this key (no GUI option)</long>
+      </locale>
+
+      <locale name="es">
+	<short>Dispositivo mezclador</short>
+	<long>El dispositivo mezclador que debería usar gnomeradio.  Sólo puede modificarse a través de esta clave (no hay opción de IGU)</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Nahasgailua</short>
+	<long>Gnomeradiok erabiliko duen nahasgailua. Bakarrik gako honen bitartez alda daiteke (ez dago aukera grafikorik)</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Mikserilaite</short>
+	<long>Mikserilaite jota gnomeradion pitäisi käyttää. Vaihdettavissa vain tämän avaimen kautta (ei GUI vaihtoehtoa)</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Périphérique de mixage</short>
+	<long>Le périphérique de mixage utilisé par Gnomeradio. Cette valeur est modifiable uniquement par cette clé (pas d&apos;option dans l&apos;interface utilisateur)</long>
+      </locale>
+
+      <locale name="he">
+	<short>התקן מערבל</short>
+	<long>התקן המערבל שבו Gnomeradio ישתמש. ניתן לשינוי רק דרך מפתח זה (אין אפשרות בממשק המשתמש)</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Mikser </short>
+	<long>Uređaj miješanja koji treba koristiti gnomeradio. Promjenjivo je samo pomoću ove tipke (ne preko grafičkog sučelja)</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Keverőeszköz</short>
+	<long>A gnomeradio által használandó keverőeszköz. Csak ezen a kulcson keresztül változtatható meg (nincs GUI opció).</long>
+      </locale>
+
+      <locale name="it">
+	<short>Dispositivo del mixer</short>
+	<long>Il dispositivo del mixer che gnomeradio dovrebbe usare. Modificabile solo con questo tasto (nessuna opzione da interfaccia grafica)</long>
+      </locale>
+
+      <locale name="it-new">
+	<short>Periferica mixer</short>
+	<long>La periferica mixer che gnomeradio dovrebbe usare. Modificabile solo con questo tasto (nessuna opzione nell&apos;interfaccia grafica)</long>
+      </locale>
+
+      <locale name="ja">
+	<short>ミキサーデバイス</short>
+	<long>gnomeradio が利用するミキサーデバイスです。このキーを利用しなければ
+変更することはできません (GUI オプションはありません)</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Miksera Iekārta</short>
+	<long>Miksera iekārta, ko gnomeradio lietot. Tikai maināma ar šo atslēgu (nav GUI opcijas)</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Уред за миксирање</short>
+	<long>Миксер направата што gnomeradio треба да ја користи. Се полни само преку ова копче (без GUI опција)</long>
+      </locale>
+
+      <locale name="mn">
+	<short>Холигч төхөөрөмж</short>
+	<long>ГномеРадио хэрэглэх ёстойХолигч төхөөрөмж. Зөвхөн солигдогчоор энэ түлхүүр(GUI сонголт биш)</long>
+      </locale>
+
+      <locale name="ms">
+	<short>Peranti pengadun</short>
+	<long>peranti pengadun yang gnomeradio patut gunakan. Hanya boleh diubah melalui kekunci ini (Tiada opsyen GUI)</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Mikserenhet</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Mixer-apparaat</short>
+	<long>Het mixer-apparaat dat gnomeradio moet gebruiken. Alleen via deze sleutel te veranderen (geen GUI optie)</long>
+      </locale>
+
+      <locale name="pa">
+	<short>ਮਿਕਸਰ ਜੰਤਰ</short>
+	
+      </locale>
+
+      <locale name="pl">
+	<short>Urządzenie miksera</short>
+	<long>Mikser używany przez gnomeradio. Zmieniany tylko poprzez ten klucz (brak opcji w programie)</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Dispositivo Misturas</short>
+	<long>O dispositivo de mistura que o gnomeradio deverá utilizar. Apenas alterável através desta tecla (nenhuma opção de Interface)</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Dispositivo de mixagem</short>
+	<long>O dispositivo de mixagem que o gnomeradio deve usar. Apenas pode ser trocado por esta chave (não é uma opção da GUI)</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Устройство управления громкостью</short>
+	<long>Устройство микширования, которое gnomeradio будет использовать. Можно изменять только с помощью этого ключа (нет настройки в интерфейсе)</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Миксер уређај</short>
+	<long>Миксер уређај који гномерадио треба да користи. Променљицо само преко овог кључа (нема графичке опције)</long>
+      </locale>
+
+      <locale name="sr@Latn">
+	<short>Mikser uređaj</short>
+	<long>Mikser uređaj koji gnomeradio treba da koristi. Promenljico samo preko ovog ključa (nema grafičke opcije)</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Mixerenhet</short>
+	<long>Mixerenheten som gnomeradio ska använda. Endast ändringsbar via denna nyckel (inget alternativ i det grafiska användargränssnittet)</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Karıştırıcı</short>
+	<long>Gnomeradio&apos;nun kullanacağı karıştırıcı aygıt. Sadece bu tuş kullanılarak değiştirilebilir (GUI seçeneği yok)</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Пристрій мікшера</short>
+	<long>Пристрій мікшера, що має використовуватися Gnomeradio. Змінюється лише цим ключем (ГУІ не має відповідного параметра )</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Thiết bị hoà tiếng</short>
+	<long>Thiết bị hoà tiếng mà gnomeradio nên dùng. Chỉ thay đổi được qua khoá này (không có tùy chọn giao diện người dùng đồ họa).</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>混频器设备</short>
+	<long>gnomeradio 使用的混频器设备。仅通过此键更改（没有 GUI 选项）</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>混音裝置</short>
+	<long>Gnomeradio 使用的混音裝置。只能用此鍵更改。(無GUI選項)</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomeradio/presets/presets</key>
+      <applyto>/apps/gnomeradio/presets/presets</applyto>
+      <owner>gnomeradio</owner>
+      <type>int</type>
+      <default>0</default>
+      <locale name="C">
+	<short>Number of presets</short>
+	<long>The number of presets</long>
+      </locale>
+
+      <locale name="be">
+	<short>Нумар станцыі</short>
+	<long>Нумар станцыі</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Брой станции</short>
+	<long>Броят на станциите</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Nombre de presintonies</short>
+	<long>Nombre de presintonies</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Počet předvoleb</short>
+	<long>Počet předvoleb</long>
+      </locale>
+
+      <locale name="da">
+	<short>Antal forudindstillede kanaler</short>
+	<long>Antal forudindstillede kanaler</long>
+      </locale>
+
+      <locale name="de">
+	<short>Anzahl der Sender</short>
+	<long>Die Anzahl der Sender</long>
+      </locale>
+
+      <locale name="dz">
+	<short>སྔར་སྒྲིག་ཚུ་གི་ཨང་གྲངས་</short>
+	<long>སྔར་སྒྲིག་ཚུ་གི་ཨང་གྲངས་</long>
+      </locale>
+
+      <locale name="en_CA">
+	<short>Number of presets</short>
+	<long>The number of presets</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Number of presets</short>
+	<long>The number of presets</long>
+      </locale>
+
+      <locale name="es">
+	<short>Número de preajustes</short>
+	<long>El número de preajustes</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Ezarpen-kopurua</short>
+	<long>Ezarpenen kopurua</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Esivalintojen määrä</short>
+	<long>Esivalintojen määrä</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Nombre de stations</short>
+	<long>Le nombre de stations</long>
+      </locale>
+
+      <locale name="he">
+	<short>מספר תחנות</short>
+	<long>מספר התחנות</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Broj postavki</short>
+	<long>Broj psotavki</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Állomások száma</short>
+	<long>Az állomások száma</long>
+      </locale>
+
+      <locale name="it">
+	<short>Numero di preselezioni</short>
+	<long>Numero di preselezioni</long>
+      </locale>
+
+      <locale name="it-new">
+	<short>Numero di preselezioni</short>
+	<long>Numero di preselezioni</long>
+      </locale>
+
+      <locale name="ja">
+	<short>プリセットの数</short>
+	<long>プリセットの数</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Priekšnoteikto skaits</short>
+	<long>Priekšnoteikto skaits</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Број на присетови</short>
+	<long>Број на присетови</long>
+      </locale>
+
+      <locale name="mn">
+	<short>Сувгын тоо</short>
+	<long>Сувгын тоо</long>
+      </locale>
+
+      <locale name="ms">
+	<short>Bilangan preset</short>
+	<long>Bilangan preset</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Antall programmer</short>
+	<long>Antall stasjoner</long>
+      </locale>
+
+      <locale name="nl">
+	<short>Aantal voorkeuzestations</short>
+	<long>Het aantal voorkeuzestations</long>
+      </locale>
+
+      <locale name="pl">
+	<short>Liczba stacji</short>
+	<long>Liczba stacji</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Número de pré-definições</short>
+	<long>O número de pré-definições</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Número de predefinições</short>
+	<long>O número de predefinições</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Число предустановленных станций</short>
+	<long>Число станций</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Број станица</short>
+	<long>Број станица</long>
+      </locale>
+
+      <locale name="sr@Latn">
+	<short>Broj stanica</short>
+	<long>Broj stanica</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Antal program</short>
+	<long>Antalet program</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Kayıtlı kanal sayısı</short>
+	<long>Kayıtlı kanal sayısı</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Кількість станцій</short>
+	<long>Кількість станцій</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Số định sẵn</short>
+	<long>Số định sẵn</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>预设电台数</short>
+	<long>预设电台的数量</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>樣式數量</short>
+	<long>樣式數量</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomeradio/presets/last</key>
+      <applyto>/apps/gnomeradio/presets/last</applyto>
+      <owner>gnomeradio</owner>
+      <type>int</type>
+      <default>-1</default>
+      <locale name="C">
+	<short>Last presets</short>
+	<long>The preset that was enabled when gnomeradio was terminated. Range is 0 ... (# presets - 1). None is -1</long>
+      </locale>
+
+      <locale name="be">
+	<short>Апошняя станцыя</short>
+	<long>Станцыя якая уключаецца падчас выключэньня. Зьмяняецца ад 0 ... (# станцыя - 1). Але ня -1</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Последно запаметени</short>
+	<long>Тази станция беше избрана, когато gnomeradio приключи работа. Обхватът е 0 ... (# станция - 1). Ако не е зададено нищо, е -1</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Darrera presintonia</short>
+	<long>La presintonia que s&apos;habilitarà quan el gnomeradio finalitzi. El rang és 0 ... (nº de presintonies - 1). Cap serà -1</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Poslední předvolby</short>
+	<long>Předvolba, která byla zvolena při posledním ukončení programu Gnomeradio. Rozsah je od 0 ... (počet předvoleb - 1). Žádná znamená -1</long>
+      </locale>
+
+      <locale name="da">
+	<short>Seneste radiokanaler</short>
+	<long>Kanalen som var valgt, da gnomeradio sidst blev afsluttet. Interval er 0 ... (# kanaler - 1). Ingen er -1</long>
+      </locale>
+
+      <locale name="de">
+	<short>Letzte Sender</short>
+	<long>Der beim Beenden von Gnomeradio laufende Sender. Der Wert kann zwischen 0 und der Gesamtanzahl der Sender - 1 liegen, wobei auch diese beiden Werte angegeben werden dürfen. Der Wert -1 führt dazu, dass kein Sender verwendet wird.</long>
+      </locale>
+
+      <locale name="dz">
+	<short>མཇུག་གི་སྔར་སྒྲིག་ཚུ་</short>
+	<long>ཇི་ནོམ་རེ་ཌིའོ་བཏོན་གཏངམ་ད་  སྔར་སྒྲིག་འདི་ལྕོགས་ཅན་བཟོ་ཡོད།  ཁྱབ་ཚད་འདི་ ༠་ ...(# presets - 1) ཅི་མེད་འདི་ ༡་ ཨིན།</long>
+      </locale>
+
+      <locale name="en_CA">
+	<short>Last presets</short>
+	<long>The preset that was enabled when gnomeradio was terminated. Range is 0 ... (# presets - 1). None is -1</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>Last presets</short>
+	<long>The preset that was enabled when gnomeradio was terminated. Range is 0 ... (# presets - 1). None is -1</long>
+      </locale>
+
+      <locale name="es">
+	<short>Última emisora</short>
+	<long>El preajuste que se activó cuando terminó gnomeradio.  El rango es 0 ... (# de preajustes - 1).  Ninguno es -1.</long>
+      </locale>
+
+      <locale name="eu">
+	<short>Azken ezarpenak</short>
+	<long>Gnomeradio irtetean gaitutako ezarpena. Bitartea 0 da ... (# ezarpenak - 1). Bat ere ez -1 da</long>
+      </locale>
+
+      <locale name="fi">
+	<short>Viimeiset esivalinnat</short>
+	<long>Esivalinta joka oli päällä kun gnomeradio lopetettiin. Alue on 0 ... (#presets - 1). Ei mikään on -1</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Dernière station</short>
+	<long>La dernière station écoutée en quittant Gnomeradio. La plage de valeur allant de 0 à nombre de stations - 1. Utilisez -1 pour aucune.</long>
+      </locale>
+
+      <locale name="he">
+	<short>תחנה אחרונה</short>
+	<long>התחנה שפעלה כש Gnomeradio נסגר. התווך הוא 0 ... (# תחנות - 1). ללא זה -1</long>
+      </locale>
+
+      <locale name="hr">
+	<short>Zadnja postavka</short>
+	<long>Postavka je omogućena kad je isključen gnomeradio. Raspon 0 ... (# postavke -1). Bez postavke je -1.</long>
+      </locale>
+
+      <locale name="hu">
+	<short>Utolsó állomás</short>
+	<long>A gnomeradio leállításakor bekapcsolt állomás. A tartomány 0 és az állomások száma-1 között van, -1 esetén nincs megadva.</long>
+      </locale>
+
+      <locale name="it">
+	<short>Ultime preselezioni</short>
+	<long>La preselezione che era abilitata quando gnomeradio è stato chiuso. L&apos;intervallo è 0 ... (# preselezioni - 1). Nessuno è -1</long>
+      </locale>
+
+      <locale name="it-new">
+	<short>Ultime preselezioni</short>
+	<long>Numero di preselezioni che erano abilitate quando gnomeradio è stato chiuso. L&apos;intervallo è 0 ... (# preseleziona - 1). Nulla è -1</long>
+      </locale>
+
+      <locale name="ja">
+	<short>前回のプリセット</short>
+	<long>gnomeradio を終了していた時に有効になっていたプリセットです。
+範囲は 0 ... (# presets - 1) となります。無効だった場合は -1 です。</long>
+      </locale>
+
+      <locale name="lv">
+	<short>Beidzamie priešnoteiktie</short>
+	<long>Priekšnoteiktie, kas bija aktivizēti, kad gnomeradio tika nokauts. Diapazons ir 0 ... (# priekšnoteiktie - 1). Neviens ir -1</long>
+      </locale>
+
+      <locale name="mk">
+	<short>Последен присет</short>
+	<long>Пресетот што беше овозможен кога gnomeradio беше исклучено. Опсегот е 0 ... (# пресетови - 1). Никој не е -1</long>
+      </locale>
+
+      <locale name="mn">
+	<short>Сүүлчийн суваг</short>
+	<long>ГномеРадио-г болиулахад суваг ажиллаж байсан. Хэлбэлзэл 0 ... (# сувгууд - 1) байхгүй бол -1</long>
+      </locale>
+
+      <locale name="ms">
+	<short>Preset terakhir</short>
+	<long>Preset yang telah dihidupkan bila gnomeradio dimatikan. Julat adalah 0 ... (# preset - 1). Tiada adalah -1</long>
+      </locale>
+
+      <locale name="nb">
+	<short>Siste program</short>
+	
+      </locale>
+
+      <locale name="nl">
+	<short>Laatste voorkeuzestations</short>
+	<long>Het voorkeurzestation dat aanstond toen gnomeradio werd afgesloten. Bereik is 0 ... (# voorkeuzestation - 1). Geen is -1</long>
+      </locale>
+
+      <locale name="pl">
+	<short>Ostatnia stacja</short>
+	<long>Numer stacji, która była aktywna w chwili przerwania działania programu. Wartości mieszczą się w zakresie od 0 do liczba_stacji - 1. Wartość -1 oznacza brak stacji.</long>
+      </locale>
+
+      <locale name="pt">
+	<short>Últimas pré-definições</short>
+	<long>A pré-definição que estava activa quando o gnomeradio terminou. Intervalo é 0 ... (nº pré-definições -1). Nenhum é -1</long>
+      </locale>
+
+      <locale name="pt_BR">
+	<short>Últimas predefinições</short>
+	<long>A predefinição que estava habilitado quando o gnomeradio foi terminado. A faixa é 0 ... (Nº de predefinições - 1). Nenhuma é -1</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Последние станции</short>
+	<long>Станция которая была активной во время завершения работы gnomeradio. Промежуток от 0до &apos;число станций - 1&apos;. Просто -1 обозначает не выбрано.</long>
+      </locale>
+
+      <locale name="sr">
+	<short>Задња станица</short>
+	<long>Станица која је била активна када је гномерадио угашен. Вредност је 0 ... (# станице - 1). Ниједна није -1</long>
+      </locale>
+
+      <locale name="sr@Latn">
+	<short>Zadnja stanica</short>
+	<long>Stanica koja je bila aktivna kada je gnomeradio ugašen. Vrednost je 0 ... (# stanice - 1). Nijedna nije -1</long>
+      </locale>
+
+      <locale name="sv">
+	<short>Senaste program</short>
+	<long>Programmet som var på då gnomeradio avslutades. Intervallet är 0 ... (antalet program - 1). Inget program är -1</long>
+      </locale>
+
+      <locale name="tr">
+	<short>Kaydedilmiş son kanallar</short>
+	<long>Gnomeradio sonlandırıldığında etkinleştirilmiş olan kayıtlı kanal. Düzen:0 (# kayıtlı kanal - 1). Hiçbiri -1</long>
+      </locale>
+
+      <locale name="uk">
+	<short>Останні станції</short>
+	<long>Станція, що була увімкнена коли Gnomeradio припинив роботу. Діапазон: від 0 до кількості станцій - 1. Якщо немає, вкажіть  -1</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Định sẵn vừa dùng</short>
+	<long>Định sẵn đã được bật khi gnomeradio đã kết thúc. Phạm vi là 0 ... (số định sẵn - 1). Không là -1</long>
+      </locale>
+
+      <locale name="zh_CN">
+	<short>上一预制台</short>
+	<long>gnomeradio 被终止时的预制电台。范围为0...（#预设电台数-1）。没有预设时值为-1</long>
+      </locale>
+
+      <locale name="zh_TW">
+	<short>上一次的樣式</short>
+	<long>當 gnomeradio 結束時啟動的樣式。範圍為0...(# 樣式 - 1). 不啟動則為 -1。</long>
+      </locale>
+    </schema>
+	
+    <schema>
+      <key>/schemas/apps/gnomeradio/recording/profile</key>
+      <applyto>/apps/gnomeradio/recording/profile</applyto>
+      <owner>gnomeradio</owner>
+      <type>string</type>
+      <default>cdlossy</default>
+      <locale name="C">
+	<short>GnomeMedia Profile</short>
+	<long>Choose the GnomeMedia Profile that should be used for recording</long>
+      </locale>
+
+      <locale name="bg">
+	<short>Профил на GnomeMedia</short>
+	<long>Изберете профил на GnomeMedia, който ще се използва при запис</long>
+      </locale>
+
+      <locale name="ca">
+	<short>Perfil del GnomeMedia</short>
+	<long>Escolliu el perfil del GnomeMedia que s&apos;utilitzarà per enregistrar</long>
+      </locale>
+
+      <locale name="cs">
+	<short>Profil GnomeMedia</short>
+	<long>Vyberte profil GnomeMedia, který by měl být použit pro nahrávání</long>
+      </locale>
+
+      <locale name="de">
+	<short>GNOME Medienprofil</short>
+	<long>Wählen Sie das für die Aufnahme zu verwendende Medienprofil</long>
+      </locale>
+
+      <locale name="dz">
+	<short>ཇི་ནོམ་བརྡ་ལམ་གསལ་སྡུད་</short>
+	<long>སྒྲ་བཟུང་འབད་ནིའི་དོན་ལུ་  ཇི་ནོམ་བརྡ་ལམ་གསལ་སྡུད་འདི་གདམ་ཁ་བརྐྱབ་</long>
+      </locale>
+
+      <locale name="en_GB">
+	<short>GnomeMedia Profile</short>
+	<long>Choose the GnomeMedia Profile that should be used for recording</long>
+      </locale>
+
+      <locale name="es">
+	<short>Perfil de GnomeMedia</short>
+	<long>Elija el perfil de GnomeMedia que se debería usar para grabar</long>
+      </locale>
+
+      <locale name="eu">
+	<short>GnomeMedia-ren profila</short>
+	<long>Aukeratu GnomeMedia-ren profila grabazioan erabiltzeko</long>
+      </locale>
+
+      <locale name="fi">
+	<short>GnomeMedian profiili</short>
+	<long>Valitse nauhoitukseenkäytettävä GnomeMedian profiili</long>
+      </locale>
+
+      <locale name="fr">
+	<short>Profil GnomeMedia</short>
+	<long>Choisissez le profil GnomeMedia qui doit être utilisé lors de l&apos;enregistrement</long>
+      </locale>
+
+      <locale name="hu">
+	<short>GnomeMedia profil</short>
+	<long>Válassza ki a felvételhez használni kívánt GnomeMedia profilt</long>
+      </locale>
+
+      <locale name="it">
+	<short>Profilo GnomeMedia</short>
+	<long>Indica il profilo GnomeMedia da usare per le registrazioni</long>
+      </locale>
+
+      <locale name="nl">
+	<short>GnomeMedia-profiel</short>
+	<long>Kies het GnomeMedia-profiel dat gebruikt moet worden voor opnames</long>
+      </locale>
+
+      <locale name="ru">
+	<short>Профиль GnomeMedia</short>
+	<long>Выберите профиль GnomeMedia для записи</long>
+      </locale>
+
+      <locale name="sv">
+	<short>GnomeMedia-profil</short>
+	<long>Välj en GnomeMedia-profil som ska användas för inspelning</long>
+      </locale>
+
+      <locale name="vi">
+	<short>Hồ sơ GnomeMedia</short>
+	<long>Hãy chọn hồ sơ GnomeMedia cần dùng khi thu</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>

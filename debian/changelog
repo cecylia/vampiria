@@ -1,0 +1,622 @@
+gnomeradio (1.8-2ubuntu30) utopic; urgency=medium
+
+  * Don't break up when recording doesn't work and we use key allocated to
+    finish it.
+  * Minor adjustment to prevent noise sound through the speakers.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Wed, 09 Jul 2014 23:42:55 +0000
+
+gnomeradio (1.8-2ubuntu29) utopic; urgency=medium
+
+  * Improve volume control handling:
+    - Use a absolute value  when adjust the volume level.
+    - Don't touch volume level when switch to mute.
+    - Cleaned up the volume stuff so that lirc.c doesn't has to touch the
+      GtkVolumeButton anymore.
+    - Don't leak the buffer in alsa code.
+    - Various code clean up.
+  * Reworked first run dialog.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Sun, 06 Jul 2014 18:18:26 +0000
+
+gnomeradio (1.8-2ubuntu28) utopic; urgency=medium
+
+  * Small update needed because GTK+ 3.12 available in the Ubuntu 14.10 Utopic
+    Unicorn. (LP: #1329749)
+    - Stop using deprecated gtk margin function.
+    - Setting the volume icon size in UI to match the rest of the buttons.
+    - Use the new support for RTL icons in GtkIconTheme.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Fri, 13 Jun 2014 00:51:01 +0000
+
+gnomeradio (1.8-2ubuntu27) utopic; urgency=medium
+
+  * Added an explicit reference to the audio settings in man and help pages in
+    the event that radio card is not connected to the sound card via a cable.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Wed, 11 Jun 2014 07:20:34 +0000
+
+gnomeradio (1.8-2ubuntu26) trusty; urgency=low
+
+  * debian/patches/gnomeradio-g_object.patch: Removed useless calls to the
+    G_OBJECT() macro. (LP: #1267306)
+  * Updated debian/patches/gnomeradio-about.patch: Update COPYING file with
+    latest versions from gnu.org. (LP: #1266203)
+  * Updated debian/patches/gnomeradio-gtk_stock.patch: UI make it more sleek, 
+    remove relief from the UI buttons. (LP: #1265154)
+  * Updated debian/patches/gnomeradio-gtk_application.patch: Make the main
+    window a GtkApplicationWindow.
+  * Updated debian/patches/gnomeradio-ngettext.patch: Fix localization, use
+    g_dngettext instead of ngettext.
+  * Updated debian/patches/gnomeradio-record_information.patch: Use GDateTime
+    instead of time_t.
+  * Moved changes from debian/patches/gnomeradio-thread_safe.patch to
+    debian/patches/gnomeradio-alsa.patch and removed it as result.
+  * debian/control: Updated to Standards-Version 3.9.5, no changes needed.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Tue, 24 Dec 2013 10:38:24 +0000
+
+gnomeradio (1.8-2ubuntu25) trusty; urgency=low
+
+  * debian/patches/gnomeradio-gsettings.patch: Port gnomeradio to GSettings.
+    (LP: #1256796)
+  * debian/patches/gnomeradio-gtk_application.patch: Use GtkApplication, which
+    provides single-instance support. (LP: #1258429)
+  * debian/patches/gnomeradio-g_dbus.patch: Migrate from dbus-glib to glib's
+    GDBus. (LP: #1258518)
+  * Updates debian/patches/gnomeradio-about.patch: Use simply "About" instead of
+    "About Gnomeradio". (LP: #1259301)
+  * Updates debian/patches/gnomeradio-media_types.patch: Added ellipsis
+    character (…) for label of the install media type button.
+  * Updates debian/patches/gnomeradio-presets.patch: Joint into one patch with
+    debian/patches/gnomeradio-station_list.patch.
+  * debian/control: Removed Build-Depends on: libgconf2-dev and
+    libdbus-glib-1-dev.
+  * debian/rules: Removed the rule regarding GConf.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Sun, 01 Dec 2013 22:09:30 +0000
+
+gnomeradio (1.8-2ubuntu24) trusty; urgency=low
+
+  * Fixed previous debian/changelog: gnomeradio-tray_menu.patch is a new patch
+    not one updated.
+  * Updated debian/patches/gnomeradio-alsa.patch: Fixed wrong switch in case
+    statement. (LP: 1240691)
+  * Updated debian/patches/gnomeradio-auto_device.patch: Fixed pointer to local
+    stack variable returned or used outside scope.
+  * Updated debian/patches/gnomeradio-preferences.patch:
+    - Fixed the indentation of code suggests it is nested when it is not.
+    - Fixed function that returns non-void is missing a return value.
+    - Use GtkSwitch instead GtkRadioButton to change audio loopback state.
+      (LP: 1240632)
+    - Avoid memory leak (unref the gconf client when we're done).
+  * Updated debian/patches/gnomeradio-tray_menu.patch: Moved
+    tree_view_switch_to_preset() inside of gnomeradio_switch_to_preset() so
+    preset list will be updated when use LIRC command.
+  * Updated gnomeradio-station_list.patch: Make sure the XML document will be
+    indented.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Mon, 30 Sep 2013 12:21:35 +0000
+
+gnomeradio (1.8-2ubuntu23) saucy; urgency=low
+
+  * Updated debian/patches/gnomeradio-tray_menu.patch:
+    - Fixed menu item not update conform new order when we use move up[down]
+      swap. (LP: #1232931)
+    - Fixed conditional jump or move depends on uninitialized value.
+    - Added function to switch to preset in settings preset list when changed
+      them from tray menu.
+    - Cleaned up the files relating to the tray icon. Neither gui.c, prefs.c nor
+      record.c touch the internals of trayicon.c anymore.
+  * Updated debian/patches/gnomeradio-preferences.patch:
+    - Added option to disable audio loopback mode in Preferences settings.
+    - Moved in separate GOptionGroup all command line parameters which refers to
+      audio loopback mode.
+  * Updated debian/patches/gnomeradio-device.patch: Not need radio_mute() when
+    exit or session die, already is called in radio_stop().
+  * Updated debian/patches/gnomeradio-station_list.patch: Fixed pointer targets
+    in passing argument differ in signedness.
+  * Removed the content against configure and Makefile.in, since we use
+    autoreconf anyways, from:
+    - debian/patches/gnomeradio-gstreamer-1.0.patch.
+    - debian/patches/gnomeradio-volume_button.patch.
+  * Updated debian/patches/gnomeradio-volume_button.patch: Removed unused
+    vol_down[up].xpm icons.
+  * debian/gnomeradio.1: Updated man page.   
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Thu, 20 Sep 2013 13:31:33 +0000
+
+gnomeradio (1.8-2ubuntu22) saucy; urgency=low
+
+  * Updated debian/patches/gnomeradio-media_types.patch: Fix ambiguous function
+    prototypes.
+  * Application name is suggestive, so we removed long name. Updated to make
+    this change:
+    - debian/patches/gnomeradio.desktop.patch
+    - debian/patches/gnomeradio-documentation.patch
+    - debian/gnomeradio.1
+    - debian/menu
+    - debian/control
+  * Added keywords to .desktop file.
+  * debian/gnomeradio.xpm: Added instead of generating it automatically during
+    the build of the package.
+  * debian/control: Removed Build-Depends on imagemagick.
+  * debian/rules: Removed the rule regarding the generation of gnomeradio.xpm.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Wed, 25 Sep 2013 11:49:11 +0000
+
+gnomeradio (1.8-2ubuntu21) saucy; urgency=low
+
+  * Updated debian/patches/gnomeradio-media_types.patch: Add ogg opus encoding
+    profile.
+  * Updated debian/patches/gnomeradio-alsamixer.patch: Fix tooltip text in mute
+    on exit option.
+  * Updated debian/patches/gnomeradio-lirc.patch:
+    - Autodetect supported TV applications when switch to TV mode.
+    - Merged (and removed them as result) with gnomeradio-function.patch and
+      gnomeradio-keycode_mapping.patch.
+  * Added header to debian/patches/gnomeradio-preferences.patch.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Mon, 23 Sep 2013 08:47:52 +0000
+
+gnomeradio (1.8-2ubuntu20) saucy; urgency=low
+
+  * Updated debian/patches/gnomeradio-station_list.patch: Prevent to parse
+    malformed/incomplete/invalid XML file.
+  * Updated debian/patches/gnomeradio-auto_device.patch:
+    - Automatically detect radio device when users type auto in settings field.
+    - Updated error messages to be clear and precise.
+  * Updated debian/patches/gnomeradio-alsamixer.patch: Make presets list the
+    default widget when open settings dialog. Presets are the most common
+    settings for users than devices settings.
+  * Updated debian/patches/gnomeradio-about.patch: It is not safe in principle
+    to write raw UTF-8 in narrow string literals, made to be multibyte
+    encodings.
+  * debian/patches/gnomeradio-prefs.patch: Renamed to
+    debian/patches/gnomeradio-about.patch.
+  * debian/patches/gnomeradio-preferences.patch: Make sentence capitalization in
+    text and increased preferences dialog.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Wed, 11 Sep 2013 15:06:44 +0000
+
+gnomeradio (1.8-2ubuntu19) saucy; urgency=low
+
+  * debian/patches/gnomeradio-auto_device.patch: Added option to auto detect
+    radio device. Automatically switch between PCI and USB radio device.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Tue, 10 Sep 2013 17:10:13 +0000
+
+gnomeradio (1.8-2ubuntu18) saucy; urgency=low
+
+  * Updated debian/patches/gnomeradio-alsamixer.patch:
+    - Switch keyboard focus between radio[mixer] entry field when we need to set
+      this devices.
+    - Obstructed radio[mixer] device entry field to be empty to avoid alsa
+      buffer overrun when loopback device is enabled.
+  * Updated debian/patches/gnomeradio-alsa.patch: Fix tab indent in 
+    alsa_stream.c (only code styling).
+  * Updated debian/patches/gnomeradio-station_list.patch: Use ellipsis instead
+    three dots.
+  * Updated debian/patches/gnomeradio-media_types.patch: Fix potential crash
+    when GST_MESSAGE_ERROR are passed to the application.
+  * debian/patches/gnomeradio-license.patch: Renamed to
+    debian/patches/gnomeradio-about.patch.
+  * debian/patches/gnomeradio-about.patch: Add better comments about the
+    application.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Fri, 06 Sep 2013 10:54:25 +0000
+
+gnomeradio (1.8-2ubuntu17) saucy; urgency=low
+
+  * Updated debian/patches/gnomeradio-automake.patch: Link against lpthread.
+    (LP: #1218748)
+  * Updated debian/patches/gnomeradio-media_types.patch: Fix assigned value is
+    undefined.
+  * Drop docbook-to-man while docbook-to-man needs a new maintainer:
+    - debian/rules: Updated rules.
+    - debian/gnomeradio.1: Added man page written in nroff.
+    - debian/manpages: Added.
+    - debian/control: Removed Build-Depends on docbook-to-man.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Fri, 30 Aug 2013 05:55:31 +0000
+
+gnomeradio (1.8-2ubuntu16) saucy; urgency=low
+
+  * debian/patches/gnomeradio-gtk_stock.patch:
+    - Drop GtkStock usage.
+    - Use g_markup_printf_escaped().
+    - Stop using GtkImageMenuItem.
+    - Set button arrow icons according to locale's text direction. 
+  * Updated debian/patches/gnomeradio-media_types.patch:
+    - Fix memory leak in gst_pipeline_get_bus().
+    - Optimise queries file information.
+  * Updated debian/patches/gnomeradio-documentation.patch: Fix memory leak in
+    display_help_cb().
+  * Updated debian/patches/gnomeradio-gstreamer-1.0.patch: Improved peak level
+    message.
+  * Updated debian/patches/gnomeradio-g_list.patch: Use g_list_free_full().
+  * debian/gnomeradio.sgml: Added missing tag.
+  * Refresh patches:
+    - debian/patches/gnomeradio-alsa.patch
+    - debian/patches/gnomeradio-alsamixer.patch
+    - debian/patches/gnomeradio-build.patch
+    - debian/patches/gnomeradio-function.patch
+    - debian/patches/gnomeradio-g_thread_init_deprecation.patch
+    - debian/patches/gnomeradio-gtk_grid.patch
+    - debian/patches/gnomeradio-keyboard_shortcuts.patch
+    - debian/patches/gnomeradio-license.patch
+    - debian/patches/gnomeradio-ngettext.patch
+    - debian/patches/gnomeradio-non_modal.patch
+    - debian/patches/gnomeradio-record_information.patch
+    - debian/patches/gnomeradio-save_the_world.patch
+    - debian/patches/gnomeradio-set_pulse_role.patch
+    - debian/patches/gnomeradio-thread_safe.patch
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Thu, 11 Jul 2013 07:37:28 +0000
+
+gnomeradio (1.8-2ubuntu15) saucy; urgency=low
+
+  * Modified debian/patches/gnomeradio-alsa.patch: Added command line option to
+    disable loopback digital audio from radio device.
+  * Modified debian/patches/gnomeradio-media_types.patch: Use
+    g_return_val_if_fail().
+  * debian/gnomeradio.sgml: Updated man page.
+  * Refresh patches:
+    - debian/patches/gnomeradio-alsamixer.patch
+    - debian/patches/gnomeradio-media_types.patch
+    - debian/patches/gnomeradio-save_the_world.patch
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Sat, 05 Jul 2013 15:14:16 +0000
+
+gnomeradio (1.8-2ubuntu14) saucy; urgency=low
+
+  * debian/patches/gnomeradio-thread_safe.patch: Replace strtok() with
+    strtok_r(), readdir() with readdir_r() and localtime() with localtime_r()
+    for thread safe.
+  * Improved mixer error message in debian/patches/gnomeradio-alsamixer.patch.
+  * Moved changes applied to src/record.c from gnomeradio-media_types.patch to
+    gnomeradio-record_information.patch.
+    - Improved error message when getting information for file.
+  * debian/{control, rules}: Enable PIE hardening.
+  * Refresh patches:
+    - debian/patches/gnomeradio-gstreamer-1.0.patch
+    - debian/patches/gnomeradio-keyboard_shortcuts.patch
+    - debian/patches/gnomeradio-non_modal.patch
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Sat, 15 Jun 2013 15:14:16 +0000
+
+gnomeradio (1.8-2ubuntu13) saucy; urgency=low
+
+  * debian/patches/gnomeradio-automake.patch:
+    - Fix build with Automake 1.13.
+    - Use po/LINGUAS file.
+  * debian/patches/gnomeradio-g_list.patch:
+    - Don't use g_list_length() when testing for an empty list. This function
+      needlessly iterate through the entire list.
+    - Use g_list_prepend()/g_list_reverse() in a loop. More efficient than using
+      g_list_append(), which must traverse the whole list.
+  * Modified debian/patches/gnomeradio-alsa.patch:
+    - Fix memory leak in bus_type get_bus().
+    - Fix invalid printf() format.
+  * Modified debian/patches/gnomeradio-grid.patch and next patches:
+    - Use gtk_widget_set_[hv]align() instead of gtk_misc_set_alignment().
+    - Set the minimum content height instead of using gtk_widget_size_request()
+      on the parent scrolled window.
+  * Modified debian/patches/gnomeradio-record_information.patch:
+    - Set 'Details' as argument of the expander label.
+    - Removed redundant expander callback function.
+    - Pass NULL to gtk_label_new() arguments that call gtk_label_set_text()
+      function.
+  * Refresh patches:
+    - debian/patches/gnomeradio-alsamixer.patch
+    - debian/patches/gnomeradio-keyboard_shortcuts.patch
+    - debian/patches/gnomeradio-media_types.patch
+    - debian/patches/gnomeradio-non_modal.patch
+    - debian/patches/gnomeradio-presets.patch
+    - debian/patches/gnomeradio-station_list.patch
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Tue, 11 Jun 2013 10:37:16 +0000
+
+gnomeradio (1.8-2ubuntu12) saucy; urgency=low
+
+  * debian/gnomeradio-save_the_world: Use g_timeout_add_seconds instead
+    g_timeout_add.
+  * Modified debian/patches/gnomeradio-media_types.patch: Don't start recording
+    and show error dialog if we don't have write permission to selected location
+    or else missing multimedia plugin.
+  * Modified debian/patches/gnomeradio-prefs.patch: Fix
+    gtk_file_chooser_get_filename() return null.
+  * Modified debian/patches/gnomeradio-record_information.patch: Don't use
+    gtk_image_new_from_pixbuf to avoid memory leak.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Wed, 29 May 2013 16:24:49 +0000
+
+gnomeradio (1.8-2ubuntu11) saucy; urgency=low
+
+  * Modified debian/patches/gnomeradio-media_types.patch: Fixed crashed with
+    SIGSEGV in fprintf(). (LP: #1183470)
+  * Modified gnomeradio-license.patch:
+    - Rewrite About() to display only the essential information.
+    - Run gtk-update-icon-cache in uninstall-hook.
+  * Modified gnomeradio-station_list.patch: Added missing ellipsis for some
+    buttons in Preferences menu.
+  * Added full path of icon in debian/menu.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Fri, 24 May 2013 01:42:00 +0300
+
+gnomeradio (1.8-2ubuntu10) saucy; urgency=low
+
+  * Updated debian/patches/gnomeradio.desktop.patch: Set Name to Gnomeradio in
+    desktop file. (LP: #1082423)
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Thu, 11 Apr 2013 20:20:02 +0000
+
+gnomeradio (1.8-2ubuntu9) raring; urgency=low
+
+  * debian/gnomeradio.sgml: Updated man pages to reflect reality.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Thu, 28 Mar 2013 12:27:27 +0000
+
+gnomeradio (1.8-2ubuntu8) raring; urgency=low
+
+  * debian/patches/gnomeradio-alsa.patch: Added support for looping back audio
+    through alsa devices. (LP: #1154029)
+  * debian/patches/gnomeradio-alsamixer.patch: Added support to use the ALSA
+    mixer APIs. (LP: #613809)
+  * debian/patches/gnomeradio-media_profile.patch: Replaced GnomeMediaProfile
+    with GstEncodingProfile. (LP: #1154028)
+  * debian/patches/gnomeradio-documentation.patch: Use new documentation
+    infrastructure. (LP: #1091476)
+  * debian/rules: Removed obsolete --disable-scrollkeeper configure flag.
+  * debian/control: Build-Depends: added libasound2-dev, yelp-tools, removed 
+    libgnome-media-profiles-dev, gnome-doc-utils, scrollkeeper.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Sun, 03 Mar 2013 10:18:52 +0000
+
+gnomeradio (1.8-2ubuntu7) raring; urgency=low
+
+  * debian/patches/gnomeradio-device.patch: Don't stop radio twice to avoid
+    double free or corruption. (LP: #1110660)
+  * debian/control: Updated to Standards-Version 3.9.4, no changes needed
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Thu, 21 Feb 2013 16:49:57 +0000
+
+gnomeradio (1.8-2ubuntu6) raring; urgency=low
+
+  * debian/patches/gnomeradio-build.patch: Fix build in amd64, due to casting
+    gpointers to (gint). Now we use the GPOINTER_TO_INT macro wherever it's
+    needed.
+  * debian/patches/gnomeradio-set_pulse_role.patch: Set the pulse media role.
+    (LP: #1079573)
+  * debian/patches/gnomeradio-eos_message.patch: Send EOS before we stop
+    recording. (LP: #1079625)
+  * debian/patches/gnomeradio-presets.patch: Added option for sorting preset
+    stations with up or down arrow buttons. (LP: #1082274)
+  * debian/patches/gnomeradio-station_list.patch: Added option to export/import
+    list of preset stations to/from xml file. (LP: #69791)
+  * debian/patches/gnomeradio-gstreamer-1.0.patch: Port to GStreamer 1.0 API.
+    (LP: #1085118)
+  * Update debian/patches/gnomeradio-record_information: Get information about
+    audio profile.
+  * debian/control: Build-Depends: libgstreamer1.0-dev, 
+    libgstreamer-plugins-base1.0-dev, libxml2-dev.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Fri, 16 Nov 2012 07:16:10 +0000
+
+gnomeradio (1.8-2ubuntu5) quantal; urgency=low
+
+  * Updated debian/patches/gnomeradio-gtk_grid.patch: Redesigned
+    "Gnomeradio Settings" dialog to become more productive.
+  * Updated debian/patches/gnomeradio-record_information.patch: Fix information
+    in message dialog. 
+  * Updated debian/patches/gnomeradio-keyboard_shortcuts.patch: Group function
+    "key_press_event" in gui.c.
+  * debian/patches/gnomeradio-non_modal.patch: Set "Gnomeradio recording status"
+    dialog to non-modal to enable interaction with volume control in main
+    window. (LP: #1029472)
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Tue, 24 Jul 2012 20:33:09 +0000
+
+gnomeradio (1.8-2ubuntu4) quantal; urgency=low
+
+  * debian/patches/gnomeradio-keyboard_shortcuts.patch: Added a new keyboard
+    shortcut 's' to stop recording. (LP: #1026417)
+  * debian/patches/gnomeradio-keycode_mapping.patch: Use current keycode mapping
+    in default lirc keyname.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Thu, 19 Jul 2012 01:18:31 +0000
+
+gnomeradio (1.8-2ubuntu3) quantal; urgency=low
+
+  * debian/patches/gnomeradio-g_thread_init_deprecation.patch: Fix obsolete
+    g_thread_init(). (LP: #1013383)
+  * debian/patches/gnomeradio-gtk_grid.patch: Port to GtkGrid from deprecated
+    GtkTable. (LP: #1018398)
+  * gnomeradio-record_information.patch: Redesigned
+    'Gnomeradio recording status' window to show more recording information.
+    (LP: #1019981)
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Mon, 02 Jul 2012 20:54:09 +0000
+
+gnomeradio (1.8-2ubuntu2) quantal; urgency=low
+
+  * debian/patches/gnomeradio-ngettext.patch: Adds ngettext support for messages
+    strings. (LP: #980633)
+  * debian/patches/gnomeradio-help.patch: Fixed frecquency value step in manual
+    chapter "Usage/Frequency". (LP: #980652)
+  * debian/patches/gnomeradio-prefs.patch: Switched from a GtkButton to a
+    GtkFileChooserButton, instead of fidling around with the dialog.
+  * debian/patches/gnomeradio-function.patch: Added a new function, so that
+    lirc.c doesn't touch the internals of gui.c anymore.
+  * debian/patches/gnomeradio-license.patch: Added license dialog and website
+    label to "About Gnomeradio" dialog. (LP: #997473)
+  * debian/patches/gnomeradio-record.patch: Changed audio source from osssrc to
+    autoaudiosrc that automatically detects an appropriate audio source to use.
+    (LP: #1004761)
+  * Updated debian/patches/gnomeradio-v4l2.patch to fix the tooltip typo, use
+    "dev/radio0" (the official name of the radio device). (LP: #1005127) 
+  * debian/gnomeradio.sgml: Fixed ending tag mismatch.
+  * Switch to debhelper compat level v8.
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Tue, 12 Jun 2012 11:44:06 -0400
+
+gnomeradio (1.8-2ubuntu1) precise; urgency=low
+
+  * debian/patches/gnomeradio-volume_button.patch: replace BaconVolumeButton
+    with GtkVolumeButton (LP: #957867)
+  * debian/patches/gnomeradio-gtk3.patch: resolve build warnings about is used
+    deprecated GTK 3 API (LP: #954993)
+  * debian/patches/gnomeradio-draw_signal.patch: fixed problems with GTK 3
+    events and signals (LP: #955462)
+  * debian/patches/gnomeradio-gstreamer.patch: use standard gstreamer functions
+    to parse a description
+  * debian/patches/gnomeradio-v4l2.patch: changed defaults autodetection driver
+    for using v4l2 (LP: #958030)
+  * debian/patches/gnomeradio-lirc.patch: add a lirc command "toggle visible"
+  * debian/control: update to starndards-version 3.9.3, changes needed
+    + modify Maintainer value to match the Debian Maintainer Field specification
+    + moved project homepage field from description to new location.
+    + add suggests field: lirc-x 
+
+ -- POJAR GEORGE <geoubuntu@gmail.com>  Mon, 19 Mar 2012 08:17:36 +0100
+
+gnomeradio (1.8-2) unstable; urgency=low
+
+  [ Michael Biebl ]
+  * Pull patches from Fedora to make gnomeradio compile against GTK 3 and
+    gnome-media-profiles 3.0. (Closes: #645577)
+  * Don't patch configure directly, but use dh-autoreconf to update the build
+    system.
+  * Update build dependencies.
+  * Use dpkg source format 3.0 (quilt).
+
+  [ Francesco Namuri ]
+  * debian/rules: added DEB_CONFIGURE_SCRIPT_ENV to pass -lm to configure
+    script, avoid compilation problems with binutils-gold. 
+  * debian/control: bumped to 3.9.2 no changes needed. 
+  * added debian/patches/fix_gnome_radio_gui.patch to fix bug in gui.c 
+    gnome_radio_gui function causing a blank main gtk window.
+
+ -- Francesco Namuri <francesco@namuri.it>  Sun, 13 Nov 2011 17:01:29 +0100
+
+gnomeradio (1.8-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * debian/patches/hardening-format-security.diff: Closes: #642974.
+  * debian/menu: section="Applications/TV and Radio".  Closes: #564225.
+  * debian/control: Build-Depends: libv4l-dev
+    and debian/patches/videodev.diff: Closes: #621969.
+
+ -- Bart Martens <bartm@debian.org>  Fri, 30 Sep 2011 19:54:02 +0200
+
+gnomeradio (1.8-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/patches/: removed useless GLib_threading, trayicon.c,
+    fix_missing_description_in_gnomeradio.xml, prefs.c patches; now they
+    are implemented by the author.
+  * debian/control: Standards-Version updated to 3.8.0, no changes needed.
+
+ -- Francesco Namuri <francesco@namuri.it>  Wed, 12 Nov 2008 19:10:25 +0100
+
+gnomeradio (1.7-6) unstable; urgency=low
+
+  * debian/changelog: sync with the one from ubuntu.
+  * debian/patches/prefs.c.patch: fixed. In 1.7-6 I've uploaded a wrong
+    version of the patch, now it's the right one that Cesare Tirabassi
+    has included in the ubuntu's package. (Closes: #468796, #462891)
+
+ -- Francesco Namuri <francesco@namuri.it>  Mon, 12 May 2008 00:36:27 +0200
+
+gnomeradio (1.7-5ubuntu1) intrepid; urgency=low
+
+  * modified debian/patches/prefs.c.patch so that assertion is not
+    failed too. (LP: #197257)
+    Patch from http://bugzilla.gnome.org/attachment.cgi?id=104558
+    by Francesco Namuri.
+  * Modify Maintainer value to match the DebianMaintainerField
+    specification.
+
+ -- Cesare Tirabassi <norsetto@ubuntu.com>  Sat, 03 May 2008 21:33:27 +0200
+
+gnomeradio (1.7-5) unstable; urgency=low
+
+  * added debian/patches/prefs.c.patch to avoid crashes when modifies a preset
+    label. (Closes: #462891)
+  * debian/control: updated to starndards-version 3.7.3.
+  * debian/control: moved project homepage field from description to the
+    correct location.
+
+ -- Francesco Namuri <francesco@namuri.it>  Tue, 05 Feb 2008 22:44:34 +0100
+
+gnomeradio (1.7-4) unstable; urgency=low
+
+  * debian/menu: some style fixes.
+  * debian/patches/fix_missing_description_in_gnomeradio.xml.patch: fixed
+    wrong application entity. (Closes: #445892)
+
+ -- Francesco Namuri <francesco@namuri.it>  Tue, 09 Oct 2007 11:35:03 +0200
+
+gnomeradio (1.7-3) unstable; urgency=low
+
+  * added debian/patches/GLib_threading.patch to fix: GStreamer-WARNING:
+    GLib threading system has not been initialised yet (Closes: #444119)
+  * added debian/patches/gnomeradio.desktop.patch to fix invalid category in
+    desktop file.
+  * debian/menu: updated to fit with new hierarchy.
+  * debian/control: added build-dep on patchutils, fixed typo.
+
+ -- Francesco Namuri <francesco@namuri.it>  Sun, 07 Oct 2007 19:44:40 +0200
+
+gnomeradio (1.7-2) unstable; urgency=low
+
+  * added debian/patches/trayicon.c.patch to fix: egg_tray_icon_new() 
+    implicitly converted to pointer (Closes: #433235)
+
+ -- Francesco Namuri <francesco@namuri.it>  Mon, 16 Jul 2007 00:45:44 +0200
+
+gnomeradio (1.7-1) unstable; urgency=low
+
+  * Initial release. (Closes: #422553: ITP: gnomeradio -- FM-radio tuner
+    for the GNOME desktop - Debian Bug report logs)
+  * debian/control: changed Standards-Version to 3.7.2
+  * debian/control: added build-dep on libgnome-media-dev,
+    libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, gnome-doc-utils,
+    imagemagick
+  * debian/control: updated build-depends on debhelper (>= 5)
+  * debian/compat: changed to 5
+  * removed debian/patches/radio-device-file.patch
+  * added debian/patches/fix_missing_description_in_gnomeradio.xml.patch to
+    fix missing description in help/C/gnomeradio.xml
+  * debian/copyright: added some copyright/license informations
+  * added debian menu entry
+  * debian/rules: added --disable-scrollkeeper to configure flags to avoid
+    inclusion of scroolkeeper XML files in /var/lib/scrollpkeeper in the deb,
+    added a rule to convert icon from png to xpm
+  * added debian/gnomeradio.install to install xpm icon
+  * added debian/watch
+
+ -- Francesco Namuri <francesco@namuri.it>  Mon, 07 May 2007 00:27:11 +0200
+
+gnomeradio (1.6-0ubuntu3) dapper; urgency=low
+
+  * Added homepage url to the description in debian/control
+  * Added debian/patches/radio-device-file.patch:
+    change default location of the radio device file from
+    /dev/radio to /dev/radio0
+  * Changed debian/rules to include simple patchsys
+
+ -- Moritz Breit <mail@mobr.de>  Wed, 18 Jan 2006 17:21:34 +0100
+
+gnomeradio (1.6-0ubuntu2) breezy; urgency=low
+
+  * Rebuild with the new cairo version
+
+ -- Sebastien Bacher <seb128@canonical.com>  Thu, 18 Aug 2005 17:19:18 +0000
+
+gnomeradio (1.6-0ubuntu1) breezy; urgency=low
+
+  * Initial release
+
+ -- Moritz Breit <mail@mobr.de>  Sun, 31 Jul 2005 16:08:57 +0200
+

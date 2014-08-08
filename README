@@ -1,0 +1,28 @@
+Yeah, yet another gtk+ radiotuner *ggg*
+Don't ask me why i wrote it, just thought it would be fun.
+
+Installation is the same as always: 
+./configure 
+make
+make install
+make uninstall (if you don't like it)
+
+Note: You now need intltool to compile gnomeradio.
+
+The configure-script should detect lirc automagically, but if
+it doesn't, give --enable-lirc a try.
+
+For more info on lirc, check README.lirc.
+For more info on the recording functionality check README.recording
+
+That's it, thanks to Gerd Knorr (xawtv), cause i borrowed quite some
+code of radio.c which is included in xawtv, and all the guys from
+gnome-i18n mailing-list who were so kind to translate gnomeradio in 
+various languages.
+
+If you find any bugs, have comments or proposals on improvements
+fell free to contact me (mfcn@gmx.de)
+
+Greets,
+Jörgen
+

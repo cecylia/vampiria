@@ -1,0 +1,3 @@
+?package(gnomeradio):needs="X11" section="Applications/TV and Radio"\
+  icon="/usr/share/pixmaps/gnomeradio.xpm" title="Gnomeradio"\
+  command="/usr/bin/gnomeradio"

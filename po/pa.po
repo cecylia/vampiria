@@ -1,0 +1,506 @@
+# translation of pa.po to Punjabi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Amanpreet Singh Alam <amanpreetalam@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-05 07:08+0530\n"
+"PO-Revision-Date: 2005-08-05 07:17+0530\n"
+"Last-Translator: Amanpreet Singh Alam <amanpreetalam@yahoo.com>\n"
+"Language-Team: Punjabi <fedora-transa-pa@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gnomeradio.schemas.in.h:1
+msgid "Audio device"
+msgstr "ਆਡੀਓ ਜੰਤਰ"
+
+#: gnomeradio.schemas.in.h:2 src/record.c:355
+msgid "Choose the bitrate in which the mp3 will be encoded"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:3 src/prefs.c:562
+msgid ""
+"Choose the mixer source (line, line1, etc.) that is able to control the "
+"volume of your radio"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:4 src/record.c:354
+msgid "Choose the mp3 encoder that should be used"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:5 src/prefs.c:563
+msgid "If unchecked, gnomeradio won't mute after exiting"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:6
+msgid "Last frequency"
+msgstr "ਆਖਰੀ ਫਰੀਕਿਊਂਨਸੀ"
+
+#: gnomeradio.schemas.in.h:7
+msgid "Last presets"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:8
+msgid "MP3 bitrate"
+msgstr "MP3 ਬਿੱਟਰੇਟ"
+
+#: gnomeradio.schemas.in.h:9
+msgid "MP3 encoder"
+msgstr "MP3 ਇਕੋਡਰ"
+
+#: gnomeradio.schemas.in.h:10
+msgid "Mixer Device"
+msgstr "ਮਿਕਸਰ ਜੰਤਰ"
+
+#: gnomeradio.schemas.in.h:11
+msgid "Mixer source"
+msgstr "ਮਿਕਸਰ ਸਰੋਤ"
+
+#: gnomeradio.schemas.in.h:12
+msgid "Mute on exit"
+msgstr "ਬੰਦ ਕਰਨ ਤੇ ਚੁੱਪ"
+
+#: gnomeradio.schemas.in.h:13
+msgid "Number of presets"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:14
+msgid "Radio device"
+msgstr "ਰੇਡੀਓ ਜੰਤਰ"
+
+#: gnomeradio.schemas.in.h:15
+msgid "Record as mp3- or wave-file"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:16
+msgid "Record in stereo or mono"
+msgstr "ਸਟੀਰਿਓ ਜਾਂ ਮੋਨੋ 'ਚ ਰਿਕਾਰਡ"
+
+#: gnomeradio.schemas.in.h:17
+msgid "Sample format"
+msgstr "ਸਧਾਰਨ ਫਾਰਮਿਟ"
+
+#: gnomeradio.schemas.in.h:18
+msgid "Sample rate"
+msgstr "ਸਧਾਰਨ ਦਰ"
+
+#: gnomeradio.schemas.in.h:19 src/prefs.c:560
+msgid "Specify the radio-device (in most cases /dev/radio)"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:20 src/record.c:356
+msgid "The audio device to use (usually /dev/audio)"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:21 src/record.c:352
+msgid "The audio sample-rate of the wave-file"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:22 src/record.c:353
+msgid "The format (8 or 16 bit) of the wave-file"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:23
+msgid "The last frequency (in MHz) in use"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:24
+msgid ""
+"The mixer device that gnomeradio should use. Only changeable via this key "
+"(no GUI option)"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:25
+msgid "The number of presets"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:26
+msgid ""
+"The preset that was enabled when gnomeradio was terminated. Range is 0 ... "
+"(# presets - 1). None is -1"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:27
+msgid "The stored value of the volume (0-100)"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:28
+msgid "Volume"
+msgstr "ਅਵਾਜ਼"
+
+#: gnomeradio.schemas.in.h:29 src/record.c:357 src/record.c:358
+msgid "Whether the output should be a mp3- or a wave-file"
+msgstr ""
+
+#: gnomeradio.schemas.in.h:30 src/record.c:359 src/record.c:360
+msgid "Whether the output should be in stereo or mono"
+msgstr ""
+
+#: gnomeradio.desktop.in.h:1
+msgid "FM-Radio Tuner"
+msgstr "FM-ਰੇਡੀਓ ਟਿਊਨਰ"
+
+#: gnomeradio.desktop.in.h:2
+msgid "Listen to FM-radio"
+msgstr "FM-ਰੇਡੀਓ ਸੁਣੋ"
+
+#: src/prefs.c:248 src/prefs.c:676
+msgid "Wave file"
+msgstr "ਵੇਵ ਫਾਇਲ"
+
+#: src/prefs.c:268
+msgid "unamed"
+msgstr "ਬਿਨਾਂ-ਨਾਂ"
+
+#: src/prefs.c:333
+msgid "Choose a destination folder"
+msgstr "ਇੱਕ ਟਿਕਾਣਾ ਫੋਲਡਰ ਚੁਣੋ"
+
+#: src/prefs.c:472
+msgid "Gnomeradio Settings"
+msgstr "ਗਨੋਮ-ਰੇਡੀਓ ਸੈਟਿੰਗ"
+
+#: src/prefs.c:488
+msgid "General Settings"
+msgstr "ਸਧਾਰਨ ਸੈਟਿੰਗ"
+
+#: src/prefs.c:498
+msgid "Presets"
+msgstr ""
+
+#: src/prefs.c:508
+msgid "Record Settings"
+msgstr "ਰਿਕਾਰਡਿੰਗ ਸੈਟਿੰਗ"
+
+#: src/prefs.c:526
+msgid "Radio Device:"
+msgstr "ਰੇਡੀਓ ਜੰਤਰ:"
+
+#: src/prefs.c:533
+msgid "Mixer Source:"
+msgstr "ਮਿਕਸਰ ਸਰੋਤ:"
+
+#: src/prefs.c:550
+msgid "Mute on exit?"
+msgstr "ਕੀ ਬੰਦ ਕਰਨ 'ਤੇ ਚੁੱਪ?"
+
+#: src/prefs.c:632
+msgid "Add a new preset"
+msgstr ""
+
+#: src/prefs.c:633
+msgid "Remove preset from List"
+msgstr ""
+
+#: src/prefs.c:661 src/record.c:275
+msgid "Encoder:"
+msgstr "ਇਕੋਡਰ:"
+
+#: src/prefs.c:662 src/record.c:276
+msgid "Bitrate:"
+msgstr "ਬਿੱਟਰੇਟ:"
+
+#: src/prefs.c:663
+msgid "Destination directory:"
+msgstr "ਟਿਕਾਣਾ ਡਾਇਰੈਕਟਰੀ:"
+
+#: src/prefs.c:692
+#, c-format
+msgid "%s kb/s"
+msgstr "%s kb/s"
+
+#: src/prefs.c:714
+msgid ""
+"Choose the mp3-/ogg-encoder that should be used, or to record as a "
+"uncompressed wave file"
+msgstr ""
+
+#: src/prefs.c:715
+msgid "Choose the bitrate in which the mp3/ogg will be encoded"
+msgstr ""
+
+#: src/gui.c:68
+#, c-format
+msgid ""
+"Could not open device \"%s\" !\n"
+"\n"
+"Check your Settings and make sure that no other\n"
+"program is using %s.\n"
+"Make also sure that you have read-access to it."
+msgstr ""
+
+#: src/gui.c:90
+#, c-format
+msgid "Mixer source \"%s\" is not a valid source!"
+msgstr "ਮਿਕਸਰ ਸਰੋਤ \"%s\" ਇੱਕ ਠੀਕ ਸਰੋਤ ਨਹੀਂ ਹੈ!"
+
+#: src/gui.c:92
+#, c-format
+msgid "Could not open \"%s\"!"
+msgstr "\"%s\" ਨੂੰ ਖੋਲਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ!"
+
+#: src/gui.c:247 src/gui.c:255 src/gui.c:732
+#, c-format
+msgid "Gnomeradio - %.2f MHz"
+msgstr "ਗਨੋਮ-ਰੇਡੀਓ - %.2f MHz"
+
+#: src/gui.c:251 src/gui.c:918
+#, c-format
+msgid "Frequency: %.2f MHz"
+msgstr "ਫਰੀਕਿਊਂਨਸੀ: %.2f MHz"
+
+#: src/gui.c:275 src/gui.c:921
+#, c-format
+msgid "Volume: %d%%"
+msgstr "ਅਵਾਜ਼: %d%%"
+
+#: src/gui.c:556
+msgid "Sox could not be detected. Please ensure that it is installed in your PATH."
+msgstr ""
+
+#. consult man strftime to translate this. This is a filename, so don't use "/" or ":", please
+#: src/gui.c:570
+msgid "%B-%d-%Y_%H-%M-%S"
+msgstr "%B-%d-%Y_%H-%M-%S"
+
+#. Only change the "MHz" part here (if applicable)
+#: src/gui.c:573
+#, c-format
+msgid "%s/%.2fMHz_%s%s"
+msgstr "%s/%.2fMHz_%s%s"
+
+#: src/gui.c:582
+#, c-format
+msgid ""
+"Error opening file '%s':\n"
+"%s"
+msgstr ""
+"ਫਾਇਲ '%s' ਖੋਲਣ ਦੌਰਾਨ ਗਲਤੀ:\n"
+"%s"
+
+#: src/gui.c:597 src/gui.c:916
+msgid "Mute"
+msgstr "ਚੁੱਪ"
+
+#: src/gui.c:603
+msgid "Unmute"
+msgstr "ਨਾ-ਚੁੱਪ"
+
+#. Feel free to put your names here translators :-)
+#: src/gui.c:615
+msgid "TRANSLATORS"
+msgstr ""
+"ਅਮਨਪਰੀਤ ਸਿੰਘ ਬਰਾੜ\n"
+"aalam@redhat.com\n"
+"http://punlinux.sf.net"
+
+#: src/gui.c:626
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+msgstr ""
+
+#: src/gui.c:630
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled without LIRC support."
+msgstr ""
+
+#: src/gui.c:752
+msgid "Gnomeradio"
+msgstr "ਗਨੋਮ-ਰੇਡੀਓ"
+
+#: src/gui.c:806
+msgid "Presets:"
+msgstr ""
+
+#: src/gui.c:909
+msgid "Scan Backwards"
+msgstr "ਪਿੱਛੇ ਜਾਂਚ"
+
+#: src/gui.c:910
+msgid "Scan Forwards"
+msgstr "ਅੱਗੇ ਜਾਂਚ"
+
+#: src/gui.c:911
+msgid "0.05 MHz Backwards"
+msgstr "0.05 MHz ਪਿੱਛੇ"
+
+#: src/gui.c:912
+msgid "0.05 MHz Forwards"
+msgstr "0.05 MHz ਅੱਗੇ"
+
+#: src/gui.c:913
+msgid "About Gnomeradio"
+msgstr "ਗਨੋਮ-ਰੇਡੀਓ ਬਾਰੇ"
+
+#: src/gui.c:914
+msgid "Record radio as Wave, OGG or MP3"
+msgstr "ਰੇਡੀਓ ਨੂੰ ਵੇਵ, OGG ਜਾਂ MP3 ਦੇ ਤੌਰ 'ਤੇ ਰਿਕਾਰਡ"
+
+#: src/gui.c:915
+msgid "Edit your Preferences"
+msgstr "ਆਪਣੀ ਪਸੰਦ ਸੋਧ"
+
+#: src/gui.c:917
+msgid "Quit"
+msgstr "ਬਾਹਰ"
+
+#: src/gui.c:1036
+#, c-format
+msgid ""
+"Failed to init GConf: %s\n"
+"Changes to the settings won't be saved\n"
+msgstr ""
+
+#: src/gui.c:1050
+msgid "manual"
+msgstr "ਦਸਤੀ"
+
+#. GtkWidget *dialog;
+#. dialog = gtk_message_dialog_new(NULL, DIALOG_FLAGS, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,
+#. _("Could not start lirc"));
+#. gtk_dialog_run (GTK_DIALOG (dialog));
+#. gtk_widget_destroy (dialog);
+#.
+#: src/gui.c:1073
+msgid "Could not start lirc!\n"
+msgstr ""
+
+#: src/record.c:154
+msgid "Start"
+msgstr "ਸ਼ੁਰੂ"
+
+#: src/record.c:162
+msgid "Gnomeradio Record"
+msgstr "ਗਨੋਮ-ਰੇਡੀਓ ਰਿਕਾਰਡ"
+
+#: src/record.c:170
+msgid "General"
+msgstr "ਸਧਾਰਨ"
+
+#: src/record.c:171
+msgid "Wave Settings"
+msgstr "ਵੇਵ ਸੈਟਿੰਗ"
+
+#: src/record.c:172
+msgid "Mp3/Ogg Settings"
+msgstr "Mp3/Ogg ਸੈਟਿੰਗ"
+
+#: src/record.c:184
+msgid "Audio device:"
+msgstr "ਆਡੀਓ ਜੰਤਰ:"
+
+#: src/record.c:187
+msgid "Filename:"
+msgstr "ਫਾਇਲ ਨਾਂ:"
+
+#. path_entry = gtk_entry_new();
+#: src/record.c:189
+msgid "Choose a filename"
+msgstr "ਇੱਕ ਫਾਇਲ ਨਾਂ ਚੁਣੋ"
+
+#. choose_button = gtk_button_new_with_label(_("Choose..."));
+#: src/record.c:195
+msgid "Record as:"
+msgstr "ਰਿਕਾਰਡ ਕਰੋ:"
+
+#: src/record.c:196
+msgid "Wave (.wav)"
+msgstr "ਵੇਵ (.wav)"
+
+#: src/record.c:197
+msgid "MP3/Ogg (.mp3/.ogg)"
+msgstr "MP3/Ogg (.mp3/.ogg)"
+
+#: src/record.c:221
+msgid "Sample rate:"
+msgstr "ਸਧਾਰਨ ਦਰ:"
+
+#: src/record.c:222
+msgid "Sample format:"
+msgstr "ਸਧਾਰਨ ਫਾਰਮਿਟ:"
+
+#: src/record.c:223
+msgid "Record in:"
+msgstr "ਰਿਕਾਰਡ ਇਨ:"
+
+#: src/record.c:256
+msgid "Mono"
+msgstr "ਮੋਨੋ"
+
+#: src/record.c:257
+msgid "Stereo"
+msgstr "ਸਟੀਰਿਓ"
+
+#: src/record.c:303 src/record.c:310
+msgid "no supported encoder installed"
+msgstr "ਕੋਈ ਸਹਾਇਕ ਇੰਕੋਡਰ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ"
+
+#: src/record.c:431
+#, c-format
+msgid ""
+"%s has stopped:\n"
+"%s\n"
+msgstr ""
+"%s ਰੁਕਿਆ ਹੈ:\n"
+"%s\n"
+
+#: src/record.c:432
+msgid "MP3/Ogg encoder"
+msgstr "MP3/Ogg ਇੰਕੋਡਰ"
+
+#: src/record.c:433
+msgid "unknown reason"
+msgstr "ਅਣਜਾਣ ਕਾਰਨ"
+
+#: src/record.c:482
+#, c-format
+msgid "%i byte"
+msgstr "%i ਬਾਈਟ"
+
+#: src/record.c:484
+#, c-format
+msgid "%i kB"
+msgstr "%i ਕਿਬਾ"
+
+#: src/record.c:485
+#, c-format
+msgid "%.2f MB"
+msgstr "%.2f ਮੈਬਾ"
+
+#: src/record.c:487
+msgid "Error"
+msgstr "ਗਲਤੀ"
+
+#: src/record.c:488
+msgid "0 byte"
+msgstr "0 ਬਾਇਟ"
+
+#: src/record.c:528
+msgid "Gnomeradio recording status"
+msgstr "ਗਨੋਮ-ਰੇਡੀਓ ਰਿਕਾਰਡਿੰਗ ਹਾਲਤ"
+
+#: src/record.c:541
+msgid "Recording:"
+msgstr "ਰਿਕਾਰਡਿੰਗ:"
+
+#: src/record.c:542
+msgid "Filesize:"
+msgstr "ਫਾਇਲ ਅਕਾਰ:"
+
+#: src/record.c:559
+msgid "Stop Recording"
+msgstr "ਰਿਕਾਰਡਿੰਗ ਰੋਕੋ"
+

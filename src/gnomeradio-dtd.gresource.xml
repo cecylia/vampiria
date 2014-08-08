@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/gnomeradio">
+    <file>gnomeradio.dtd</file>
+  </gresource>
+</gresources>
+
+

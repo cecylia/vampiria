@@ -1,0 +1,11 @@
+<!--
+  Copyright © 2014 POJAR GEORGE <geoubuntu@gmail.com>
+-->
+
+<!ELEMENT gnomeradio (station)* >
+<!-- station -->
+<!ELEMENT station  EMPTY >
+	<!-- freq : ... -->
+	<!ATTLIST station freq CDATA #REQUIRED >
+	<!-- name : ... -->
+	<!ATTLIST station name CDATA #REQUIRED >

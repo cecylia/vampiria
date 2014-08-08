@@ -1,0 +1,446 @@
+# Russian messages for Gnomeradio.
+# Andrey Kiselev <a_kissel@eudoramail.com>, 2002.
+#                               
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomeradio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-25 21:43+0400\n"
+"PO-Revision-Date: 2006-06-25 22:27+0400\n"
+"Last-Translator: Salihov Timur <tima-s@yandex.ru>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gnomeradio.schemas.in.h:1
+msgid "Choose the GnomeMedia Profile that should be used for recording"
+msgstr "Выберите профиль GnomeMedia для записи"
+
+#: ../gnomeradio.schemas.in.h:2 ../src/prefs.c:608
+msgid ""
+"Choose the mixer source (line, line1, etc.) that is able to control the "
+"volume of your radio"
+msgstr ""
+"Выберите микшер (линейный вход, линейный вход 1 и т.д.) для регулировки "
+"громкости звучания радио"
+
+#: ../gnomeradio.schemas.in.h:3
+msgid "GnomeMedia Profile"
+msgstr "Профиль GnomeMedia"
+
+#: ../gnomeradio.schemas.in.h:4 ../src/prefs.c:609
+msgid "If unchecked, gnomeradio won't mute after exiting"
+msgstr ""
+"Если не выбрано, то gnomeradio не будет выключать звук при завершении работы"
+
+#: ../gnomeradio.schemas.in.h:5
+msgid "Last frequency"
+msgstr "Последняя частота"
+
+#: ../gnomeradio.schemas.in.h:6
+msgid "Last presets"
+msgstr "Последние станции"
+
+#: ../gnomeradio.schemas.in.h:7
+msgid "Mixer Device"
+msgstr "Устройство управления громкостью"
+
+#: ../gnomeradio.schemas.in.h:8
+msgid "Mixer source"
+msgstr "Источник записи"
+
+#: ../gnomeradio.schemas.in.h:9
+msgid "Mute on exit"
+msgstr "Выключать звук при завершении работы"
+
+#: ../gnomeradio.schemas.in.h:10
+msgid "Number of presets"
+msgstr "Число предустановленных станций"
+
+#: ../gnomeradio.schemas.in.h:11
+msgid "Radio device"
+msgstr "Устройство радио"
+
+#: ../gnomeradio.schemas.in.h:12 ../src/prefs.c:606
+msgid "Specify the radio-device (in most cases /dev/radio)"
+msgstr "Выберите устройство радио (в большинстве случаев /dev/radio)"
+
+#: ../gnomeradio.schemas.in.h:13
+msgid "The last frequency (in MHz) in use"
+msgstr "Последняя используемая частота (в МГц)"
+
+#: ../gnomeradio.schemas.in.h:14
+msgid ""
+"The mixer device that gnomeradio should use. Only changeable via this key "
+"(no GUI option)"
+msgstr ""
+"Устройство микширования, которое gnomeradio будет использовать. Можно "
+"изменять только с помощью этого ключа (нет настройки в интерфейсе)"
+
+#: ../gnomeradio.schemas.in.h:15
+msgid "The number of presets"
+msgstr "Число станций"
+
+#: ../gnomeradio.schemas.in.h:16
+msgid ""
+"The preset that was enabled when gnomeradio was terminated. Range is 0 ... "
+"(# presets - 1). None is -1"
+msgstr ""
+"Станция которая была активной во время завершения работы gnomeradio. "
+"Промежуток от 0до 'число станций - 1'. Просто -1 обозначает не выбрано."
+
+#: ../gnomeradio.desktop.in.h:1
+msgid "FM-Radio Tuner"
+msgstr "FM радио-приемник"
+
+#: ../gnomeradio.desktop.in.h:2
+msgid "Listen to FM-radio"
+msgstr "Прослушать FM-радио"
+
+#: ../src/prefs.c:157 ../src/prefs.c:288 ../src/gui.c:177
+msgid "unnamed"
+msgstr "безымянная"
+
+#: ../src/prefs.c:367
+msgid "Choose a destination folder"
+msgstr "Выберите каталог сохранения"
+
+#: ../src/prefs.c:518
+msgid "Gnomeradio Settings"
+msgstr "Параметры gnomeradio"
+
+#: ../src/prefs.c:534
+msgid "General Settings"
+msgstr "Параметры"
+
+#: ../src/prefs.c:544
+msgid "Presets"
+msgstr "Станции"
+
+#: ../src/prefs.c:554
+msgid "Record Settings"
+msgstr "Параметры записи"
+
+#: ../src/prefs.c:572
+msgid "Radio Device:"
+msgstr "Устройство радио:"
+
+#: ../src/prefs.c:579
+msgid "Mixer Source:"
+msgstr "Микшер:"
+
+#: ../src/prefs.c:596
+msgid "Mute on exit?"
+msgstr "Выключить звук при завершении работы?"
+
+#: ../src/prefs.c:678
+msgid "Add a new preset"
+msgstr "Добавить новую станцию"
+
+#: ../src/prefs.c:679
+msgid "Remove preset from List"
+msgstr "Удалить станцию из списка"
+
+#: ../src/prefs.c:692
+msgid "Destination directory:"
+msgstr "Каталог сохранения:"
+
+#: ../src/prefs.c:710
+msgid "Choose the Media Profile that should be used to record."
+msgstr "Выберите профиль записи звука"
+
+#: ../src/gui.c:97
+#, c-format
+msgid "%d stations found"
+msgstr "Найдено %d станций"
+
+#: ../src/gui.c:124
+msgid "Scanning"
+msgstr "Поиск"
+
+#: ../src/gui.c:129
+msgid "Scanning for available stations:"
+msgstr "Поиск доступных станций:"
+
+#: ../src/gui.c:139
+msgid "No stations found"
+msgstr "Станций не найдено"
+
+#: ../src/gui.c:164
+#, c-format
+msgid ""
+"%d stations found. \n"
+"Do you want to add them as presets?\n"
+msgstr ""
+"Найдено %d станций:\n"
+"Хотите ли вы добавить их в список?\n"
+
+#: ../src/gui.c:225
+#, c-format
+msgid "Could not open device \"%s\"!"
+msgstr "Невозможно открыть устройство \"%s\"!"
+
+#: ../src/gui.c:226
+#, c-format
+msgid ""
+"Check your settings and make sure that no other\n"
+"program is using %s.\n"
+"Also make sure that you have read-access to it."
+msgstr ""
+"Проверьте настройки и убедитесь, что\n"
+"другая программа не использует %s.\n"
+"Убедитесь также, что у Вас есть доступ на чтение к нему."
+
+#: ../src/gui.c:250
+#, c-format
+msgid "Mixer source \"%s\" is not a valid source!"
+msgstr "Микшер \"%s\" недопустим!"
+
+#: ../src/gui.c:252
+#, c-format
+msgid "Could not open \"%s\"!"
+msgstr "Невозможно открыть \"%s\"!"
+
+#: ../src/gui.c:392
+#, c-format
+msgid "Gnomeradio - %s"
+msgstr "Gnomeradio - %s"
+
+#: ../src/gui.c:394 ../src/trayicon.c:158
+#, c-format
+msgid "Gnomeradio - %.2f MHz"
+msgstr "Gnomeradio - %.2f МГц"
+
+#: ../src/gui.c:399 ../src/gui.c:970
+#, c-format
+msgid "Frequency: %.2f MHz"
+msgstr "Частота: %.2f МГц"
+
+#. consult man strftime to translate this. This is a filename, so don't use "/" or ":", please
+#: ../src/gui.c:652
+msgid "%B-%d-%Y_%H-%M-%S"
+msgstr "%d-%B-%Y_%H-%M-%S"
+
+#. Only change the "MHz" part here (if applicable)
+#: ../src/gui.c:656
+#, c-format
+msgid "%s/%.2fMHz_%s"
+msgstr "%s/%.2fМГц_%s"
+
+#: ../src/gui.c:665
+#, c-format
+msgid "%s/%s_%s"
+msgstr "%s/%s_%s"
+
+#: ../src/gui.c:702
+msgid "Unmute"
+msgstr "Включить звук"
+
+#: ../src/gui.c:706
+msgid "Mute"
+msgstr "Выключить звук"
+
+#. Feel free to put your names here translators :-)
+#: ../src/gui.c:719
+msgid "TRANSLATORS"
+msgstr ""
+"Андрей Киселев <a_kissel@eudoramail.com>\n"
+"Салихов Тимур <tima-s@yandex.ru>"
+
+#: ../src/gui.c:730
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+msgstr ""
+"Gnomeradio это приложения для приема FM-радио в рабочей среде GNOME. Оно "
+"должно работать со всем оборудованием, которое поддерживается драйверами "
+"video4linux.\n"
+"\n"
+"Эта версия была собрана с поддержкой LIRC (управлением через пульт)."
+
+#: ../src/gui.c:734
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled without LIRC support."
+msgstr ""
+"Gnomeradio это приложения для приема FM-радио в рабочей среде GNOME. Оно "
+"должно работать со всем оборудованием, которое поддерживается драйверами "
+"video4linux.\n"
+"\n"
+"Эта версия была собрана с без поддержки LIRC (управления через пульт)."
+
+#: ../src/gui.c:802 ../src/gui.c:1071
+msgid "Gnomeradio"
+msgstr "Gnomeradio"
+
+#: ../src/gui.c:858
+msgid "Presets:"
+msgstr "Станции:"
+
+#: ../src/gui.c:961
+msgid "Scan Backwards"
+msgstr "Сканировать назад"
+
+#: ../src/gui.c:962
+msgid "Scan Forwards"
+msgstr "Сканировать вперед"
+
+#: ../src/gui.c:963
+msgid "0.05 MHz Backwards"
+msgstr "0,05 МГц назад"
+
+#: ../src/gui.c:964
+msgid "0.05 MHz Forwards"
+msgstr "0,05 МГц вперед"
+
+#: ../src/gui.c:965
+msgid "About Gnomeradio"
+msgstr "О Gnomeradio"
+
+#: ../src/gui.c:966
+msgid "Record radio as Wave, OGG or MP3"
+msgstr "Записать звук как WAV, OGG или MP3"
+
+#: ../src/gui.c:967
+msgid "Edit your Preferences"
+msgstr "Изменить настройки"
+
+#: ../src/gui.c:968
+msgid "Adjust the Volume"
+msgstr "Регулировка громкости"
+
+#: ../src/gui.c:969
+msgid "Quit"
+msgstr "Выход"
+
+#: ../src/gui.c:1063
+msgid "Scan for stations"
+msgstr "Поиск станций"
+
+#: ../src/gui.c:1101
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"Changes to the settings won't be saved."
+msgstr ""
+"%s\n"
+"\n"
+"Изменения в настройках не будут сохранены."
+
+#: ../src/gui.c:1102
+msgid "Failed to init GConf!"
+msgstr "Ошибка инициализации GConf!"
+
+#: ../src/gui.c:1115
+msgid "manual"
+msgstr "вручную"
+
+#: ../src/gui.c:1126
+msgid "Could not scan. Radio is not initialized."
+msgstr "Поиск невозможен: радио не инициализировано."
+
+#. GtkWidget *dialog;
+#. dialog = gtk_message_dialog_new(NULL, DIALOG_FLAGS, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,
+#. _("Could not start lirc"));
+#. gtk_dialog_run (GTK_DIALOG (dialog));
+#. gtk_widget_destroy (dialog);
+#.
+#: ../src/gui.c:1149
+msgid "Could not start lirc!"
+msgstr "Невозможно запустить lirc!"
+
+#: ../src/trayicon.c:79
+msgid "Muted"
+msgstr "Звук выключен"
+
+#: ../src/trayicon.c:93
+msgid "Show Window"
+msgstr "показать окно"
+
+#: ../src/record.c:65
+#, c-format
+msgid "%i byte"
+msgstr "%i байт"
+
+#: ../src/record.c:67
+#, c-format
+msgid "%i kB"
+msgstr "%i килобайт"
+
+#: ../src/record.c:68
+#, c-format
+msgid "%.2f MB"
+msgstr "%.2f мегабайт"
+
+#: ../src/record.c:70
+msgid "Error"
+msgstr "Ошибка"
+
+#: ../src/record.c:71
+msgid "0 byte"
+msgstr "0 байт"
+
+#: ../src/record.c:106
+msgid "Gnomeradio recording status"
+msgstr "Статус записи gnomeradio"
+
+#: ../src/record.c:119
+msgid "Recording:"
+msgstr "Запись:"
+
+#: ../src/record.c:120
+msgid "Filesize:"
+msgstr "Размер файла:"
+
+#: ../src/record.c:137
+msgid "Stop Recording"
+msgstr "Остановить запись"
+
+#: ../src/rec_tech.c:42
+msgid "GStreamer runtime error."
+msgstr "Ошибка выполнения GStreamer."
+
+#: ../src/rec_tech.c:58
+msgid "Could not create GStreamer pipeline."
+msgstr "Не удается создать конвейер GStreamer."
+
+#: ../src/rec_tech.c:59 ../src/rec_tech.c:89
+msgid "Check your Gstreamer installation!"
+msgstr "Проверьте установку GStreamer!"
+
+#: ../src/rec_tech.c:65
+msgid "Could not open Gstreamer OSS Source."
+msgstr "Невозможно открыть GStreamer OSS."
+
+#: ../src/rec_tech.c:66
+msgid "Verify your Gstreamer OSS subsystem installation!"
+msgstr "Проверьте подсистему GStreamer·OSS."
+
+#: ../src/rec_tech.c:78
+#, c-format
+msgid "Could not create encoder \"%s\"."
+msgstr "Невозможно открыть кодек \"%s\"."
+
+#: ../src/rec_tech.c:80
+msgid "Verify your Gstreamer plugins installation!"
+msgstr "Проверьте правильность установки расширений GStreamer."
+
+#: ../src/rec_tech.c:88
+msgid "Could not create Gstreamer filesink."
+msgstr "Невозможно создать связку с GStreamer."
+
+#. +
+#: ../src/bacon-volume.c:187
+msgid "+"
+msgstr "+"
+
+#. -
+#: ../src/bacon-volume.c:203
+msgid "-"
+msgstr "-"

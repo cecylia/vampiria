@@ -1,0 +1,14 @@
+Since version 1.1 gnomeradio is able to record from the tuner-device
+as mp3 or wav. I have not tested this very extensivly, though. At
+the moment only lame and bladeenc are supported, though most of the
+time I used lame, so probably you will more likely encounter problems
+with bladeenc. If anyone is interessted in more encoders, please email
+me (I plan support for oggenc in a following version).
+
+Using external programs in applications is always kinda tricky. So 
+the whole recording functionality is probably not too stable. Please
+report any bugs or oddities you encounter! However, please, if you 
+do so, report as much (usefull) information as possible (programversions, etc.)
+
+If you have feature-wishs, don't hesitate to inform me.
+Ok, now have fun with recording your favorite radio-channel ;-) 

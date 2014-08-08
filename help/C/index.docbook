@@ -1,0 +1,825 @@
+<?xml version="1.0"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+"http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd" [
+  <!ENTITY legal SYSTEM "legal.xml">
+  <!ENTITY appversion "1.3">
+  <!ENTITY manrevision "1.0">
+  <!ENTITY date "October 2002">
+  <!ENTITY app "Gnomeradio">
+]>
+
+<!--
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Mar 12, 2002
+
+-->
+
+<article id="index" lang="en">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo>
+	 <title>&app; Manual V&manrevision;</title>
+	 <copyright>
+		<year>2002</year>
+
+		<holder>Jörgen Scheibengruber</holder>
+	 </copyright>
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2002</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+
+    <abstract role="description">
+      <para>Listen to FM radio</para>
+    </abstract>
+
+	<publisher>
+		<publishername>GNOME Documentation Project</publishername>
+	</publisher>
+
+&legal;
+
+
+	 <authorgroup>
+		<author role="maintainer">
+		  <firstname>Jörgen</firstname>
+		  <surname>Scheibengruber</surname>
+		  <affiliation>
+			 <orgname>GNOME Documentation Project</orgname>
+			 <address> <email>mfcn@gmx.de</email> </address>
+		  </affiliation>
+		</author>
+	 </authorgroup>
+
+	 <revhistory>
+		<revision>
+		  <revnumber>1.0</revnumber>
+		  <date>2002</date>
+		  <revdescription>
+			 <para role="author">Jörgen Scheibengruber
+				<email>mfcn@gmx.de</email></para>
+			 <para role="publisher">GNOME Documentation Project</para>
+		  </revdescription>
+		</revision>
+	 </revhistory>
+	 <releaseinfo> This manual describes version &appversion; of &app;.
+		</releaseinfo>
+	 <legalnotice>
+		<title>Feedback</title>
+		<para> To report a bug or make a suggestion regarding &app; or this
+		  manual, send a e-mail to <ulink url="mailto:mfcn@gmx.de" type="mail">Jörgen Scheibengruber</ulink>. </para>
+	 </legalnotice>
+  </articleinfo>
+  <indexterm>
+	 <primary>&app;</primary>
+  </indexterm>
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Section Introduction ========================= -->
+<sect1 id="gnomeradio-introduction">
+<title>Introduction</title>
+<para><application>&app;</application> is a FM radio tuner for the GNOME desktop. It should work with
+every FM tuner card that is supported by video4linux. Remote controls are
+supported via (optional) LIRC support. Gnomeradio can also record radio using
+GStreamer backend.</para>
+<para>
+To start <application>&app;</application> open the applications menu, then choose
+<menuchoice>
+<guimenu>Multimedia</guimenu>
+<guimenuitem>&app;</guimenuitem>
+</menuchoice>
+or type <command>gnomeradio</command> in a shell.
+</para>
+</sect1>
+
+<!-- ============= Section Usage ========================= -->
+<sect1 id="gnomeradio-usage">
+<title>Usage</title>
+<!-- ============= SubSection Status Window ========================= -->
+<sect2 id="gnomeradio-usage-status">
+<title>Status window</title>
+	 <figure id="status-window-fig">
+		<title>The black box in the upper left of &app; is the status window</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/status-window.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>The black box in the upper left of &app; is the status window.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+The status window is located in the upper left corner of the &app; main window. It consists of:
+</para>
+<itemizedlist mark="bullet">
+    <listitem>
+        <para>
+	a label showing wether the reception is mono or stereo,
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	an icon indicating the quality of the reception and
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	the current frequency.
+        </para>
+    </listitem>
+</itemizedlist>
+</sect2>
+
+<!-- ============= SubSection Frequency Controls========================= -->
+<sect2 id="gnomeradio-usage-freq">
+<title>Frequency controls</title>
+	 <figure id="freq-controls-fig">
+		<title>Use these controls to change the frequency</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/freq-controls.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>Use these controls to change the frequency.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+The following controls are available to change the frequency:
+</para>
+<itemizedlist mark="bullet">
+    <listitem>
+        <para>
+	   Using the slider you can change the frequency very quick.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	   The <guibutton>scan backwards</guibutton> button (left-arrow with bar) will decrease the frequency until if detects the next radio station with good reception.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	   The <guibutton>0.05 MHz backwards</guibutton> button (left-arrow without bar) decreases the frequency by 0.05 MHz.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	   The <guibutton>0.05 MHz forward</guibutton> button (right-arrow without bar) increases the frequency by 0.05 MHz.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	  The <guibutton>scan forwards</guibutton> button (right-arrow with bar) does the same as the "scan backwards" button, but it increases
+	the frequency.
+        </para>
+    </listitem>
+</itemizedlist>
+</sect2>
+
+<!-- ============= SubSection Volume Controls========================= -->
+<sect2 id="gnomeradio-usage-vol">
+<title>Volume controls</title>
+	 <figure id="vol-controls-fig">
+		<title>Use these controls to change the volume</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/volume-controls.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>Use these controls to change the volume.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+Controls available to change the volume:
+</para>
+<itemizedlist mark="bullet">
+    <listitem>
+        <para>
+	   Use the slider to adjust the volume. Note that it will only work if you have picked the right <guilabel>mixer
+           source</guilabel>, in the <xref linkend="gnomeradio-settings"/> Dialog.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	Toggling the button showing the speaker will mute/unmute &app;.
+        </para>
+    </listitem>
+</itemizedlist>
+</sect2>
+
+<!-- ============= Presets Box ========================= -->
+<sect2 id="gnomeradio-usage-presets">
+<title>Presets menubutton</title>
+	 <figure id="presets-fig">
+		<title>Choose a preset using the menubutton</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/presets-box.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>Choose a preset using the menubutton.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+Use the menubutton in the upper right to choose a radio station preset.
+You can edit presets in the  <xref linkend="gnomeradio-settings"/> Dialog.
+</para>
+</sect2>
+
+<!-- ============= SubSection Misc Controls========================= -->
+<sect2 id="gnomeradio-usage-misc">
+<title>Misc. controls</title>
+	 <figure id="misc-controls-fig">
+		<title>Remaining controls</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/misc-controls.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>Remaining controls.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+</para>
+<itemizedlist mark="bullet">
+    <listitem>
+        <para>
+	   The <guibutton>record</guibutton> button opens the <xref linkend="gnomeradio-recording"/> Dialog.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	Clicking the <guibutton>about</guibutton> button will show a window with some credits.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	Behind the <guibutton>settings</guibutton> button hides the <xref linkend="gnomeradio-settings"/> Dialog.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+	The <guibutton>quit</guibutton> button will terminate &app;
+        </para>
+    </listitem>
+</itemizedlist>
+</sect2>
+
+</sect1>
+
+<!-- ============= Section Settings ========================= -->
+<sect1 id="gnomeradio-settings">
+<title>Preferences</title>
+<para>
+To open the preferences dialog, click the <guibutton>preferences</guibutton> button in the main window.
+</para>
+<para>
+If you are finished click <guibutton>OK</guibutton> to accept your changes
+or <guibutton>Cancel</guibutton> to undo the changes.
+</para>
+<!-- ============= Misc Settings ========================= -->
+<sect2 id="gnomeradio-settings-misc">
+<title>General preferences</title>
+	<figure id="gnomeradio_settings_misc-fig">
+		<title>General preferences</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/settings-misc.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>General preferences.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+</para>
+<itemizedlist mark="bullet">
+    <listitem>
+        <para>
+	    <guilabel>Radio Device:</guilabel>  Enter your radio device. Unless you have several radio
+		tuners installed this is usually /dev/radio.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		<guilabel>Mixer Source:</guilabel>  Choose the mixer source that is able to control the volume
+		of your radio tuner. The combobox lists all devices that you can choose as a recording source.
+		You should usually pick one of these, otherwise you won't be able to record radio. If you have
+		set up own names for the sources in gnome volume control, these names will be shown in paranthesis
+		behind the "official" name.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		<guilabel>Mute on Exit:</guilabel>  Uncheck this checkbox, if you want that the radio keeps on
+		playing after you have terminated &app;.
+        </para>
+    </listitem>
+</itemizedlist>
+</sect2>
+<!-- ============= Settings Presets ========================= -->
+<sect2 id="gnomeradio-settings-presets">
+<title>Editing presets</title>
+	<figure id="gnomeradio_settings_presets-fig">
+		<title>Editing presets</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/settings-presets.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>Editing presets.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+Here you can add some preset radio stations. You can select one of these
+using the <xref linkend="gnomeradio-usage-presets"/> or your
+<xref linkend="gnomeradio-lirc"/> remote control.
+</para>
+<itemizedlist mark="bullet">
+    <listitem>
+        <para>
+	    <guilabel>Name:</guilabel>  Enter a name for the preset (usually the name
+		of the radio station).
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		<guilabel>Frequency:</guilabel>  Choose the frequency for the radio station.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		Click the button <guibutton>add preset</guibutton> (shows a +) to add the preset
+		to the list.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		The button <guibutton>remove preset</guibutton> (shows a -) will remove the currently
+		selected preset from the list.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		Use the button <guibutton>update preset</guibutton> to update the selected preset with
+		the values currently entered in the name and frequency entries.
+        </para>
+    </listitem>
+</itemizedlist>
+</sect2>
+</sect1>
+
+<!-- ============= Section Recording ========================= -->
+<sect1 id="gnomeradio-recording">
+<title>Recording</title>
+<para>
+You can use gnomeradio to (live)record radio. In this dialog you
+have to give some information, on how this shall be done.
+</para>
+<important><para>You need the external application <application>sox</application>
+installed in order to use the recording functionality of &app;.
+If you want to record as MP3,
+you have to install a MP3 encoder, too. Currently the MP3 encoders
+<ulink url="http://www.mp3dev.org/mp3/" type="http">lame</ulink> and
+<ulink url="http://bladeenc.mp3.no/" type="http">bladeenc</ulink> are supported.
+To record files as ogg vorbis you need
+<ulink url="http://www.xiph.org/ogg/vorbis/index.html" type="http">oggenc</ulink>.
+</para></important>
+<para>
+To open this dialog, click the <guibutton>record</guibutton> button in the main window.
+</para>
+<para>
+Use the <guibutton>Start</guibutton> button to start recording.
+Otherwise click <guibutton>Cancel</guibutton> to close the dialog.
+</para>
+<!-- ============= Recording: General ========================= -->
+<sect2 id="gnomeradio-recording-general">
+<title>General settings</title>
+	<figure id="gnomeradio_recording-general-fig">
+		<title>General recording settings</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/recording-general.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>General recording settings.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+</para>
+<itemizedlist mark="bullet">
+    <listitem>
+        <para>
+	    <guilabel>Audio Device:</guilabel>  Enter your audio device. Unless you have several soundcards
+		installed this is usually /dev/audio.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		<guilabel>Filename:</guilabel>  Choose a filename and destination for the file in which the audio
+		data should be stored. This file should usually have the suffix ".wav", in case you want to record
+		as wave data, ".mp3", in case the audio should be stored in the mp3-format or ".ogg", for ogg vorbis
+		files.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		<guilabel>Record as:</guilabel>  Select <guilabel>Wave (.wav)</guilabel>, if you want the audio
+		data to be stored in the wave format (uncompressed - about 10 megabyte per minute playlength).
+		Otherwise choose <guilabel>MP3/Ogg (.mp3/.ogg)</guilabel> which will lead to a much lower filesize, but
+		also a little bit lower audio quality.
+        </para>
+    </listitem>
+</itemizedlist>
+</sect2>
+
+<!-- ============= Recording: Wave ========================= -->
+<sect2 id="gnomeradio-recording-wav">
+<title>Wave settings</title>
+	<figure id="gnomeradio_recording-wav-fig">
+		<title>The wave settings</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/recording-wav.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>The wave settings.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+These settings apply to the mp3 file, too.
+</para>
+<itemizedlist mark="bullet">
+    <listitem>
+        <para>
+	    <guilabel>Sample rate:</guilabel>  Choose a sample rate for the recording audio file. Higher sampling
+		rate means better quality. 44100 kHz is a good default (aprox. CD quality). If the reception
+		is bad you can take a lower sampling rate, because the quality won't be that good anyways.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		<guilabel>Sample format:</guilabel>  Available options are 8 or 16 bit. Usually you want to
+		take 16 bit.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		<guilabel>Record in:</guilabel>  Select <guilabel>stereo</guilabel>, if you want to record in
+		stereo or <guilabel>mono</guilabel> otherwise. It probably doen't make much sense to record
+		in stereo, if the reception is only mono.
+        </para>
+    </listitem>
+</itemizedlist>
+</sect2>
+
+<!-- ============= Recording: MP3 ========================= -->
+<sect2 id="gnomeradio-recording-mp3">
+<title>MP3/Ogg settings</title>
+	<figure id="gnomeradio_recording-mp3-fig">
+		<title>The MP3/Ogg settings</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/recording-mp3.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>The MP3 settings.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+</para>
+<itemizedlist mark="bullet">
+    <listitem>
+        <para>
+	    <guilabel>Encoder:</guilabel>  A list of supported MP3/Ogg encoders that you have installed. Choose the one you like the
+		best. Currently <ulink url="http://www.mp3dev.org/mp3/" type="http">lame</ulink>,
+		<ulink url="http://bladeenc.mp3.no/" type="http">bladeenc</ulink> and
+		<ulink url="http://www.xiph.org/ogg/vorbis/index.html" type="http">oggenc</ulink> are supported.
+		The encoder must be in your PATH, otherwise &app; can't find it.
+        </para>
+    </listitem>
+    <listitem>
+        <para>
+		<guilabel>Bitrate:</guilabel>  Choose a bitrate. This will have the largest impact
+		on the size and quality of the resulting MP3/Ogg file. The higher the bitrate the better the
+		quality. 128 kb/s is usually a good value which will result in files that are aprox. 1 MB
+		per minute playlength.
+        </para>
+    </listitem>
+</itemizedlist>
+</sect2>
+<!-- ============= Recording: status window ========================= -->
+<sect2 id="gnomeradio-recording-status">
+<title>Recording status window</title>
+	<figure id="gnomeradio_recording_status-fig">
+		<title>The status window</title>
+		<screenshot>
+		  <mediaobject>
+			 <imageobject><imagedata fileref="figures/recording_status.png" format="PNG"/>
+			 </imageobject>
+			 <textobject>
+				<phrase>The status window.</phrase>
+			 </textobject>
+		  </mediaobject>
+		</screenshot>
+	 </figure>
+<para>
+Click <guibutton>Stop Recording</guibutton> to stop the recording and return to
+the main window. The window shows the name and size of the file in which the audio
+data is being stored.
+</para>
+</sect2>
+</sect1>
+
+<!-- ============= Section Shortcuts ========================= -->
+<sect1 id="gnomeradio-shortcuts">
+<title>Keybindings</title>
+<para>
+&app; has a few keybindings.
+</para>
+<table frame="topbot">
+  <title>Keyboard shortcuts in &app;</title>
+    <tgroup cols="2" colsep="0" rowsep="0">
+  	<colspec colwidth="20.00*"/>
+	<colspec colwidth="20.00*"/>
+	<thead>
+	  <row rowsep="1">
+	    <entry>Shortcut</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row rowsep="0">
+        <entry>
+			<keycap>F1</keycap>
+		</entry>
+        <entry>
+			Open this help.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>r</keycap>
+		</entry>
+        <entry>
+			Start recording.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>s</keycap>
+		</entry>
+        <entry>
+			Stop recording.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>m</keycap>
+		</entry>
+        <entry>
+			Mute/unmute the volume.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>q</keycap>
+		</entry>
+        <entry>
+			Terminate &app;.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>f</keycap>
+		</entry>
+        <entry>
+			Scan forward.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>b</keycap>
+		</entry>
+        <entry>
+			Scan backwards.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>n</keycap>
+		</entry>
+        <entry>
+			Select next preset.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>p</keycap>
+		</entry>
+        <entry>
+			Select previous preset.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>+</keycap>
+		</entry>
+        <entry>
+			Increase volume.
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<keycap>-</keycap>
+		</entry>
+        <entry>
+			Decrease volume.
+		</entry>
+	  </row>
+	</tbody>
+  </tgroup>
+</table>
+
+</sect1>
+
+<!-- ============= Section LIRC ========================= -->
+<sect1 id="gnomeradio-lirc">
+<title>LIRC</title>
+<para>
+You can use a remote control supported by <ulink url="http://www.lirc.org/" type="http">LIRC</ulink>
+(Linux infrared remote control) to control <application>&app;</application>.
+</para>
+<important>
+<para>Your remote control will only work if <application>&app;</application> has been compiled with
+LIRC support enabled. If you are unsure wether this is the case or not, check the about dialog.
+</para>
+</important>
+<!-- ============= LIRC: .lircrc ========================= -->
+<sect2 id="gnomeradio-lirc-lircrc">
+<title>The .lircrc config file</title>
+<para>
+In the file <filename>.lircrc</filename> in your home directory, you set up which keys
+on your remote control you want to associate with actions in &app;. A typical
+section in the file looks like this:
+</para>
+<example><title>Example for a .lircrc section</title>
+<programlisting>
+begin
+	prog = gnomeradio
+	button = VOL+
+	config = volume up
+	repeat = 1
+end
+</programlisting>
+</example>
+<para>
+This associates the button VOL+ (Attention: Buttonnames are remote control specific)
+with the command "volume up". "repeat = 1" means that in case you keep the button of
+your remote control pressed, the command is repeated as long as you press the button.
+It's of by default.
+</para>
+<para>
+For more information, please consult the LIRC documentation.
+</para>
+</sect2>
+
+<!-- ============= LIRC: commands ========================= -->
+<sect2 id="gnomeradio-lirc-commands">
+<title>Available commands</title>
+<para>
+The following commands are available in &app;:
+</para>
+<table frame="topbot">
+  <title>LIRC commands</title>
+    <tgroup cols="2" colsep="0" rowsep="0">
+  	<colspec colwidth="20.00*"/>
+	<colspec colwidth="20.00*"/>
+	<thead>
+	  <row rowsep="1">
+	    <entry>Command</entry>
+	    <entry>Description</entry>
+	  </row>
+	</thead>
+	<tbody>
+	  <row rowsep="0">
+        <entry>
+			<command>tune up</command>
+		</entry>
+        <entry>
+			Scan forward
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<command>tune down</command>
+		</entry>
+        <entry>
+			Scan backwards
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<command>preset up</command>
+		</entry>
+        <entry>
+			Select next preset
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<command>preset down</command>
+		</entry>
+        <entry>
+			Select previous preset
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<command>volume up</command>
+		</entry>
+        <entry>
+			Increase the volume
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<command>volume down</command>
+		</entry>
+        <entry>
+			Decrease the volume
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<command>mute</command>
+		</entry>
+        <entry>
+			Mute/unmute the volume
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<command>tv</command>
+		</entry>
+        <entry>
+			Select TV mode (supported TV applications: tvtime, xawtv, zapping)
+		</entry>
+	  </row>
+	  <row rowsep="0">
+        <entry>
+			<command>quit</command>
+		</entry>
+        <entry>
+			Terminate &app;
+		</entry>
+	  </row>
+	  <row rowsep="0">
+	<entry>
+			<command>toggle visible</command>
+	</entry>
+	<entry>
+			Show/hide &app; window
+		</entry>
+	  </row>
+
+	  <row rowsep="0">
+        <entry>
+			<command>preset x</command>
+		</entry>
+        <entry>
+			Select preset x + 1 (where x is between 0 and 9)
+		</entry>
+	  </row>
+	</tbody>
+  </tgroup>
+</table>
+</sect2>
+</sect1>
+</article>

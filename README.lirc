@@ -1,0 +1,43 @@
+What is Lirc?
+
+Lirc (Linux Infrared Remote Control) adds support for infrared remote controls
+to linux applications. To download lirc and for more info visit http://www.lirc.org.
+
+Gnomeradio & Lirc:
+
+Gnomeradio supports lirc by default. If you are compiling from source, it should detect
+it automagically. If not, use the --enable-lirc=yes/no switch of configure.
+The standard .rpm of gnomeradio is linked against liblirc_client.so. If you do not 
+have lirc installed, get the gnomeradio-nolirc package.
+
+However, before you can use lirc in gnomeradio, you have to edit your .lircrc[1]. 
+Gnomeradio understands the following commands: 
+
+
+- tune up (= scan forward)
+- tune down (= scan backwards)
+- preset up (= next preset)
+- preset down (= previous preset)
+- volume up
+- volume down
+- mute
+- quit
+- preset 0..9 ( selects preset 0..9)
+
+Example:
+
+begin
+        prog = gnomeradio
+        button = VOL+
+        config = volume up
+        repeat = 1      
+end
+
+This would map the button VOL+ (Attention: Buttonnames are RC-specific, read your lirc docs
+for more info) on the command "volume up". "repeat = 1" means, that if you keep the button of
+your RC pressed, the command is repeated as long as you press the button. It's of by default.
+
+Look at example.lircrc for a whole .lircrc example.
+
+[1]: Since version 1.5, lirc should work out of the box with a minimum configuration. This
+     configuration will be overridden, if a lirc config file exists. 

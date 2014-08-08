@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+include /usr/share/dpkg/buildflags.mk
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/autoreconf.mk
+include /usr/share/cdbs/1/class/gnome.mk
+
+DEB_CONFIGURE_SCRIPT_ENV += LIBS=-lm
+SAVERESTORE := \
+	data/gnomeradio.desktop \
+	gnomeradio.spec \
+	help/C/index.docbook
+
+update-config::
+	for f in $(SAVERESTORE) ; do [ -e $$f.d-r-orig ] || cp -p -r $$f $$f.d-r-orig ; done
+
+clean::
+	for f in $(SAVERESTORE) ; do [ ! -e $$f.d-r-orig ] || mv $$f.d-r-orig $$f ; done
+

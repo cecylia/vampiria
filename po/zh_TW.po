@@ -1,0 +1,520 @@
+# traditional Chinese translation for gnomeradio.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Stanley Wong <stanley18fan0k@yahoo.com.hk>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomeradio-1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-07-31 19:46+0000\n"
+"PO-Revision-Date: 2005-08-02 13:17+0800\n"
+"Last-Translator: Stanley Wong <stanley18fan0k@yahoo.com.hk>\n"
+"Language-Team: Chinese (traditional) <community@linuxhall.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gnomeradio.schemas.in.h:1
+msgid "Audio device"
+msgstr "音效裝置"
+
+#: ../gnomeradio.schemas.in.h:2 ../src/record.c:355
+msgid "Choose the bitrate in which the mp3 will be encoded"
+msgstr "選擇編碼 MP3 的比特率(bitrate)"
+
+#: ../gnomeradio.schemas.in.h:3 ../src/prefs.c:562
+msgid ""
+"Choose the mixer source (line, line1, etc.) that is able to control the "
+"volume of your radio"
+msgstr "選擇可以控制音量的混音來源(line, line1...)"
+
+#: ../gnomeradio.schemas.in.h:4 ../src/record.c:354
+msgid "Choose the mp3 encoder that should be used"
+msgstr "選擇要使用的 MP3 編碼器"
+
+#: ../gnomeradio.schemas.in.h:5 ../src/prefs.c:563
+msgid "If unchecked, gnomeradio won't mute after exiting"
+msgstr "如果沒有選取，Gnomeradio 不會在離開時靜音"
+
+#: ../gnomeradio.schemas.in.h:6
+msgid "Last frequency"
+msgstr "上一次的頻率"
+
+#: ../gnomeradio.schemas.in.h:7
+msgid "Last presets"
+msgstr "上一次的樣式"
+
+#: ../gnomeradio.schemas.in.h:8
+msgid "MP3 bitrate"
+msgstr "MP3 比特率(bitrate)"
+
+#: ../gnomeradio.schemas.in.h:9
+msgid "MP3 encoder"
+msgstr "MP3 編碼器"
+
+#: ../gnomeradio.schemas.in.h:10
+msgid "Mixer Device"
+msgstr "混音裝置"
+
+#: ../gnomeradio.schemas.in.h:11
+msgid "Mixer source"
+msgstr "混音來源"
+
+#: ../gnomeradio.schemas.in.h:12
+msgid "Mute on exit"
+msgstr "離開時靜音"
+
+#: ../gnomeradio.schemas.in.h:13
+msgid "Number of presets"
+msgstr "樣式數量"
+
+#: ../gnomeradio.schemas.in.h:14
+msgid "Radio device"
+msgstr "接收裝罝"
+
+#: ../gnomeradio.schemas.in.h:15
+msgid "Record as mp3- or wave-file"
+msgstr "把錄音儲存為 MP3 或 Wave"
+
+#: ../gnomeradio.schemas.in.h:16
+msgid "Record in stereo or mono"
+msgstr "以單聲道或雙聲道錄音"
+
+#: ../gnomeradio.schemas.in.h:17
+msgid "Sample format"
+msgstr "取樣格式"
+
+#: ../gnomeradio.schemas.in.h:18
+msgid "Sample rate"
+msgstr "取樣頻率"
+
+#: ../gnomeradio.schemas.in.h:19 ../src/prefs.c:560
+msgid "Specify the radio-device (in most cases /dev/radio)"
+msgstr "指定接收裝罝(大部分情況下都是 /dev/radio)"
+
+#: ../gnomeradio.schemas.in.h:20 ../src/record.c:356
+msgid "The audio device to use (usually /dev/audio)"
+msgstr "指定音效裝罝(通常是 /dev/audio)"
+
+#: ../gnomeradio.schemas.in.h:21 ../src/record.c:352
+msgid "The audio sample-rate of the wave-file"
+msgstr "Wave 檔的取樣頻率"
+
+#: ../gnomeradio.schemas.in.h:22 ../src/record.c:353
+msgid "The format (8 or 16 bit) of the wave-file"
+msgstr "Wave 檔的格式(8-bit或16-bit)"
+
+#: ../gnomeradio.schemas.in.h:23
+msgid "The last frequency (in MHz) in use"
+msgstr "上一次使用的接收頻率(MHz)"
+
+#: ../gnomeradio.schemas.in.h:24
+msgid ""
+"The mixer device that gnomeradio should use. Only changeable via this key "
+"(no GUI option)"
+msgstr ""
+"Gnomeradio 使用的混音裝置。只能用此鍵更改。(無GUI選項)"
+
+#: ../gnomeradio.schemas.in.h:25
+msgid "The number of presets"
+msgstr "樣式數量"
+
+#: ../gnomeradio.schemas.in.h:26
+msgid ""
+"The preset that was enabled when gnomeradio was terminated. Range is 0 ... "
+"(# presets - 1). None is -1"
+msgstr ""
+"當 gnomeradio 結束時啟動的樣式。範圍為0...(# 樣式 - 1). 不啟動則為 -1。"
+
+#: ../gnomeradio.schemas.in.h:27
+msgid "The stored value of the volume (0-100)"
+msgstr "已儲存的音量大小數值(0-100)"
+
+#: ../gnomeradio.schemas.in.h:28
+msgid "Volume"
+msgstr "音量"
+
+#: ../gnomeradio.schemas.in.h:29 ../src/record.c:357 ../src/record.c:358
+msgid "Whether the output should be a mp3- or a wave-file"
+msgstr "輸出檔案為 MP3 還是 Wave 檔"
+
+#: ../gnomeradio.schemas.in.h:30 ../src/record.c:359 ../src/record.c:360
+msgid "Whether the output should be in stereo or mono"
+msgstr "輸出檔案為單聲道還是雙聲道"
+
+#: ../gnomeradio.desktop.in.h:1
+msgid "FM-Radio Tuner"
+msgstr "FM-Radio 調諧器"
+
+#: ../gnomeradio.desktop.in.h:2
+msgid "Listen to FM-radio"
+msgstr "收聽 FM-radio"
+
+#: ../src/prefs.c:248 ../src/prefs.c:676
+msgid "Wave file"
+msgstr "Wave 檔"
+
+#: ../src/prefs.c:268
+msgid "unamed"
+msgstr "未命名"
+
+#: ../src/prefs.c:333
+msgid "Choose a destination folder"
+msgstr "選擇目的目錄"
+
+#: ../src/prefs.c:472
+msgid "Gnomeradio Settings"
+msgstr "Gnomeradio 設定"
+
+#: ../src/prefs.c:488
+msgid "General Settings"
+msgstr "一般設定"
+
+#: ../src/prefs.c:498
+msgid "Presets"
+msgstr "樣式"
+
+#: ../src/prefs.c:508
+msgid "Record Settings"
+msgstr "錄音設定"
+
+#: ../src/prefs.c:526
+msgid "Radio Device:"
+msgstr "接收裝置:"
+
+#: ../src/prefs.c:533
+msgid "Mixer Source:"
+msgstr "混音來源："
+
+#: ../src/prefs.c:550
+msgid "Mute on exit?"
+msgstr "離開時靜音?"
+
+#: ../src/prefs.c:632
+msgid "Add a new preset"
+msgstr "加入一個樣式"
+
+#: ../src/prefs.c:633
+msgid "Remove preset from List"
+msgstr "從清單中移除樣式"
+
+#: ../src/prefs.c:661 ../src/record.c:275
+msgid "Encoder:"
+msgstr "編碼器:"
+
+#: ../src/prefs.c:662 ../src/record.c:276
+msgid "Bitrate:"
+msgstr "比特率(bitrate):"
+
+#: ../src/prefs.c:663
+msgid "Destination directory:"
+msgstr "目的目錄:"
+
+#: ../src/prefs.c:692
+#, c-format
+msgid "%s kb/s"
+msgstr "%s KB/s"
+
+#: ../src/prefs.c:714
+msgid ""
+"Choose the mp3-/ogg-encoder that should be used, or to record as a "
+"uncompressed wave file"
+msgstr "選擇要使用的 MP3/OGG 媥碼器，或錄製成一個未壓縮的 Wave 檔"
+
+#: ../src/prefs.c:715
+msgid "Choose the bitrate in which the mp3/ogg will be encoded"
+msgstr "選擇 MP3/OGG 的比特率(bitrate)"
+
+#: ../src/gui.c:68
+#, c-format
+msgid ""
+"Could not open device \"%s\" !\n"
+"\n"
+"Check your Settings and make sure that no other\n"
+"program is using %s.\n"
+"Make also sure that you have read-access to it."
+msgstr ""
+"無法開啟裝置 \"%s\" !\n"
+"\n"
+"請檢查設定及確定沒有\n"
+"其他程式正在使用 %s.\n"
+"也請確定您擁有它的寫入權。"
+
+#: ../src/gui.c:90
+#, c-format
+msgid "Mixer source \"%s\" is not a valid source!"
+msgstr "混音來源 \"%s\" 無效!"
+
+#: ../src/gui.c:92
+#, c-format
+msgid "Could not open \"%s\"!"
+msgstr "無法開啟 \"%s\"!"
+
+#: ../src/gui.c:247 ../src/gui.c:255 ../src/gui.c:732
+#, c-format
+msgid "Gnomeradio - %.2f MHz"
+msgstr "Gnomeradio - %.2f MHz"
+
+#: ../src/gui.c:251 ../src/gui.c:918
+#, c-format
+msgid "Frequency: %.2f MHz"
+msgstr "頻率: %.2f MHz"
+
+#: ../src/gui.c:275 ../src/gui.c:921
+#, c-format
+msgid "Volume: %d%%"
+msgstr "音量: %d%%"
+
+#: ../src/gui.c:556
+msgid ""
+"Sox could not be detected. Please ensure that it is installed in your PATH."
+msgstr ""
+"偵測不到 Sox。請確定它已安裝在您的路徑內。"
+
+#. consult man strftime to translate this. This is a filename, so don't use "/" or ":", please
+#: ../src/gui.c:570
+msgid "%B-%d-%Y_%H-%M-%S"
+msgstr "%d-%B-%Y_%H-%M-%S"
+
+#. Only change the "MHz" part here (if applicable)
+#: ../src/gui.c:573
+#, c-format
+msgid "%s/%.2fMHz_%s%s"
+msgstr "%s/%.2fMHz_%s%s"
+
+#: ../src/gui.c:582
+#, c-format
+msgid ""
+"Error opening file '%s':\n"
+"%s"
+msgstr ""
+"開啟檔案'%s'時發生錯誤:\n"
+"%s"
+
+#: ../src/gui.c:597 ../src/gui.c:916
+msgid "Mute"
+msgstr "靜音"
+
+#: ../src/gui.c:603
+msgid "Unmute"
+msgstr "回復聲音"
+
+#. Feel free to put your names here translators :-)
+#: ../src/gui.c:615
+msgid "TRANSLATORS"
+msgstr "Stanley Wong"
+
+#: ../src/gui.c:626
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled with LIRC support."
+msgstr ""
+"Gnomeradio 是為 GNOME 桌面而設的一個 FM 調諧程式。它可與 video4linux 支援的"
+"的調諧硬件一起工作。\n"
+"\n"
+"這版本加入了對 LIRC 的支援。"
+
+#: ../src/gui.c:630
+msgid ""
+"Gnomeradio is a FM-Tuner application for the GNOME desktop. It should work "
+"with all tuner hardware that is supported by the video4linux drivers.\n"
+"\n"
+"This version has been compiled without LIRC support."
+msgstr ""
+"Gnomeradio 是為 GNOME 桌面而設的一個 FM 調諧程式。它可與 video4linux 支援的"
+"的調諧硬件一起工作。\n"
+"\n"
+"這版本並無對 LIRC 的支援。"
+
+#: ../src/gui.c:752
+msgid "Gnomeradio"
+msgstr "Gnomeradio"
+
+#: ../src/gui.c:806
+msgid "Presets:"
+msgstr "樣式:"
+
+#: ../src/gui.c:909
+msgid "Scan Backwards"
+msgstr "往後掃描"
+
+#: ../src/gui.c:910
+msgid "Scan Forwards"
+msgstr "往前掃描"
+
+#: ../src/gui.c:911
+msgid "0.05 MHz Backwards"
+msgstr "往後 0.05MHz"
+
+#: ../src/gui.c:912
+msgid "0.05 MHz Forwards"
+msgstr "往前 0.05MHz"
+
+#: ../src/gui.c:913
+msgid "About Gnomeradio"
+msgstr "關於 Gnomeradio"
+
+#: ../src/gui.c:914
+msgid "Record radio as Wave, OGG or MP3"
+msgstr "錄製成 Wave 檔, OGG 或 MP3"
+
+#: ../src/gui.c:915
+msgid "Edit your Preferences"
+msgstr "編輯您的個人設定"
+
+#: ../src/gui.c:917
+msgid "Quit"
+msgstr "離開"
+
+#: ../src/gui.c:1036
+#, c-format
+msgid ""
+"Failed to init GConf: %s\n"
+"Changes to the settings won't be saved\n"
+msgstr ""
+"初始化 GConf 失敗: %s\n"
+"設定的更改將不會被儲存。\n"
+
+#: ../src/gui.c:1050
+msgid "manual"
+msgstr "手冊"
+
+#. GtkWidget *dialog;
+#. dialog = gtk_message_dialog_new(NULL, DIALOG_FLAGS, GTK_MESSAGE_ERROR, GTK_BUTTONS_OK,
+#. _("Could not start lirc"));
+#. gtk_dialog_run (GTK_DIALOG (dialog));
+#. gtk_widget_destroy (dialog);
+#.
+#: ../src/gui.c:1073
+msgid "Could not start lirc!\n"
+msgstr "無法開啟 LIRC!\n"
+
+#: ../src/record.c:154
+msgid "Start"
+msgstr "開始"
+
+#: ../src/record.c:162
+msgid "Gnomeradio Record"
+msgstr "Gnomeradio 錄音"
+
+#: ../src/record.c:170
+msgid "General"
+msgstr "一般"
+
+#: ../src/record.c:171
+msgid "Wave Settings"
+msgstr "Wave 設定"
+
+#: ../src/record.c:172
+msgid "Mp3/Ogg Settings"
+msgstr "MP3/OGG 設定"
+
+#: ../src/record.c:184
+msgid "Audio device:"
+msgstr "音效裝置:"
+
+#: ../src/record.c:187
+msgid "Filename:"
+msgstr "檔案名稱:"
+
+#. path_entry = gtk_entry_new();
+#: ../src/record.c:189
+msgid "Choose a filename"
+msgstr "選擇一個檔案名稱"
+
+#. choose_button = gtk_button_new_with_label(_("Choose..."));
+#: ../src/record.c:195
+msgid "Record as:"
+msgstr "錄製為:"
+
+#: ../src/record.c:196
+msgid "Wave (.wav)"
+msgstr "Wave (.wav)"
+
+#: ../src/record.c:197
+msgid "MP3/Ogg (.mp3/.ogg)"
+msgstr "MP3/Ogg (.mp3/.ogg)"
+
+#: ../src/record.c:221
+msgid "Sample rate:"
+msgstr "取樣率:"
+
+#: ../src/record.c:222
+msgid "Sample format:"
+msgstr "取樣格式:"
+
+# The translator: This means "Channels"
+# as its options are  "mono" and "stereo", I guessed. 
+#: ../src/record.c:223
+msgid "Record in:"
+msgstr "錄製聲道:"
+
+#: ../src/record.c:256
+msgid "Mono"
+msgstr "單聲道"
+
+#: ../src/record.c:257
+msgid "Stereo"
+msgstr "雙聲道"
+
+#: ../src/record.c:303 ../src/record.c:310
+msgid "no supported encoder installed"
+msgstr "支援的編碼器並沒有安裝"
+
+#: ../src/record.c:431
+#, c-format
+msgid ""
+"%s has stopped:\n"
+"%s\n"
+msgstr ""
+"%s 已停止:\n"
+"%s\n"
+
+#: ../src/record.c:432
+msgid "MP3/Ogg encoder"
+msgstr "MP3/OGG 編碼器"
+
+#: ../src/record.c:433
+msgid "unknown reason"
+msgstr "不明的原因"
+
+#: ../src/record.c:482
+#, c-format
+msgid "%i byte"
+msgstr "%i 位元組"
+
+#: ../src/record.c:484
+#, c-format
+msgid "%i kB"
+msgstr "%i KB"
+
+#: ../src/record.c:485
+#, c-format
+msgid "%.2f MB"
+msgstr "%.2f MB"
+
+#: ../src/record.c:487
+msgid "Error"
+msgstr "錯誤"
+
+#: ../src/record.c:488
+msgid "0 byte"
+msgstr "0 位元組"
+
+#: ../src/record.c:528
+msgid "Gnomeradio recording status"
+msgstr "Gnomeradio 錄音狀況"
+
+#: ../src/record.c:541
+msgid "Recording:"
+msgstr "錄製中:"
+
+#: ../src/record.c:542
+msgid "Filesize:"
+msgstr "檔案大小:"
+
+#: ../src/record.c:559
+msgid "Stop Recording"
+msgstr "停止錄音"

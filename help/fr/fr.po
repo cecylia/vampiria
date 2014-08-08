@@ -1,0 +1,737 @@
+# French translation of gnomeradio documentation.
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnomeradio
+# documentation package.
+#
+# Bruno Brouard <annoa.b@gmail.com>, 2008
+# Claude Paroz <claude@2xlibre.net>, 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomeradio help fr\n"
+"POT-Creation-Date: 2008-03-19 04:09+0000\n"
+"PO-Revision-Date: 2008-04-17 20:58+0200\n"
+"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:113(None)
+msgid "@@image: 'figures/status-window.png'; md5=d0c4d54f97de39699819385a710ba144"
+msgstr "@@image: 'figures/status-window.png'; md5=d0c4d54f97de39699819385a710ba144"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:150(None)
+msgid "@@image: 'figures/freq-controls.png'; md5=4933cb5da85db3dfb1806bc57581b47e"
+msgstr "@@image: 'figures/freq-controls.png'; md5=4933cb5da85db3dfb1806bc57581b47e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:198(None)
+msgid "@@image: 'figures/volume-controls.png'; md5=78105ac11b84b19a23ee6e2de67bf746"
+msgstr "@@image: 'figures/volume-controls.png'; md5=78105ac11b84b19a23ee6e2de67bf746"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:231(None)
+msgid "@@image: 'figures/presets-box.png'; md5=edc4a308490ee833c9c5f3902bc80d29"
+msgstr "@@image: 'figures/presets-box.png'; md5=edc4a308490ee833c9c5f3902bc80d29"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:252(None)
+msgid "@@image: 'figures/misc-controls.png'; md5=f0498f2c68e70eccd5e3463cd3624d51"
+msgstr "@@image: 'figures/misc-controls.png'; md5=f0498f2c68e70eccd5e3463cd3624d51"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:305(None)
+msgid "@@image: 'figures/settings-misc.png'; md5=fd68ac96f48182a98e08cad0830c64b4"
+msgstr "@@image: 'figures/settings-misc.png'; md5=fd68ac96f48182a98e08cad0830c64b4"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:346(None)
+msgid "@@image: 'figures/settings-presets.png'; md5=f4b5dfb9412995456e3ec0bea75c33a9"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:423(None)
+msgid "@@image: 'figures/recording-general.png'; md5=b05b8ad408e2e439a3b7ce6884ab1cfe"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:466(None)
+msgid "@@image: 'figures/recording-wav.png'; md5=d33785ba4f8958072fe7fb5f156b2bb6"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:508(None)
+msgid "@@image: 'figures/recording-mp3.png'; md5=fe5e8d5d9530cd86f111c6e6afc8dd69"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomeradio.xml:545(None)
+msgid "@@image: 'figures/recording_status.png'; md5=62929ea7948ce6158d5656cb2404bc56"
+msgstr "@@image: 'figures/recording_status.png'; md5=62929ea7948ce6158d5656cb2404bc56"
+
+#: C/gnomeradio.xml:24(title)
+msgid "Gnomeradio Manual V1.0"
+msgstr "Manuel de Gnomeradio v1.0"
+
+#: C/gnomeradio.xml:26(year) C/gnomeradio.xml:64(date)
+msgid "2002"
+msgstr "2002"
+
+#: C/gnomeradio.xml:28(holder)
+msgid "Jörgen Scheibengruber"
+msgstr "Jörgen Scheibengruber"
+
+#: C/gnomeradio.xml:40(para)
+msgid "Gnomeradio is a FM-tuner application for the GNOME desktop."
+msgstr "Gnomeradio est un syntoniseur FM pour le bureau GNOME."
+
+#: C/gnomeradio.xml:44(publishername) C/gnomeradio.xml:55(orgname) C/gnomeradio.xml:68(para)
+msgid "GNOME Documentation Project"
+msgstr "Projet de documentation GNOME"
+
+#: C/gnomeradio.xml:2(para)
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Permission vous est donnée de copier, distribuer et/ou modifier ce document "
+"selon les termes de la Licence GNU Free Documentation License, Version 1.1 "
+"ou ultérieure publiée par la Free Software Foundation sans section "
+"inaltérable, sans texte de première page de couverture ni texte de dernière "
+"page de couverture. Vous trouverez un exemplaire de cette licence en suivant "
+"ce <ulink type=\"help\" url=\"help:fdl\">lien</ulink> ou dans le fichier "
+"COPYING-DOCS fourni avec le présent manuel."
+
+#: C/gnomeradio.xml:12(para)
+msgid "This manual is part of a collection of GNOME manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
+msgstr ""
+"Ce manuel fait partie de la collection de manuels GNOME distribués selon les "
+"termes de la licence de documentation libre GNU. Si vous souhaitez "
+"distribuer ce manuel indépendamment de la collection, vous devez joindre un "
+"exemplaire de la licence au document, comme indiqué dans la section 6 de "
+"celle-ci."
+
+#: C/gnomeradio.xml:19(para)
+msgid "Many of the names used by companies to distinguish their products and services are claimed as trademarks. Where those names appear in any GNOME documentation, and the members of the GNOME Documentation Project are made aware of those trademarks, then the names are in capital letters or initial capital letters."
+msgstr ""
+"La plupart des noms utilisés par les entreprises pour distinguer leurs "
+"produits et services sont des marques déposées. Lorsque ces noms "
+"apparaissent dans la documentation GNOME et que les membres du projet de "
+"Documentation GNOME sont informés de l'existence de ces marques déposées, "
+"soit ces noms entiers, soit leur première lettre est en majuscule."
+
+#: C/gnomeradio.xml:35(para)
+msgid "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"LE PRÉSENT DOCUMENT EST FOURNI « TEL QUEL », SANS AUCUNE GARANTIE, EXPRESSE "
+"OU IMPLICITE, Y COMPRIS, ET SANS LIMITATION, LES GARANTIES DE "
+"MARCHANDABILITÉ, D'ADÉQUATION À UN OBJECTIF PARTICULIER OU DE NON INFRACTION "
+"DU DOCUMENT OU DE SA VERSION MODIFIÉE. L'UTILISATEUR ASSUME TOUT RISQUE "
+"RELATIF À LA QUALITÉ, À LA PERTINENCE ET À LA PERFORMANCE DU DOCUMENT OU DE "
+"SA VERSION DE MISE À JOUR. SI LE DOCUMENT OU SA VERSION MODIFIÉE S'AVÉRAIT "
+"DÉFECTUEUSE, L'UTILISATEUR (ET NON LE RÉDACTEUR INITIAL, L'AUTEUR, NI TOUT "
+"AUTRE PARTICIPANT) ENDOSSERA LES COÛTS DE TOUTE INTERVENTION, RÉPARATION OU "
+"CORRECTION NÉCESSAIRE. CETTE DÉNÉGATION DE RESPONSABILITÉ CONSTITUE UNE "
+"PARTIE ESSENTIELLE DE CETTE LICENCE. AUCUNE UTILISATION DE CE DOCUMENT OU DE "
+"SA VERSION MODIFIÉE N'EST AUTORISÉE AUX TERMES DU PRÉSENT ACCORD, EXCEPTÉ "
+"SOUS CETTE DÉNÉGATION DE RESPONSABILITÉ ; "
+
+#: C/gnomeradio.xml:55(para)
+msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"EN AUCUNE CIRCONSTANCE ET SOUS AUCUNE INTERPRÉTATION DE LA LOI, QU'IL "
+"S'AGISSE D'UN DÉLIT CIVIL (Y COMPRIS LA NÉGLIGENCE), CONTRACTUEL OU AUTRE, "
+"L'AUTEUR, LE RÉDACTEUR INITIAL, TOUT PARTICIPANT OU TOUT DISTRIBUTEUR DE CE "
+"DOCUMENT OU DE SA VERSION MODIFIÉE, OU TOUT FOURNISSEUR DE L'UNE DE CES "
+"PARTIES NE POURRA ÊTRE TENU RESPONSABLE À L'ÉGARD DE QUICONQUE POUR TOUT "
+"DOMMAGE DIRECT, INDIRECT, PARTICULIER, OU ACCIDENTEL DE TOUT TYPE Y COMPRIS, "
+"SANS LIMITATION, LES DOMMAGES LIÉS À LA PERTE DE CLIENTÈLE, À UN ARRÊT DE "
+"TRAVAIL, À UNE DÉFAILLANCE OU UN MAUVAIS FONCTIONNEMENT INFORMATIQUE, OU À "
+"TOUT AUTRE DOMMAGE OU PERTE LIÉE À L'UTILISATION DU DOCUMENT ET DE SES "
+"VERSIONS MODIFIÉES, MÊME SI LADITE PARTIE A ÉTÉ INFORMÉE DE L'ÉVENTUALITÉ DE "
+"TELS DOMMAGES."
+
+#: C/gnomeradio.xml:28(para)
+msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <placeholder-1/>"
+msgstr ""
+"LE PRÉSENT DOCUMENT ET SES VERSIONS MODIFIÉES SONT FOURNIS SELON LES TERMES "
+"DE LA LICENCE DE DOCUMENTATION LIBRE GNU SACHANT QUE : <placeholder-1/>"
+
+#: C/gnomeradio.xml:52(firstname)
+msgid "Jörgen"
+msgstr "Jörgen"
+
+#: C/gnomeradio.xml:53(surname)
+msgid "Scheibengruber"
+msgstr "Scheibengruber"
+
+#: C/gnomeradio.xml:56(email)
+msgid "mfcn@gmx.de"
+msgstr "mfcn@gmx.de"
+
+#: C/gnomeradio.xml:63(revnumber)
+msgid "1.0"
+msgstr "1.0"
+
+#: C/gnomeradio.xml:66(para)
+msgid "Jörgen Scheibengruber <email>mfcn@gmx.de</email>"
+msgstr "Jörgen Scheibengruber <email>mfcn@gmx.de</email>"
+
+#: C/gnomeradio.xml:72(releaseinfo)
+msgid "This manual describes version 1.3 of Gnomeradio."
+msgstr "Ce manuel documente la version 1.3 de Gnomeradio."
+
+#: C/gnomeradio.xml:75(title)
+msgid "Feedback"
+msgstr "Votre avis"
+
+#: C/gnomeradio.xml:76(para)
+msgid "To report a bug or make a suggestion regarding Gnomeradio or this manual, send a e-mail to <ulink url=\"mailto:mfcn@gmx.de\" type=\"mail\">Jörgen Scheibengruber</ulink>."
+msgstr ""
+"Pour signaler une anomalie ou émettre une suggestion concernant "
+"<application>Gnomeradio</application> ou ce manuel, envoyez un courriel à <ulink url=\"mailto:mfcn@gmx.de\" type=\"mail\">Jörgen Scheibengruber</ulink>."
+
+#: C/gnomeradio.xml:81(primary)
+msgid "Gnomeradio"
+msgstr "Gnomeradio"
+
+#: C/gnomeradio.xml:87(title)
+msgid "Introduction"
+msgstr "Introduction"
+
+#: C/gnomeradio.xml:88(para)
+msgid "<application>Gnomeradio</application> is a FM-Tuner application for the GNOME desktop. It should work with all tuner hardware that is supported by the <ulink url=\"http://roadrunner.swansea.uk.linux.org/v4l.shtml\" type=\"http\">video4linux</ulink> drivers."
+msgstr "<application>Gnomeradio</application> est un syntoniseur FM pour le bureau GNOME. Il devrait fonctionner avec tout matériel de syntonisation compatible avec les pilotes <ulink url=\"http://roadrunner.swansea.uk.linux.org/v4l.shtml\" type=\"http\">video4linux</ulink>."
+
+#: C/gnomeradio.xml:93(para)
+msgid "To start <application>Gnomeradio</application> open the applications menu, then choose <menuchoice><guimenu>Multimedia</guimenu><guimenuitem>Gnomeradio</guimenuitem></menuchoice> or type <command>gnomeradio</command> in a shell."
+msgstr "Pour démarrer <application>Gnomeradio</application> ouvrez le menu Applications, puis choisissez <menuchoice><guimenu>Son et vidéo</guimenu><guimenuitem>FM-Radio Tuner</guimenuitem></menuchoice> ou saisissez la commande <command>gnomeradio</command> dans un terminal."
+
+#: C/gnomeradio.xml:105(title)
+msgid "Usage"
+msgstr "Utilisation"
+
+#: C/gnomeradio.xml:108(title)
+msgid "Status window"
+msgstr "Fenêtre d'état"
+
+#: C/gnomeradio.xml:110(title)
+msgid "The black box in the upper left of Gnomeradio is the status window"
+msgstr "La boîte noire en haut à gauche de Gnomeradio est la fenêtre d'état"
+
+#: C/gnomeradio.xml:116(phrase)
+msgid "The black box in the upper left of Gnomeradio is the status window."
+msgstr "La boîte noire en haut à gauche de Gnomeradio est la fenêtre d'état."
+
+#: C/gnomeradio.xml:121(para)
+msgid "The status window is located in the upper left corner of the Gnomeradio main window. It consists of:"
+msgstr "La fenêtre d'état est située dans le coin supérieur gauche de la fenêtre principale de Gnomeradio. Elle comprend :"
+
+#: C/gnomeradio.xml:126(para)
+msgid "a label showing wether the reception is mono or stereo,"
+msgstr "un message affichant si la réception est mono ou stéréo ;"
+
+#: C/gnomeradio.xml:131(para)
+msgid "an icon indicating the quality of the reception and"
+msgstr "une icône informant de la qualité de la réception ;"
+
+#: C/gnomeradio.xml:136(para)
+msgid "the current frequency."
+msgstr "la fréquence actuelle."
+
+#: C/gnomeradio.xml:145(title)
+msgid "Frequency controls"
+msgstr "Contrôle de la fréquence"
+
+#: C/gnomeradio.xml:147(title)
+msgid "Use these controls to change the frequency"
+msgstr "Outils à utiliser pour modifier la fréquence"
+
+#: C/gnomeradio.xml:153(phrase)
+msgid "Use these controls to change the frequency."
+msgstr "Outils à utiliser pour modifier la fréquence."
+
+#: C/gnomeradio.xml:158(para)
+msgid "The following controls are available to change the frequency:"
+msgstr "Les outils suivants permettent de modifier la fréquence :"
+
+#: C/gnomeradio.xml:163(para)
+msgid "Using the slider you can change the frequency very quick."
+msgstr "La fréquence peut être modifiée très rapidement en utilisant la glissière."
+
+#: C/gnomeradio.xml:168(para)
+msgid "The <guibutton>scan backwards</guibutton> button (left-arrow with bar) will decrease the frequency until if detects the next radio station with good reception."
+msgstr "Le bouton <guibutton>Recherche en arrière</guibutton> (flèche gauche avec barre) fait diminuer la fréquence jusqu'à la prochaine station radio bien captée."
+
+#: C/gnomeradio.xml:173(para)
+msgid "The <guibutton>0.5 MHz backwards</guibutton> button (left-arrow without bar) decreases the frequency by 0.5 MHz."
+msgstr "Le bouton <guibutton>Reculer de 0.5 MHz</guibutton> (flèche gauche sans barre) diminue la fréquence de 0,5 MHz."
+
+#: C/gnomeradio.xml:178(para)
+msgid "The <guibutton>0.5 MHz forward</guibutton> button (right-arrow without bar) increases the frequency by 0.5 MHz."
+msgstr "Le bouton <guibutton>Avancer de 0.5 MHz</guibutton> (flèche droite sans barre) augmente la fréquence de 0,5 MHz."
+
+#: C/gnomeradio.xml:183(para)
+msgid "The <guibutton>scan forwards</guibutton> button (right-arrow with bar) does the same as the \"scan backwards\" button, but it increases the frequency."
+msgstr "Le bouton <guibutton>Recherche en avant</guibutton> (flèche droite avec barre) fait la même chose que le bouton « Recherche en arrière » mais en augmentant la fréquence."
+
+#: C/gnomeradio.xml:193(title)
+msgid "Volume controls"
+msgstr "Contrôle du volume"
+
+#: C/gnomeradio.xml:195(title)
+msgid "Use these controls to change the volume"
+msgstr "Outils à utiliser pour modifier le volume"
+
+#: C/gnomeradio.xml:201(phrase)
+msgid "Use these controls to change the volume."
+msgstr "Outils à utiliser pour modifier le volume."
+
+#: C/gnomeradio.xml:206(para)
+msgid "Controls available to change the volume:"
+msgstr "Outils disponibles pour modifier le volume :"
+
+#: C/gnomeradio.xml:211(para)
+msgid "Use the slider to adjust the volume. Note that it will only work if you have picked the right <guilabel>mixer source</guilabel>, in the <xref linkend=\"gnomeradio-settings\"/> Dialog."
+msgstr "Utilisez la glissière pour ajuster le volume. Notez que cela ne fonctionne que si vous avez sélectionné la bonne <guilabel>source de mixage</guilabel> dans la boîte de dialogue <xref linkend=\"gnomeradio-settings\"/>."
+
+#: C/gnomeradio.xml:217(para)
+msgid "Toggling the button showing the speaker will mute/unmute Gnomeradio."
+msgstr "Activez/désactivez le bouton montrant un haut-parleur pour couper ou activer le son dans Gnomeradio."
+
+#: C/gnomeradio.xml:226(title)
+msgid "Presets menubutton"
+msgstr "Bouton de menu des stations"
+
+#: C/gnomeradio.xml:228(title)
+msgid "Choose a preset using the menubutton"
+msgstr "Outil pour choisir une station"
+
+#: C/gnomeradio.xml:234(phrase)
+msgid "Choose a preset using the menubutton."
+msgstr "Outil pour choisir une station."
+
+#: C/gnomeradio.xml:239(para)
+msgid "Use the menubutton in the upper right to choose a radio station preset. You can edit presets in the <xref linkend=\"gnomeradio-settings\"/> Dialog."
+msgstr "Utilisez le bouton de menu en haut à droite pour sélectionner une station pré-réglée. Vous pouvez modifier les stations dans la boîte de dialogue <xref linkend=\"gnomeradio-settings\"/>."
+
+#: C/gnomeradio.xml:247(title)
+msgid "Misc. controls"
+msgstr "Outils divers"
+
+#: C/gnomeradio.xml:249(title)
+msgid "Remaining controls"
+msgstr "Outils restants"
+
+#: C/gnomeradio.xml:255(phrase)
+msgid "Remaining controls."
+msgstr "Outils restants."
+
+#: C/gnomeradio.xml:264(para)
+msgid "The <guibutton>record</guibutton> button opens the <xref linkend=\"gnomeradio-recording\"/> Dialog."
+msgstr "Le bouton <guibutton>Enregistrer</guibutton> ouvre la fenêtre <xref linkend=\"gnomeradio-recording\"/>."
+
+#: C/gnomeradio.xml:269(para)
+msgid "Clicking the <guibutton>about</guibutton> button will show a window with some credits."
+msgstr "Un clic sur le bouton <guibutton>À propos</guibutton> affiche une fenêtre contenant les crédits."
+
+#: C/gnomeradio.xml:274(para)
+msgid "Behind the <guibutton>settings</guibutton> button hides the <xref linkend=\"gnomeradio-settings\"/> Dialog."
+msgstr "Derrière le bouton <guibutton>Paramètres</guibutton> se cache la boîte de dialogue <xref linkend=\"gnomeradio-settings\"/>."
+
+#: C/gnomeradio.xml:279(para)
+msgid "The <guibutton>quit</guibutton> button will terminate Gnomeradio"
+msgstr "Le bouton <guibutton>Quitter</guibutton> permet de quitter Gnomeradio."
+
+#: C/gnomeradio.xml:290(title)
+msgid "Preferences"
+msgstr "Préférences"
+
+#: C/gnomeradio.xml:291(para)
+msgid "To open the preferences dialog, click the <guibutton>preferences</guibutton> button in the main window."
+msgstr "Pour ouvrir la boîte de dialogue des préférences, cliquez sur le bouton <guibutton>Préférences</guibutton> de la fenêtre principale."
+
+#: C/gnomeradio.xml:294(para)
+msgid "If you are finished click <guibutton>OK</guibutton> to accept your changes or <guibutton>Cancel</guibutton> to undo the changes."
+msgstr "Une fois terminé, cliquez sur <guibutton>Valider</guibutton> pour enregistrer les modifications ou sur <guibutton>Annuler</guibutton> pour annuler les modifications."
+
+#: C/gnomeradio.xml:300(title) C/gnomeradio.xml:302(title)
+msgid "General preferences"
+msgstr "Préférences générales"
+
+#: C/gnomeradio.xml:308(phrase)
+msgid "General preferences."
+msgstr "Préférences générales."
+
+#: C/gnomeradio.xml:317(para)
+msgid "<guilabel>Radio Device:</guilabel> Enter your radio device. Unless you have several radio tuners installed this is usually /dev/radio."
+msgstr "<guilabel>Périphérique radio</guilabel> : saisissez le nom de votre périphérique radio. À moins d'avoir plusieurs syntoniseurs installés, il s'agit habituellement de /dev/radio."
+
+#: C/gnomeradio.xml:323(para)
+msgid "<guilabel>Mixer Source:</guilabel> Choose the mixer source that is able to control the volume of your radio tuner. The combobox lists all devices that you can choose as a recording source. You should usually pick one of these, otherwise you won't be able to record radio. If you have set up own names for the sources in gnome volume control, these names will be shown in paranthesis behind the \"official\" name."
+msgstr "<guilabel>Source de mixage</guilabel> : choisissez la source de mixage capable de contrôler le volume de votre syntoniseur. La liste déroulante propose tous les périphériques disponibles pour un enregistrement. Vous devez en général choisir l'un d'entre eux sinon vous ne pourrez pas enregistrer la radio. Si vous avez paramétré les noms des sources de manière personnelle grâce au contrôle de volume GNOME, ces noms apparaissent entre parenthèses derrière le nom « officiel »."
+
+#: C/gnomeradio.xml:332(para)
+msgid "<guilabel>Mute on Exit:</guilabel> Uncheck this checkbox, if you want that the radio keeps on playing after you have terminated Gnomeradio."
+msgstr "<guilabel>Arrêter l'écoute en quittant</guilabel> : décochez cette case si vous désirez que la radio continue de fonctionner après avoir quitté Gnomeradio."
+
+#: C/gnomeradio.xml:341(title) C/gnomeradio.xml:343(title)
+msgid "Editing presets"
+msgstr "Modification des stations"
+
+#: C/gnomeradio.xml:349(phrase)
+msgid "Editing presets."
+msgstr "Modification des stations."
+
+#: C/gnomeradio.xml:354(para)
+msgid "Here you can add some preset radio stations. You can select one of these using the <xref linkend=\"gnomeradio-usage-presets\"/> or your <xref linkend=\"gnomeradio-lirc\"/> remote control."
+msgstr "Vous pouvez ajouter ici des stations préréglées. Vous pouvez en sélectionner une en utilisant <xref linkend=\"gnomeradio-usage-presets\"/> ou votre télécommande <xref linkend=\"gnomeradio-lirc\"/>."
+
+#: C/gnomeradio.xml:361(para)
+msgid "<guilabel>Name:</guilabel> Enter a name for the preset (usually the name of the radio station)."
+msgstr "<guilabel>Nom</guilabel> : saisissez un nom pour la station (en général le nom de la station de radio)."
+
+#: C/gnomeradio.xml:367(para)
+msgid "<guilabel>Frequency:</guilabel> Choose the frequency for the radio station."
+msgstr "<guilabel>Fréquence</guilabel> : choisissez la fréquence de la station de radio."
+
+#: C/gnomeradio.xml:372(para)
+msgid "Click the button <guibutton>add preset</guibutton> (shows a +) to add the preset to the list."
+msgstr "Cliquez sur le bouton <guibutton>Ajouter une station</guibutton> (signe +) pour ajouter une station dans la liste."
+
+#: C/gnomeradio.xml:378(para)
+msgid "The button <guibutton>remove preset</guibutton> (shows a -) will remove the currently selected preset from the list."
+msgstr "Cliquez sur le bouton <guibutton>Supprimer une station</guibutton> (signe -) pour supprimer la station sélectionnée de la liste."
+
+#: C/gnomeradio.xml:384(para)
+msgid "Use the button <guibutton>update preset</guibutton> to update the selected preset with the values currently entered in the name and frequency entries."
+msgstr "Utilisez le button <guibutton>Mettre à jour la station</guibutton> pour mettre à jour la station sélectionnée à l'aide des fréquences et noms actuellement saisis."
+
+#: C/gnomeradio.xml:395(title)
+msgid "Recording"
+msgstr "Enregistrement"
+
+#: C/gnomeradio.xml:396(para)
+msgid "You can use gnomeradio to (live)record radio. In this dialog you have to give some information, on how this shall be done."
+msgstr "Vous pouvez utiliser Gnomeradio pour enregistrer en direct une radio. Il est nécessaire de fournir quelques informations sur la manière de procéder dans cette boîte de dialogue."
+
+#: C/gnomeradio.xml:400(para)
+msgid "You need the external application <application>sox</application> installed in order to use the recording functionality of Gnomeradio. If you want to record as MP3, you have to install a MP3 encoder, too. Currently the MP3 encoders <ulink url=\"http://www.mp3dev.org/mp3/\" type=\"http\">lame</ulink> and <ulink url=\"http://bladeenc.mp3.no/\" type=\"http\">bladeenc</ulink> are supported. To record files as ogg vorbis you need <ulink url=\"http://www.xiph.org/ogg/vorbis/index.html\" type=\"http\">oggenc</ulink>."
+msgstr "L'application externe <application>sox</application> doit être installée afin d'avoir la possibilité d'enregistrer avec Gnomeradio. Si vous désirez enregistrer au format MP3, il faut également installer un codeur MP3. Actuellement les codeurs MP3 <ulink url=\"http://www.mp3dev.org/mp3/\" type=\"http\">lame</ulink> et <ulink url=\"http://bladeenc.mp3.no/\" type=\"http\">bladeenc</ulink> sont pris en charge. Pour enregistrer des fichiers au format ogg vorbis, il est nécessaire d'installer <ulink url=\"http://www.xiph.org/ogg/vorbis/index.html\" type=\"http\">oggenc</ulink>."
+
+#: C/gnomeradio.xml:409(para)
+msgid "To open this dialog, click the <guibutton>record</guibutton> button in the main window."
+msgstr "Pour ouvrir cette boîte de dialogue, cliquez sur le bouton <guibutton>Enregistrer</guibutton> de la fenêtre principale."
+
+#: C/gnomeradio.xml:412(para)
+msgid "Use the <guibutton>Start</guibutton> button to start recording. Otherwise click <guibutton>Cancel</guibutton> to close the dialog."
+msgstr "Pressez le bouton <guibutton>Démarrer</guibutton> pour lancer l'enregistrement. Cliquez sur <guibutton>Annuler</guibutton> pour fermer la fenêtre."
+
+#: C/gnomeradio.xml:418(title)
+msgid "General settings"
+msgstr "Paramètres généraux"
+
+#: C/gnomeradio.xml:420(title)
+msgid "General recording settings"
+msgstr "Paramètres d'enregistrement généraux"
+
+#: C/gnomeradio.xml:426(phrase)
+msgid "General recording settings."
+msgstr "Paramètres d'enregistrement généraux."
+
+#: C/gnomeradio.xml:435(para)
+msgid "<guilabel>Audio Device:</guilabel> Enter your audio device. Unless you have several soundcards installed this is usually /dev/audio."
+msgstr "<guilabel>Périphérique audio</guilabel> : saisissez le nom de votre périphérique audio. À moins de posséder plusieurs cartes son installées, il s'agit habituellement de /dev/audio."
+
+#: C/gnomeradio.xml:441(para)
+msgid "<guilabel>Filename:</guilabel> Choose a filename and destination for the file in which the audio data should be stored. This file should usually have the suffix \".wav\", in case you want to record as wave data, \".mp3\", in case the audio should be stored in the mp3-format or \".ogg\", for ogg vorbis files."
+msgstr "<guilabel>Nom de fichier</guilabel> : saisissez un nom de fichier et un dossier de destination pour le fichier. Ce fichier doit posséder l'extension « .wav » si vous désirez enregistrer au format wave, « .mp3 » pour le format mp3 ou « .ogg » pour le format ogg vorbis."
+
+#: C/gnomeradio.xml:449(para)
+msgid "<guilabel>Record as:</guilabel> Select <guilabel>Wave (.wav)</guilabel>, if you want the audio data to be stored in the wave format (uncompressed - about 10 megabyte per minute playlength). Otherwise choose <guilabel>MP3/Ogg (.mp3/.ogg)</guilabel> which will lead to a much lower filesize, but also a little bit lower audio quality."
+msgstr "<guilabel>Enregistrer comme</guilabel> : choisissez <guilabel>Wave (.wav)</guilabel> si vous voulez que les données soient enregistrées au format Wave (non compressé, env. 10 Mio par minute de son). Sinon choisissez <guilabel>MP3/Ogg (.mp3/.ogg)</guilabel> pour obtenir des fichiers de taille beaucoup plus réduite mais aussi de qualité inférieure."
+
+#: C/gnomeradio.xml:461(title)
+msgid "Wave settings"
+msgstr "Paramètres du signal"
+
+#: C/gnomeradio.xml:463(title)
+msgid "The wave settings"
+msgstr "Les paramètres du signal"
+
+#: C/gnomeradio.xml:469(phrase)
+msgid "The wave settings."
+msgstr "Les paramètres du signal."
+
+#: C/gnomeradio.xml:474(para)
+msgid "These settings apply to the mp3 file, too."
+msgstr "Ces réglages s'appliquent également aux fichiers mp3."
+
+#: C/gnomeradio.xml:479(para)
+msgid "<guilabel>Sample rate:</guilabel> Choose a sample rate for the recording audio file. Higher sampling rate means better quality. 44100 kHz is a good default (aprox. CD quality). If the reception is bad you can take a lower sampling rate, because the quality won't be that good anyways."
+msgstr "<guilabel>Taux d'échantillonnage</guilabel> : choisissez un taux d'échantillonnage pour le fichier d'enregistrement audio. Un taux plus élevé signifie une qualité meilleure. 44100 Hz est un bon choix par défaut (proche de la qualité CD). Si la réception est mauvaise, vous pouvez choisir un taux d'échantillonnage plus faible parce que la qualité sera de toute façon mauvaise."
+
+#: C/gnomeradio.xml:486(para)
+msgid "<guilabel>Sample format:</guilabel> Available options are 8 or 16 bit. Usually you want to take 16 bit."
+msgstr "<guilabel>Format des échantillons</guilabel> : les options disponibles sont 8 ou 16 bits. Il est d'usage de choisir 16 bits."
+
+#: C/gnomeradio.xml:492(para)
+msgid "<guilabel>Record in:</guilabel> Select <guilabel>stereo</guilabel>, if you want to record in stereo or <guilabel>mono</guilabel> otherwise. It probably doen't make much sense to record in stereo, if the reception is only mono."
+msgstr "<guilabel>Enregistrement</guilabel> : choisissez <guilabel>stéréo</guilabel> si vous voulez enregistrer en stéréo ou <guilabel>mono</guilabel> sinon. Il ne sert à rien d'enregistrer en stéréo si la réception est mono."
+
+#: C/gnomeradio.xml:503(title)
+msgid "MP3/Ogg settings"
+msgstr "Paramètres MP3/Ogg "
+
+#: C/gnomeradio.xml:505(title)
+msgid "The MP3/Ogg settings"
+msgstr "Les paramètres MP3/Ogg"
+
+#: C/gnomeradio.xml:511(phrase)
+msgid "The MP3 settings."
+msgstr "Les paramètres MP3/Ogg."
+
+#: C/gnomeradio.xml:520(para)
+msgid "<guilabel>Encoder:</guilabel> A list of supported MP3/Ogg encoders that you have installed. Choose the one you like the best. Currently <ulink url=\"http://www.mp3dev.org/mp3/\" type=\"http\">lame</ulink>, <ulink url=\"http://bladeenc.mp3.no/\" type=\"http\">bladeenc</ulink> and <ulink url=\"http://www.xiph.org/ogg/vorbis/index.html\" type=\"http\">oggenc</ulink> are supported. The encoder must be in your PATH, otherwise Gnomeradio can't find it."
+msgstr "<guilabel>Codeur</guilabel> : liste des codeurs MP3/Ogg pris en charge et installés. Choisissez celui que vous préférez. Actuellement <ulink url=\"http://www.mp3dev.org/mp3/\" type=\"http\">lame</ulink>, <ulink url=\"http://bladeenc.mp3.no/\" type=\"http\">bladeenc</ulink> et <ulink url=\"http://www.xiph.org/ogg/vorbis/index.html\" type=\"http\">oggenc</ulink> sont pris en charge. Le codeur doit se trouver dans votre chemin (PATH) sinon Gnomeradio ne peut l'utiliser."
+
+#: C/gnomeradio.xml:529(para)
+msgid "<guilabel>Bitrate:</guilabel> Choose a bitrate. This will have the largest impact on the size and quality of the resulting MP3/Ogg file. The higher the bitrate the better the quality. 128 kb/s is usually a good value which will result in files that are aprox. 1 MB per minute playlength."
+msgstr "<guilabel>Débit binaire</guilabel> : choisissez un débit binaire. Ceci aura la plus grande influence sur la taille et la qualité du fichier MP3/Ogg résultant. Plus le débit est élevé, meilleure est la qualité. 128 kio/s est habituellement un bon choix qui donne comme résultat des fichiers qui font approximativement 1 Mio par minute de son."
+
+#: C/gnomeradio.xml:540(title)
+msgid "Recording status window"
+msgstr "Fenêtre d'état d'enregistrement"
+
+#: C/gnomeradio.xml:542(title)
+msgid "The status window"
+msgstr "La fenêtre d'état"
+
+#: C/gnomeradio.xml:548(phrase)
+msgid "The status window."
+msgstr "La fenêtre d'état."
+
+#: C/gnomeradio.xml:553(para)
+msgid "Click <guibutton>Stop Recording</guibutton> to stop the recording and return to the main window. The window shows the name and size of the file in which the audio data is being stored."
+msgstr "Cliquez sur <guibutton>Arrêter l'enregistrement</guibutton> pour mettre fin à l'enregistrement et retourner à la fenêtre principale. La fenêtre affiche le nom et la taille du fichier dans lequel les données sont enregistrées."
+
+#: C/gnomeradio.xml:563(title)
+msgid "Keybindings"
+msgstr "Raccourcis clavier"
+
+#: C/gnomeradio.xml:564(para)
+msgid "Gnomeradio has a few keybindings."
+msgstr "Gnomeradio possède quelques raccourcis clavier."
+
+#: C/gnomeradio.xml:568(title)
+msgid "Keyboard shortcuts in Gnomeradio"
+msgstr "Raccourcis clavier de Gnomeradio"
+
+#: C/gnomeradio.xml:574(entry)
+msgid "Shortcut"
+msgstr "Raccourci"
+
+#: C/gnomeradio.xml:575(entry) C/gnomeradio.xml:720(entry)
+msgid "Description"
+msgstr "Description"
+
+#: C/gnomeradio.xml:581(keycap)
+msgid "F1"
+msgstr "F1"
+
+#: C/gnomeradio.xml:583(entry)
+msgid "Open this help."
+msgstr "Ouvrir cette aide."
+
+#: C/gnomeradio.xml:589(keycap)
+msgid "r"
+msgstr "r"
+
+#: C/gnomeradio.xml:591(entry)
+msgid "Open the recording dialog."
+msgstr "Ouvrir la fenêtre d'enregistrement."
+
+#: C/gnomeradio.xml:597(keycap)
+msgid "m"
+msgstr "m"
+
+#: C/gnomeradio.xml:599(entry) C/gnomeradio.xml:776(entry)
+msgid "Mute/unmute the volume."
+msgstr "Couper/activer le volume."
+
+#: C/gnomeradio.xml:605(keycap)
+msgid "q"
+msgstr "q"
+
+#: C/gnomeradio.xml:607(entry) C/gnomeradio.xml:784(entry)
+msgid "Terminate Gnomeradio."
+msgstr "Quitter Gnomeradio."
+
+#: C/gnomeradio.xml:613(keycap)
+msgid "f"
+msgstr "f"
+
+#: C/gnomeradio.xml:615(entry) C/gnomeradio.xml:728(entry)
+msgid "Scan forward."
+msgstr "Rechercher en avant."
+
+#: C/gnomeradio.xml:621(keycap)
+msgid "b"
+msgstr "b"
+
+#: C/gnomeradio.xml:623(entry) C/gnomeradio.xml:736(entry)
+msgid "Scan backwards."
+msgstr "Rechercher en arrière."
+
+#: C/gnomeradio.xml:629(keycap)
+msgid "n"
+msgstr "n"
+
+#: C/gnomeradio.xml:631(entry) C/gnomeradio.xml:744(entry)
+msgid "Select next preset."
+msgstr "Choisir la station suivante."
+
+#: C/gnomeradio.xml:637(keycap)
+msgid "p"
+msgstr "p"
+
+#: C/gnomeradio.xml:639(entry) C/gnomeradio.xml:752(entry)
+msgid "Select previous preset."
+msgstr "Choisir la station précédente."
+
+#: C/gnomeradio.xml:645(keycap)
+msgid "+"
+msgstr "+"
+
+#: C/gnomeradio.xml:647(entry)
+msgid "Increase volume."
+msgstr "Augmenter le volume."
+
+#: C/gnomeradio.xml:653(keycap)
+msgid "-"
+msgstr "-"
+
+#: C/gnomeradio.xml:655(entry)
+msgid "Decrease volume."
+msgstr "Diminuer le volume."
+
+#: C/gnomeradio.xml:667(title)
+msgid "LIRC"
+msgstr "LIRC"
+
+#: C/gnomeradio.xml:668(para)
+msgid "You can use a remote control supported by <ulink url=\"http://www.lirc.org/\" type=\"http\">LIRC</ulink> (Linux infrared remote control) to control <application>Gnomeradio</application>."
+msgstr "Vous pouvez utiliser une télécommande prise en charge par <ulink url=\"http://www.lirc.org/\" type=\"http\">LIRC</ulink> (Linux infrared remote control) pour piloter <application>Gnomeradio</application>."
+
+#: C/gnomeradio.xml:673(para)
+msgid "Your remote control will only work if <application>Gnomeradio</application> has been compiled with LIRC support enabled. If you are unsure wether this is the case or not, check the about dialog."
+msgstr "Votre télécommande ne fonctionnera que si <application>Gnomeradio</application> a été compilé avec la prise en charge de LIRC. Vous pouvez le vérifier grâce à la boîte de dialogue À propos."
+
+#: C/gnomeradio.xml:679(title)
+msgid "The .lircrc config file"
+msgstr "Le fichier de configuration .lircrc"
+
+#: C/gnomeradio.xml:680(para)
+msgid "In the file <filename>.lircrc</filename> in your home directory, you set up which keys on your remote control you want to associate with actions in Gnomeradio. A typical section in the file looks like this:"
+msgstr "Dans le fichier <filename>.lircrc</filename> de votre dossier personnel, vous pouvez indiquer quelles touches de votre télécommande sont associées à des actions dans Gnomeradio. Une section type de ce fichier ressemble à ceci :"
+
+#: C/gnomeradio.xml:685(title)
+msgid "Example for a .lircrc section"
+msgstr "Exemple de section .lircrc"
+
+#: C/gnomeradio.xml:686(programlisting)
+#, no-wrap
+msgid "\nbegin\n\tprog = gnomeradio\n\tbutton = VOL+\n\tconfig = volume up\n\trepeat = 1      \nend\n"
+msgstr "\nbegin\n\tprog = gnomeradio\n\tbutton = VOL+\n\tconfig = volume up\n\trepeat = 1      \nend\n"
+
+#: C/gnomeradio.xml:695(para)
+msgid "This associates the button VOL+ (Attention: Buttonnames are remote control specific) with the command \"volume up\". \"repeat = 1\" means that in case you keep the button of your remote control pressed, the command is repeated as long as you press the button. It's of by default."
+msgstr "Ceci permet d'associer le bouton VOL+ (attention, les noms des boutons sont spécifiques à la télécommande) à la commande « volume up ». « repeat = 1 » signifie qu'au cas où vous maintenez le bouton de votre télécommande enfoncé, la commande est répétée jusqu'à ce que vous relâchiez le bouton. Par défaut, cette fonction n'est pas activée."
+
+#: C/gnomeradio.xml:701(para)
+msgid "For more information, please consult the LIRC documentation."
+msgstr "Pour plus d'informations, consultez la documentation LIRC."
+
+#: C/gnomeradio.xml:708(title)
+msgid "Available commands"
+msgstr "Commandes disponibles"
+
+#: C/gnomeradio.xml:709(para)
+msgid "The following commands are available in Gnomeradio:"
+msgstr "Les commandes suivantes sont disponibles dans Gnomeradio :"
+
+#: C/gnomeradio.xml:713(title)
+msgid "LIRC commands"
+msgstr "Commandes LIRC"
+
+#: C/gnomeradio.xml:719(entry)
+msgid "Command"
+msgstr "Commande"
+
+#: C/gnomeradio.xml:726(command)
+msgid "tune up"
+msgstr "tune up"
+
+#: C/gnomeradio.xml:734(command)
+msgid "tune down"
+msgstr "tune down"
+
+#: C/gnomeradio.xml:742(command)
+msgid "preset up"
+msgstr "preset up"
+
+#: C/gnomeradio.xml:750(command)
+msgid "preset down"
+msgstr "preset down"
+
+#: C/gnomeradio.xml:758(command)
+msgid "volume up"
+msgstr "volume up"
+
+#: C/gnomeradio.xml:760(entry)
+msgid "Increase the volume."
+msgstr "Augmenter le volume."
+
+#: C/gnomeradio.xml:766(command)
+msgid "volume down"
+msgstr "volume down"
+
+#: C/gnomeradio.xml:768(entry)
+msgid "Decrease the volume."
+msgstr "Diminuer le volume."
+
+#: C/gnomeradio.xml:774(command)
+msgid "mute"
+msgstr "mute"
+
+#: C/gnomeradio.xml:782(command)
+msgid "quit"
+msgstr "quit"
+
+#: C/gnomeradio.xml:790(command)
+msgid "preset x"
+msgstr "preset x"
+
+#: C/gnomeradio.xml:792(entry)
+msgid "Select preset x + 1 (where x is between 0 and 9)"
+msgstr "Choisir la station x + 1 (où x est compris entre 0 et 9)"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: C/gnomeradio.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Bruno Brouard <annoa.b@gmail.com>, 2008\n"
+"Claude Paroz <claude@2xlibre.net>, 2008"
+
